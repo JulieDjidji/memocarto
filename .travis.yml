@@ -3,4 +3,5 @@ language: python
 sudo: false
   
 script:
-    - ls -l
+    - sphinx-quickstart
+    - make html
