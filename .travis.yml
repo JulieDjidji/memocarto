@@ -12,3 +12,4 @@ deploy:
     edge: true
     local_dir: ./doc/build/html/
     keep_history: false
+    skip_cleanup: true
