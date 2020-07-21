@@ -4,14 +4,12 @@ sudo: false
   
 script:
     - sphinx-build -b html doc/source doc/build
-    - pwd
-    - ls /home/travis/build/JulieDjidji/memocarto/doc/build/html
     
 deploy:
   - provider: pages:git
     verbose: true
     token: $GITHUB_TOKEN
     edge: true
-    local_dir: ./doc/build/html/
+    local_dir: ./doc/build/
     keep_history: false
     skip_cleanup: true
