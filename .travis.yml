@@ -3,5 +3,5 @@ language: python
 sudo: false
   
 script:
-    - sphinx-quickstart
+    - sphinx-build -b html doc build 
     - make html
