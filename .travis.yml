@@ -4,6 +4,8 @@ sudo: false
   
 script:
     - sphinx-build -b html doc/source doc/build
+    - pwd
+    - ls /home/travis/build/JulieDjidji/memocarto/doc/build/html
     
 deploy:
   - provider: pages:git
