@@ -75,10 +75,6 @@ sphinx_gallery_conf = {
     'examples_dirs': ['../../examples'],
     'filename_pattern': '^((?!sgskip).)*$',
     'gallery_dirs': 'gallery',
-    'reference_url': {'matplotlib': 'http://matplotlib.org',
-                      'numpy': 'http://docs.scipy.org/doc/numpy',
-                      'scipy': 'http://docs.scipy.org/doc/scipy/reference',
-                      'geopandas': 'https://geopandas.org/reference.html'},
     'backreferences_dir': 'reference'
 }
 
