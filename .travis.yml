@@ -1,0 +1,6 @@
+language: python
+
+sudo: false
+  
+script:
+    - ls -l
