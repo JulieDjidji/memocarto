@@ -15,7 +15,7 @@ blabla introductif
   :maxdepth: 1
   :caption: Mémento
 
-  Commencer par quelques concepts théoriques sur la spatialisation des données <concepts>
+  On commence par quelques concepts théoriques sur la spatialisation des données <concepts>
   On s'exerce ! <gallery/index>
   Allez plus loin et gérer son SIG <sig>
 
