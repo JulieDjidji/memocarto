@@ -13,13 +13,13 @@ import geopandas as gpd
 #
 # Les données attributaires proviennent du recensement de la population de 2017. La base commune contient la population communale, PTOT (et par arrondissement pour Paris, Lyon et Marseille). Attention, les données sont en géographie 2019.
 
-population = pd.read_csv('Communes.csv', sep=";", dtype={'DEPCOM':str})
+population = pd.read_csv("https://minio.lab.sspcloud.fr/ev43ru/Communes.csv", sep=";", dtype={'DEPCOM':str})
 population.head(2)
 
 ###############################################################################
 # On ouvre le fond des communes et on lui rajoute les arrondissements.
 
-commune = gpd.read_file("commune_francemetro_2019.geojson")
+commune = gpd.read_file("https://minio.lab.sspcloud.fr/ev43ru/commune_francemetro_2019.geojson")
 #armf = gpd.read_file("armf_francemetro_2019.geojson")
 #armf['dep'] = armf.code.str.slice(0,3) # il manque le numèro de département dans le fond armf
 #commune = commune.append(armf, sort=False)
