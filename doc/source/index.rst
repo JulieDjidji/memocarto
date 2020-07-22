@@ -17,7 +17,17 @@ blabla introductif
 
   On commence par quelques concepts théoriques sur la spatialisation des données <concepts>
   On s'exerce ! <gallery/index>
-  Allez plus loin et gérer son SIG <sig>
+  
+.. toctree::
+  :maxdepth: 1
+  :caption:  Allez plus loin et gérer son SIG
+
+Préciser qu'est ce le SIG
+
+   Tour d'horizon des acteurs <acteurs>
+   Les accès aux données géo : quels APIs de géocodage ? <api>
+   Postgis <postgis>
+   Geoserver <geoserver>
 
 .. image:: _static/carteFrance.jpeg
    :width: 600
