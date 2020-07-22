@@ -21,11 +21,11 @@ blabla introductif
 .. toctree::
   :maxdepth: 1
   :caption:  Gérer son SIG
-
-   Tour d'horizon des acteurs <acteurs>
-   Les accès aux données géo : quels APIs de géocodage ? <api>
-   Postgis <postgis>
-   Geoserver <geoserver>
+  
+  Tour d'horizon des acteurs <acteurs>
+  Les accès aux données géo : quels APIs de géocodage ? <api>
+  Postgis <postgis>
+  Geoserver <geoserver>
 
 .. image:: _static/carteFrance.jpeg
    :width: 600
