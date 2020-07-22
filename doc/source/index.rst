@@ -20,9 +20,7 @@ blabla introductif
   
 .. toctree::
   :maxdepth: 1
-  :caption:  Allez plus loin et gérer son SIG
-
-Préciser qu'est ce le SIG
+  :caption:  Gérer son SIG
 
    Tour d'horizon des acteurs <acteurs>
    Les accès aux données géo : quels APIs de géocodage ? <api>
