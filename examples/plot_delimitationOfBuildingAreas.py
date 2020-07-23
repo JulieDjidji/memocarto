@@ -12,7 +12,7 @@ import geopandas as gpd
 import wget
 from zipfile import ZipFile
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(os.path.abspath("__file__"))
 
 ###############################################################################
 # Récupération et lecture des données
