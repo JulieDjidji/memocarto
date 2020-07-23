@@ -9,27 +9,14 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import geopandas as gpd
-import wget
-from zipfile import ZipFile
-
-#BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 ###############################################################################
-# Récupération et lecture des données
+# Lecture des données
 # ================================
 #
-# On récupère les données stockées sur un serveur de stockage (préciser où les récupérer).
-
-url=os.getenv("URL_BATI_VILLE")
-file = url.split('/')[-1] #os.path.join(BASE_DIR+'/'+url.split('/')[-1])
-wget.download(url, file)
-with ZipFile(file, 'r') as files: 
-    files.extractall()
-    
-###############################################################################
 # On ouvre le fond du bâti de la ville de Caen.
 
-immeuble = gpd.read_file(file.split('.')[0]+'.shp')
+bati = gpd.read_file(os.getenv("URL_BATI_VILLE"))
 
 ###############################################################################
 # Délimitation des zones bâties
@@ -37,12 +24,12 @@ immeuble = gpd.read_file(file.split('.')[0]+'.shp')
 #
 # On calcule un buffer de 100 mètres autour de chaque bâtiment.
 
-immeuble['geometry']=immeuble.geometry.buffer(100)
+bati['geometry']=bati.geometry.buffer(100)
 
 ###############################################################################
 # On fusionne les buffers avec une intersection non nulle et on affiche les zones fusionnées.
 
-union_buffer=gpd.GeoDataFrame({'geometry':immeuble.unary_union})
+union_buffer=gpd.GeoDataFrame({'geometry':bati.unary_union})
 union_buffer.plot()
 
 ###############################################################################
