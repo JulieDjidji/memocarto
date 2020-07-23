@@ -4,6 +4,7 @@ sphinx_gallery
 recommonmark
 IPython
 wget
+python-dotenv
 
 # required
 fiona>=1.7
