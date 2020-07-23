@@ -3,6 +3,8 @@ sphinx_rtd_theme
 sphinx_gallery
 recommonmark
 IPython
+wget
+zipfile
 
 # required
 fiona>=1.7
