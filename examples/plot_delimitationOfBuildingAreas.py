@@ -20,7 +20,7 @@ from zipfile import ZipFile
 #
 # On récupère les données stockées sur un serveur de stockage (préciser où les récupérer).
 
-url=os.getenv("URL_BATI_CAEN")
+url=os.getenv("URL_BATI_VILLE")
 file = url.split('/')[-1] #os.path.join(BASE_DIR+'/'+url.split('/')[-1])
 wget.download(url, file)
 with ZipFile(file, 'r') as files: 
