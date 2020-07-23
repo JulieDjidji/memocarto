@@ -38,7 +38,6 @@ pop_com = commune.merge(population, left_on='code', right_on='DEPCOM')
 pop_com['densite'] = pop_com.PTOT / pop_com.geometry.area * 1000000 
 pop_com.plot('densite',legend=True, scheme='quantiles', cmap='OrRd', figsize=(10,10))
 
-
 ###############################################################################
 # Aggregation des données pour produire des données départementales et régionales
 # ====================================================================================
@@ -52,7 +51,6 @@ pop_com.plot('densite',legend=True, scheme='quantiles', cmap='OrRd', figsize=(10
 pop_dep = pop_com.dissolve(by='dep', aggfunc='sum', as_index=False)
 pop_dep['densite'] = pop_dep.PTOT / pop_dep.geometry.area * 1000000
 pop_dep.plot('densite',legend=True, scheme='quantiles', figsize=(10,10),cmap='OrRd')
-
 
 ###############################################################################
 # Carte au niveau régional
