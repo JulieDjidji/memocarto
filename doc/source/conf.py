@@ -74,6 +74,7 @@ autosummary_generate = True
 sphinx_gallery_conf = {
     'examples_dirs': ['../../examples'],
     'filename_pattern': '^((?!sgskip).)*$',
+    'ignore_pattern': r'config\.py',
     'gallery_dirs': 'gallery',
     'backreferences_dir': 'reference'
 }
