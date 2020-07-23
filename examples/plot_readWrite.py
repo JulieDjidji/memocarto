@@ -3,7 +3,7 @@ Premières manipulations de données spatiales
 ----------------------------------------------------------------
 Dans ce notebook, nous allons apprendre à lire, écrire, merger et aggréger des données spatiales.
 """
-# sphinx_gallery_thumbnail_number = 3
+# sphinx_gallery_thumbnail_number = 1
 import os
 import pandas as pd
 import geopandas as gpd
