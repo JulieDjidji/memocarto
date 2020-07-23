@@ -11,6 +11,8 @@ import geopandas as gpd
 import wget
 from zipfile import ZipFile
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 ###############################################################################
 # Récupération et lecture des données
 # ================================
@@ -18,7 +20,7 @@ from zipfile import ZipFile
 # On récupère les données stockées sur un serveur de stockage (préciser où les récupérer).
 
 url="https://minio.lab.sspcloud.fr/ev43ru/autour_de_caen_2154.zip"
-file = url.split('/')[-1]
+file = os.path.join(BASE_DIR+'/'+url.split('/')[-1])
 wget.download(url, file)
 with ZipFile(file, 'r') as files: 
     files.extractall()
@@ -26,7 +28,7 @@ with ZipFile(file, 'r') as files:
 ###############################################################################
 # On ouvre le fond du bâti de la ville de Caen.
 
-immeuble = gpd.read_file('autour_de_caen_2154.shp')
+immeuble = gpd.read_file(file)
 
 ###############################################################################
 # Délimitation des zones bâties
