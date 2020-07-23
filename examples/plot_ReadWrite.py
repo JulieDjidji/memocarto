@@ -47,7 +47,7 @@ pop_com.plot('densite',legend=True, scheme='quantiles', cmap='OrRd', figsize=(10
 
 ###############################################################################
 # Carte au niveau départemental
-# ---------------------------------
+# ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 pop_dep = pop_com.dissolve(by='dep', aggfunc='sum', as_index=False)
 pop_dep['densite'] = pop_dep.PTOT / pop_dep.geometry.area * 1000000
@@ -56,7 +56,7 @@ pop_dep.plot('densite',legend=True, scheme='quantiles', figsize=(10,10),cmap='Or
 
 ###############################################################################
 # Carte au niveau régional
-# ---------------------------------
+# ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 pop_reg = pop_com.dissolve(by='reg', aggfunc='sum', as_index=False)
 pop_reg['densite'] = pop_reg.PTOT / pop_reg.geometry.area * 1000000
