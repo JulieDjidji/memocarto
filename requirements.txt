@@ -4,7 +4,6 @@ sphinx_gallery
 recommonmark
 IPython
 wget
-zipfile
 
 # required
 fiona>=1.7
