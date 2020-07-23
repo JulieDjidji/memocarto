@@ -4,6 +4,7 @@ Délimitation de tâches bâties
 Dans ce notebook, nous allons délimiter des zones bâties pour la ville de Caen à partir des données de bâti de la Base de données topographique (BD TOPO).
 """
 # sphinx_gallery_thumbnail_number = 3
+import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
