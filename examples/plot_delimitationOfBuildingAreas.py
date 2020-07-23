@@ -1,7 +1,7 @@
 """
 Délimitation de tâches bâties
 ----------------------------------------------------------------
-Dans ce notebook, nous allons délimiter des zones bâties pour la ville de Caen à partir des données de bâti de la Base de données topographique 
+Dans ce notebook, nous allons délimiter des zones bâties pour la ville de Caen à partir des données de bâti de la Base de données topographique (BD TOPO).
 """
 # sphinx_gallery_thumbnail_number = 3
 import numpy as np
@@ -11,12 +11,12 @@ import geopandas as gpd
 import wget
 from zipfile import ZipFile
 
-
 ###############################################################################
 # Récupération et lecture des données
 # ================================
 #
-# On récupère les données stockées sur un serveur de stockage (préciser où les récupérer)
+# On récupère les données stockées sur un serveur de stockage (préciser où les récupérer).
+
 url="https://minio.lab.sspcloud.fr/ev43ru/autour_de_caen_2154.zip"
 file = url.split('/')[-1]
 wget.download(url, file)
@@ -24,19 +24,20 @@ with ZipFile(file, 'r') as files:
     files.extractall()
     
 ###############################################################################
-# On ouvre le fond du bâti de la ville de Caen 
+# On ouvre le fond du bâti de la ville de Caen.
+
 immeuble = gpd.read_file('autour_de_caen_2154.shp')
 
 ###############################################################################
 # Délimitation des zones bâties
 # ================================
 #
-# On calcule un buffer de 100 mètres autour de chaque bâtiment
+# On calcule un buffer de 100 mètres autour de chaque bâtiment.
 
 immeuble['geometry']=immeuble.geometry.buffer(100)
 
 ###############################################################################
-# On fusionne les buffers avec une intersection non nulle et on affiche les zones fusionnées
+# On fusionne les buffers avec une intersection non nulle et on affiche les zones fusionnées.
 
 union_buffer=gpd.GeoDataFrame({'geometry':immeuble.unary_union})
 union_buffer.plot()
