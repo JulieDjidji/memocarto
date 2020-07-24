@@ -3,6 +3,9 @@
 Examples Gallery
 ----------------
 
+.. image:: PandasVsGeoPandas.png
+   :width: 600
+
 <!--table-->
 | Méthode | Explication | Exemple de code |
 | :---: | :---: | :--- |
