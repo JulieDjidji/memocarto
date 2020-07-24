@@ -76,7 +76,7 @@ La `geometry`_ possède différents attributs et méthodes très utiles :
    * - unary_union
      - Fusionne les géométries avec une intersection non nulle
      - gdf.geometry.unary_union
-   * - buffer() 
+   * - buffer
      - Calcule une zone tampon autour d'une unité spatiale en indiquant le rayon de ce cercle comme paramètre 
      - gdf.geometry.buffer(10)
 
