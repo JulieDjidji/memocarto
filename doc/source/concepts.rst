@@ -1,6 +1,10 @@
 Quelques concepts théoriques sur la spatialisation des données 
 ==================================================================
 
+Les cartes ont littéralement envahi notre quotidien. Nos smartphones nous permettent d’avoir à porter de main et n’importe où dans le monde des cartes d’une précision inégalée. Cette lame de fond se retrouve également dans nos activités professionnelles de DataScientist.
+
+
+
 Maup (espace le plus dense en France : région, département, commune, carreau et zoom sur les carreaux d’une commune pour montrer une très forte hétérogénéité de la densité pop au sein d’une commune
 Erreur écologique (équivalent du MAUP en sociologie)
 Piège territorial (Cf. John Agnew, sociologue Pinçon-Charlot et exemple https://www.comeetie.fr/galerie/francepixels/#map/basrevenus/PiYG/11/48.856/2.363)
