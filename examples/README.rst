@@ -54,8 +54,31 @@ Le package contextily permet notamment d'ajouter un fond OpenStreetMap. Il faut 
 
 La `geometry`_ possède différents attributs et méthodes très utiles :
 
-Voici quelques exemples de visualisation réalisables avec GeoPandas !
+.. list-table:: 
+   :widths: 15 10 30
+   :header-rows: 1
 
+   * - Méthode
+     - Explication
+     - Exemple de code
+   * - `add_basemap`_
+   * - area 
+     - Calcule l'aire des objets géographiques (en m²) 
+     - gdf.geometry.area
+   * - centroid 
+     - Calcule le centroide 
+     - gdf.geometry.centroid
+   * - convex_hull 
+     - Calcule le plus petit polygone convexe de chaque objet à moins que le nombre de points décrivant l'objet est inférieur à 3 
+     - gdf.geometry.convex_hull
+   * - total_bounds 
+     - Retourne un tuple contenant min_x, min_y, max_x et max_y associés aux frontières maximales de l'objet 
+     - df.geometry.total_bounds
+   * - buffer 
+     - Calcule une zone tampon autour d'une unité spatiale en indiquant le rayon de ce cercle comme paramètre 
+     - gdf.geometry.buffer(10)
+
+Voici quelques exemples de visualisation réalisables avec GeoPandas !
 
 
 .. _Geopandas: https://geopandas.org
