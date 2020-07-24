@@ -3,7 +3,7 @@
 Examples Gallery
 ----------------
 
-Les exemples proposés sont réalisés sous Python avec le package `GeoPandas`_. Mais qu'est ce qui différencie un DataFrame de Pandas d'un GeoDataFrame de GeoPandas ?
+Les exemples proposés sont réalisés sous Python avec le package `GeoPandas`_. Mais qu'est ce qui différencie un **DataFrame** de **Pandas** d'un **GeoDataFrame** de **GeoPandas** ?
 
 .. image:: ../_static/PandasVsGeoPandas.png
    :width: 600
@@ -61,7 +61,6 @@ La `geometry`_ possède différents attributs et méthodes très utiles :
    * - Méthode
      - Explication
      - Exemple de code
-   * - `add_basemap`_
    * - area 
      - Calcule l'aire des objets géographiques (en m²) 
      - gdf.geometry.area
