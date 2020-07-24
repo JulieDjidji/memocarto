@@ -3,10 +3,12 @@
 Examples Gallery
 ----------------
 
-Les exemples proposés sont réalisés sous Python avec le package `GeoPandas`_
+Les exemples proposés sont réalisés sous Python avec le package `GeoPandas`_. Mais qu'est ce qui différencie un DataFrame de Pandas d'un GeoDataFrame de GeoPandas ?
 
 .. image:: ../_static/PandasVsGeoPandas.png
    :width: 600
+
+Avant de commencer les exemples, faisons le point sur les principales méthodes de GeoPandas :
 
 .. list-table:: 
    :widths: 15 10 30
@@ -37,8 +39,6 @@ Les exemples proposés sont réalisés sous Python avec le package `GeoPandas`_
      - Fusionne les géométries et agrège (somme, moyenne, minimum, maxmum ...) des données spatiales par groupe 
      - gdf.dissolve(by='variableAgrégation', aggfunc='sum')
         
-Avant de commencer les exemples, faisons le point sur les principales méthodes de GeoPandas :
-
 Le package contextily permet notamment d'ajouter un fond OpenStreetMap. Il faut d'abord importer le package *contextily* comme *ctx* puis ajouter ce fond de carte OpenStreetMap à la carte représentée.
 
 .. list-table:: 
