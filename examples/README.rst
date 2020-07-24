@@ -20,22 +20,22 @@ Avant de commencer les exemples, faisons le point sur les principales méthodes 
    * - `read_file`_
      - Crée un GeoDataFrame à partir d'un *shapefile*, d'un *GeoJSON*, ...  
      - gpd.read_file('data.shp')
-   * - `to_file` 
+   * - `to_file`_
      - Exporte en GeoDataFrame dans un format shapefile, GeoJSON (driver='GeoJSON') ou GeoPackage (driver="GPKG") 
      - gdf.to_file("data.geojson", driver='GeoJSON')
-   * - cx 
+   * - `cx`_
      - Sélectionne les polygones au sein d'un cadre donné 
      - df.cx[xmin:xmax, ymin:ymax]]
-   * - merge 
+   * - `merge`_
      - Fusionne un GeoDataFrame avec un DataFrame 
      - df.merge(gdf, on='code')
-   * - sjoin 
+   * - `sjoin`_
      - Fusionne deux GeoDataFrame en s'appuyant sur leur relation spatiale. On fixe le paramètre *how*  pour décider du type de jointure et le paramètre *op* pour choisir si la jointure a lieu 
      - geopandas.sjoin(gdf1, gdf2, how="inner", op='intersects')
-   * - append 
+   * - `append`_
      - Concatène deux GeoDataFrame mais attention les colonnes de géométrie doivent avoir le même CRS 
      - gdf1.append(gdf2) |
-   * - dissolve 
+   * - `dissolve`_
      - Fusionne les géométries et agrège (somme, moyenne, minimum, maxmum ...) des données spatiales par groupe 
      - gdf.dissolve(by='variableAgrégation', aggfunc='sum')
         
