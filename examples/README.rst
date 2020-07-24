@@ -3,7 +3,7 @@
 Examples Gallery
 ----------------
 
-.. image:: PandasVsGeoPandas.png
+.. image:: ../_static/PandasVsGeoPandas.png
    :width: 600
 
 <!--table-->
