@@ -8,10 +8,13 @@ Les exemples proposés sont réalisés sous Python avec le package `GeoPandas`_
 .. image:: ../_static/PandasVsGeoPandas.png
    :width: 600
 
-.. list-table:: Délices glacés!
+.. list-table:: 
    :widths: 15 10 30
    :header-rows: 1
 
+   * - Méthode
+     - Explication
+     - Exemple de code
    * - `read_file`_
      - Crée un GeoDataFrame à partir d'un *shapefile*, d'un *GeoJSON*, ...  
      - gpd.read_file('data.shp') 
