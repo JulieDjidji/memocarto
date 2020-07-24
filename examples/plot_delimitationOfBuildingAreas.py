@@ -30,16 +30,16 @@ bati['geometry']=bati.geometry.buffer(100)
 # On fusionne les buffers avec une intersection non nulle et on affiche les zones fusionnées.
 
 union_buffer=gpd.GeoDataFrame({'geometry':bati.unary_union})
-union_buffer.plot()
+ax = union_buffer.plot()
 
 ###############################################################################
 # On effectue un buffer négatif pour affiner la délimitation afin de compenser le buffer positif prélablement réaliser pour capter les relations de bâtiments voisins. L'affichage de la carte montre des zones plus délimitées.
 
 union_buffer['zone']=union_buffer.buffer(-100)
-union_buffer['zone'].plot()
+ax = union_buffer['zone'].plot()
 
 ###############################################################################
 # On décide d'afficher que les zones de plus de 8 hectares.
 
 union_buffer['aire']=union_buffer['zone'].area/10000
-union_buffer[union_buffer.aire>8].plot()
+ax = union_buffer[union_buffer.aire>8].plot()
