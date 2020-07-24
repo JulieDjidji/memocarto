@@ -22,9 +22,9 @@ population.head(2)
 # On ouvre le fond des communes et on lui rajoute les arrondissements.
 
 commune = gpd.read_file(os.getenv("URL_GEOJSON_COMMUNES"))
-#armf = gpd.read_file("armf_francemetro_2019.geojson")
-#armf['dep'] = armf.code.str.slice(0,3) # il manque le numèro de département dans le fond armf
-#commune = commune.append(armf, sort=False)
+armf = gpd.read_file(os.getenv("URL_GEOJSON_ARMF"))
+armf['dep'] = armf.code.str.slice(0,3) # il manque le numèro de département dans le fond armf
+commune = commune.append(armf, sort=False)
 
 ###############################################################################
 # Jointure des données
