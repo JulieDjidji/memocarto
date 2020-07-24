@@ -64,8 +64,8 @@ La `geometry`_ possède différents attributs et méthodes très utiles :
    * - area 
      - Calcule l'aire des objets géographiques (en m²) 
      - gdf.geometry.area
-   * - centroid 
-     - Calcule le centroide 
+   * - centroid
+     - Calcule le centroïde 
      - gdf.geometry.centroid
    * - convex_hull 
      - Calcule le plus petit polygone convexe de chaque objet à moins que le nombre de points décrivant l'objet est inférieur à 3 
@@ -73,7 +73,10 @@ La `geometry`_ possède différents attributs et méthodes très utiles :
    * - total_bounds 
      - Retourne un tuple contenant min_x, min_y, max_x et max_y associés aux frontières maximales de l'objet 
      - df.geometry.total_bounds
-   * - buffer 
+   * - unary_union
+     - Fusionne les géométries avec une intersection non nulle
+     - gdf.geometry.unary_union
+   * - buffer() 
      - Calcule une zone tampon autour d'une unité spatiale en indiquant le rayon de ce cercle comme paramètre 
      - gdf.geometry.buffer(10)
 
