@@ -1,7 +1,7 @@
 Quelques concepts théoriques sur la spatialisation des données 
 ==================================================================
 
-La dépendance des résultats statistique aux choix des unités spatiales a été théorisée par Openshaw sous le concept de Modifiable Areal Unit Problem. Le MAUP résulte du fait que les objets mesurés par les statistiques n’ont pas d’emprise spatiale définie a priori. Par exemple, les tâches urbaines qui déterminent l’emprise spatiale des villes sont des artefacts géographiques. Même si les contours des bâtiments sont bien définis, cette information n’est pas suffisante pour construire une tâche urbaine. La continuité du bâti est assurée par une zone tampon dont l’épaisseur est choisie par le géomaticien. L'emprise spatiale des villes fluctuent selon la taille des zones tampons.
+La dépendance des résultats statistique aux choix des unités spatiales a été théorisée par Openshaw sous le concept de Modifiable Areal Unit Problem. Le MAUP résulte du fait que les objets mesurés par les statistiques n’ont pas d’emprise spatiale définie a priori. Par exemple, les tâches urbaines qui déterminent l’emprise spatiale des villes sont des artefacts géographiques. Même si les contours des bâtiments sont bien définis, cette information n’est pas suffisante pour construire une tâche urbaine. La continuité du bâti est assurée par une zone tampon dont l’épaisseur est choisie par le géomaticien. Selon la taille des zones tampons, l'emprise spatiale des villes fluctuent.
 
 
 
