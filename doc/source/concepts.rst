@@ -8,14 +8,9 @@ Le MAUP se décompose en deux effets interdépendants : l’effet de zone et l�
 .. image:: _static/Maup_rate_numbers.png
    :width: 600
    
-   En fonction du choix des frontières des zones le taux de malade par zone change drastiquement (Wikipedia)
+En fonction du choix des frontières des zones le taux de malade par zone change drastiquement (Wikipedia)
    
 Le choix d'unité spatiale régulière telle que des carreaux ou la pratique du lissage limite l'arbitraire lié à la 
-
-.. image:: _static/carteFrance.jpeg
-   :width: 600
-
-   test
 
 Maup (espace le plus dense en France : région, département, commune, carreau et zoom sur les carreaux d’une commune pour montrer une très forte hétérogénéité de la densité pop au sein d’une commune
 Erreur écologique (équivalent du MAUP en sociologie)
