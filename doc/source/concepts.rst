@@ -5,7 +5,7 @@ La dépendance des résultats statistique aux choix des unités spatiales a ét�
 
 Le MAUP se décompose en deux effets interdépendants : l’effet de zone et l’effet d’échelle. L'effet de zone exprime la dépendance des résultats statistiques à la forme des mailles territoriales. Dans l'image ci-dessous, en fonction de l'endroit ou passe la frontière les taux de malade sont particulièrement variable. Le redécoupage des zones éléctorales après une éléction afin de maximiser la réélection des acteurs publics est un exemple courant d'effet de zone réalisé volontairement. En anglais, le Gerrymandering désigne cette pratique en référence à l'homme politique américain Elbridge Gerry qui l'a poussée à son paroxysme.
 
-.. image:: _static/Maup_rate_numbers.png
+.. figure:: _static/Maup_rate_numbers.png
    :width: 600
    
 En fonction du choix des frontières des zones le taux de malade par zone change drastiquement (Wikipedia)
