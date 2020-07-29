@@ -7,6 +7,7 @@ Le MAUP se décompose en deux effets interdépendants : l’effet de zone et l�
 
 .. image:: _static/Maup_rate_numbers.png
    :width: 600
+   
    En fonction du choix des frontières des zones le taux de malade par zone change drastiquement (Wikipedia)
 
 Le choix d'unité spatiale régulière telle que des carreaux ou la pratique du lissage limite l'arbitraire lié à la 
