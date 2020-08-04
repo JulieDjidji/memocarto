@@ -37,9 +37,6 @@ Ce site n’a pas vocation a être exhaustif. Nous renvoyons autant que faire se
   Postgis <postgis>
   Geoserver <geoserver>
 
-.. image:: _static/carteFrance.jpeg
-   :width: 600
-
 
 Nous contacter
 ---------------------
