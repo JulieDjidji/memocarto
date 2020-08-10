@@ -36,12 +36,12 @@ ax = union_buffer.plot()
 ###############################################################################
 # On effectue un buffer négatif pour affiner la délimitation afin de compenser le buffer positif prélablement réaliser pour capter les relations de bâtiments voisins. L'affichage de la carte montre des zones plus délimitées.
 
-union_buffer_negatif=union_buffer.copy()
-union_buffer_negatif['geometry']=union_buffer_negatif.buffer(-100)
-ax = union_buffer_negatif['geometry'].plot()
+#union_buffer_negatif=union_buffer.copy()
+#union_buffer_negatif['geometry']=union_buffer_negatif.buffer(-100)
+#ax = union_buffer_negatif['geometry'].plot()
 
 ###############################################################################
 # On décide d'afficher que les zones de plus de 8 hectares.
 
-union_buffer_negatif['aire']=union_buffer_negatif['geometry'].area/10000
-ax = union_buffer_negatif[union_buffer_negatif.aire>8].plot()
+#union_buffer_negatif['aire']=union_buffer_negatif['geometry'].area/10000
+#ax = union_buffer_negatif[union_buffer_negatif.aire>8].plot()
