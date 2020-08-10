@@ -13,12 +13,14 @@ La carte de densité est la carte de ratio la plus simple, le dénominateur est 
  
 .. figure:: _static/carte_densite.png
    :width: 300
+   
    Densité de population autour de Paris. Souce :  RP 2017
 
 Construire une carte de densité revient implicitement à postuler que la population est répartie uniformément dans les unités spatiales. Cette idée a été schématisée sur la figure ci-dessous à l'aide de cartes à point. Chaque point bleu représente 100 personnes. Lorsque la densité au sein d'une unité spatiale est forte, les points ont tendance à occuper l'ensemble de son espace. Au contraire, pour les unités spatiales de faible densité, la population est dispersée et semble disparaître dans l'immensité du vide apparent. Ce simple procédé crée un dégradé bleu qui oppose les zones denses aux zones peu denses (**par commune**). Les cartes en aplat de couleur de densité sont juste une formalisation plus simple de ce constat.  
 
 .. figure:: _static/densite.png
    :width: 600
+   
    Chaque point représente 100 personnes. Source : Insee Rp 2017 et Filosofi 2015
 
 Les trois autres cartes **par département**, **par commune focus sur Paris** et **par carreau focus sur Paris** illustrent le *Modifiable Areal Unit Problem*. La répartition de la population change drastiquement en fonction de la taille des unités spatiales considérées. A l'échelle des départements, la variabilité communale est masquée. A l'échelle des communes, la répartition fine de la population contenue dans les carreaux de 200 m est invisible.
