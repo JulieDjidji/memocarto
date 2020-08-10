@@ -6,10 +6,14 @@ Une carte thématique a vocation à représenter l'organisation spatiale d'une q
 Les cartes choroplèthes (aplats de couleur)
 --------------------------------------------
 
-La carte de densité est la carte de taux la plus simple, le dénominateur est la surface des unités spatiales considérées. L'unité de la légende est la variable d'intérêt par unité de surface. 
+La carte de densité est la carte de taux la plus simple, le dénominateur est la surface des unités spatiales considérées. L'unité de la légende est la variable d'intérêt par unité de surface. Sur la figure ci-dessous, nous avons représenté la densité de population communale autour de Paris. L'intensité du dégradé de couleur est croissant avec la densité.
  
 .. figure:: _static/carte_densite.png
    :width: 300
+Densité de population autour de Paris. Souce :  RP 2017
+
+
+
 
 .. figure:: _static/densite.png
    :width: 600
