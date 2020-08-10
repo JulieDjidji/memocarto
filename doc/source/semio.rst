@@ -27,12 +27,14 @@ Les trois autres cartes **par département**, **par commune focus sur Paris** et
 
 Les cartes de taux
 ^^^^^^^^^^^^^^^^^^
-Une carte de taux cherche à représenter les relations spatiales entre deux variables. La carte du taux de pauvreté autour de Paris (\\ \frac{\text{Ménages pauvres}}{Ménages} \\) est un exemple de carte de taux. Par soucis de pédagogie, un dégradé de couleur combinant deux teintes a été appliquées à cette carte. **Ceci n'est pas recommandé en général.**
+Une carte de taux cherche à représenter les relations spatiales entre deux variables. La carte du taux de pauvreté autour de Paris (\\ \frac{\text{Ménages pauvres}}{\text{Ménages}} \\) est un exemple de carte de taux. Par soucis de pédagogie, un dégradé de couleur combinant deux teintes a été appliquée à cette carte. **Ceci n'est pas recommandé en général.**
 
 .. figure:: _static/carte_taux.png
    :width: 600
    
    Carte de taux. Source : Insee Filosofi 2015
+
+Lorsque l'on réalise une carte de taux, la 
 
 Chaque point représente 100 personnes
 
