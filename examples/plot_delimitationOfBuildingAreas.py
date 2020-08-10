@@ -30,7 +30,7 @@ bati_buffer_positif['geometry']=bati_buffer_positif.geometry.buffer(100)
 ###############################################################################
 # On fusionne les buffers avec une intersection non nulle et on affiche les zones fusionnées.
 
-union_buffer=gpd.GeoDataFrame({'geometry':bati.unary_union})
+union_buffer=gpd.GeoDataFrame({'geometry':bati_buffer_positif.unary_union})
 ax = union_buffer.plot()
 
 ###############################################################################
