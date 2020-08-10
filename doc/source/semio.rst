@@ -1,7 +1,9 @@
-Explication des règles de sémiologie cartographique 
-=====================================================
+Discussion des règles de sémiologie cartographique 
+===================================================
 
-Les cartes choropleths : la carte de densité et la carte de taux.
+Une carte thématique a vocation à représenter l'organisation spatiale d'une quantité déterminée. Deux types de cartes (en dehors des cartes de flux) sont principalement utilisés : les cartes en aplat de couleur et les ronds. On représente les taux à l'aide d'aplat de couleur et les volumes à l'aide de ronds dont les surfaces (et pas le rayon) sont proportionnelles au volume. Ces régles immuables que d'aucuns considérent comme des conventions trouvent pourtant leur justification dans la façon dont on spatialise les données cartographiées. 
+
+Les cartes choroplèthes (aplats de couleur) : la carte de densité et la carte de taux.
 
 .. figure:: _static/carte_densite.png
    :width: 600
