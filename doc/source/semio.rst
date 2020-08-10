@@ -9,7 +9,7 @@ Les cartes de densité
 ^^^^^^^^^^^^^^^^^^^^^^
 
 
-La carte de densité est la carte de taux la plus simple, le dénominateur est la surface des unités spatiales considérées. L'unité de la légende est une population par unité de surface. Sur la figure ci-dessous a été représentée la densité de population communale autour de Paris. L'intensité du dégradé de couleur est croissant avec la densité.
+La carte de densité est la carte de ratio la plus simple, le dénominateur est la surface des unités spatiales considérées. L'unité de la légende est une population par unité de surface. Sur la figure ci-dessous a été représentée la densité de population communale autour de Paris. L'intensité du dégradé de couleur est croissant avec la densité.
  
 .. figure:: _static/carte_densite.png
    :width: 300
@@ -23,12 +23,13 @@ Construire une carte de densité revient implicitement à postuler que la popula
 
 Les trois autres cartes **par département**, **par commune focus sur Paris** et **par carreau focus sur Paris** illustrent le *Modifiable Areal Unit Problem*. La répartition de la population change drastiquement en fonction de la taille des unités spatiales considérées. A l'échelle des départements, la variabilité communale est masquée. A l'échelle des communes, la répartition fine de la population contenue dans les carreaux de 200 m est invisible.
 
-
-
+Les cartes de taux
+^^^^^^^^^^^^^^^^^^
+Une carte de taux cherche à représenter les relations spatiales entre deux variables. La carte du taux de pauvreté autour de Paris (\\ \frac{\text{Ménages pauvres}}{Ménages} \\) est un exemple de carte de taux. Par soucis de pédagogie, un dégradé de couleur combinant deux teintes a été appliquées à cette carte. **Ceci n'est pas recommandé en général.**
 
 .. figure:: _static/carte_taux.png
    :width: 600
-
+   Carte de taux. Source : Insee Filosofi 2015
 
 Chaque point représente 100 personnes
 
