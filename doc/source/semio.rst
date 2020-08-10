@@ -30,20 +30,21 @@ Les cartes de taux
 Une carte de taux cherche à représenter les relations spatiales entre deux variables. La carte du taux de pauvreté autour de Paris (\\ \frac{\text{Ménages pauvres}}{\text{Ménages}} \\) est un exemple de carte de taux. Par soucis de pédagogie, un dégradé de couleur combinant deux teintes a été appliquée à cette carte. **Ceci n'est pas recommandé en général.**
 
 .. figure:: _static/carte_taux.png
-   :width: 600
+   :width: 300
    
    Carte de taux. Source : Insee Filosofi 2015
 
 Lorsque l'on réalise une carte de taux, on considére que les variables au numérateur et au dénominateur sont réparties uniformément dans l'espace. Sur la carte de points ci-dessous deux types de ménages sont représentées :  en rouge, les ménages pauvres et en vert les ménages non pauvres. En fonction du niveau de sureprésentation des ménages pauvres les espaces apparaissent plus ou moins rouge ou vert et l'on retrouve encore l'idée du dégradé de couleur.  
 
 .. figure:: _static/taux.png
-   :width: 600
+   :width: 300
    
    Carte de points. Chaque point représente 50 ménages : en rouge, les ménages pauvres et en vert les ménages non pauvres. Source : Insee Filosofi 2015
 
-Attention, certaines zones très peu dense ont trop peu de points pour que l'on observe un amat vert ou rouge. En passant, par des cartes en aplat on perd cette information! **Il est donc fondamental de faire très attention au commentaire de ce type de carte et de ne pas surinterpréter des zones quasi-vides.**
+Attention, certaines zones très peu dense ont trop peu de points pour que l'on observe un amat vert ou rouge. En recourant à des cartes en aplat on perd cette information sur la densité sous-jacente ! **Il est donc fondamental de faire très attention au commentaire de ce type de carte et de ne pas surinterpréter ce qui se passe dans des zones quasi-vides.**
 
-
+Les cartes en rond
+--------------------
 
 
 .. figure:: _static/carte_rond.png
