@@ -29,6 +29,7 @@ Une carte de taux cherche à représenter les relations spatiales entre deux var
 
 .. figure:: _static/carte_taux.png
    :width: 600
+   
    Carte de taux. Source : Insee Filosofi 2015
 
 Chaque point représente 100 personnes
