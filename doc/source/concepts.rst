@@ -1,14 +1,27 @@
 La spatialisation des données statistiques
 ===========================================
 
-Lorsque l'on réalise une carte thématique, on affecte implicitement à chaque unité statistique (ménages, individus, entreprise) une portion d'espace. Dans le cas des cartes de densité, on suppose ainsi que la population est répartie uniformément au sein des unités spatiales. Autrement dit, une carte de densité, comme toute carte thématique repose sur une modélisation sous-jacente du phénomène étudié. 
+Lorsque l'on réalise une carte thématique, on affecte implicitement à chaque unité statistique (ménages, individus, entreprise) une portion d'espace. Dans le cas des cartes de densité, on suppose que la population est répartie uniformément au sein des unités spatiales. Une carte de densité, comme toute carte thématique repose sur une modélisation sous-jacente du phénomène étudié. 
 
-Plus largement, cette remarque reste vérifié pour toute les analyses géographiques. Même si les données ont une précision métrique, la production d'un savoir géographique nécessite de les relier entre elles à l'aide de régles spatiales. Cette mise en relation spatiale est toujours un artefact scientifique qui produit du sens et organise le monde tout en 
+Cette remarque reste vérifiée pour toutes les analyses géographiques. Même si les données ont une précision métrique, la production d'un savoir géographique nécessite de les relier entre elles à l'aide de régles spatiales. Cette mise en relation spatiale s'apparente à un point de vue que l'on se donne afin de rendre intelligible les distributions spatiales. Ce point de vue opére comme un filtre qui met en valeur certaines propriétés spatiales et en délaisse d'autres. De sorte que toute analyse géographique est partielle et dans une certaine mesure arbitraire. Il en résulte que les analyses géographiques sont donc toujours tributaires du point de vue choisi.
+
+
+
+
+
+
+
+Ce fait a été théorisé par Openshaw   
+
+
+Par exemple, les méthodes d'analyses spatiales modernes basées sur la fonction de Ripley 
+
+
 
 
 recquiert recquiert 
 
-
+ que l'on se donne pour comprendre le positionnement relatif des objets contenu dans une distribution spatiale.
 La localisation des objets peut-être 
 L'émergence des données géoréférencées de précision métrique n'a pas transformé l. En effet, toute analyse géographique d'une données  
 
