@@ -3,7 +3,7 @@ Mini présentation de GeoPandas
 
 Une large partie des exemples proposés sont réalisés sous Python avec le package `GeoPandas`_. Mais qu'est ce qui différencie un **DataFrame** de **Pandas** d'un **GeoDataFrame** de **GeoPandas** ?
 
-.. image:: ../_static/PandasVsGeoPandas.png
+.. image:: _static/PandasVsGeoPandas.png
    :width: 600
 
 Avant de commencer les exemples, faisons le point sur les principales méthodes de GeoPandas :
