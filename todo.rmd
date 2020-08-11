@@ -9,6 +9,21 @@ Ajouter schéma des points des plus denses au moins denses (dans un notebook sur
 Tiles pyramidales
 Rajouter dans la partie sur la sémio, une partie sur l'autocorrélation spatiale et dire que sans auto la carte n'a pas de sens
 Dans le notebook rajouter sur les bornes NB à bien garder en mémoire "Définition" ville : 100 habitants/km2 ainsi que la loi rang taille
+
+A rajouter dans un petit dictionnaire des idées de la carto
+(La donnée géographique - construire des données géo par exemple.
+Format de données géo : raster et vecteur (points, lignes et polygones) 
+Unités spatiales (polygones): 
+découpage administratif
+Intérêt du carroyage : s’affranchir des unités spatiales administratives qui peuvent fortement dépendantes de choix politiques (Gerrymandering)
+Quadtree : adaptation de la granularité de la grille en fonction des données cartographiées - éviter une réplication de l’information dans des carreaux voisins similaires et homogènes tout en gardant le maximum d’informations dans d’autres carreaux très hétérogènes
+Autre intérêt du Quadtree : confidentialité pour le carroyage - agrégation de carreaux où l’identification serait possible)
+
+
+
+
+
+
 Julie
 
 Ajouter une bibliographie
