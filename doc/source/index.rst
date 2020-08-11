@@ -27,14 +27,6 @@ Ce site n’a pas vocation a être exhaustif. Nous renvoyons autant que faire se
   Les fondements de la sémiologie cartographique <semio> 
   On commence par quelques concepts théoriques sur la spatialisation des données <concepts>
   
-  
-.. toctree::
-  :maxdepth: 1
-  :caption: On s'exerce !
-  
-  Mini présentation de GeoPandas <geopandas>
-  Galerie d'exemples <gallery/index>
-  
 .. toctree::
   :maxdepth: 1
   :caption:  Gérer son SIG
@@ -44,6 +36,12 @@ Ce site n’a pas vocation a être exhaustif. Nous renvoyons autant que faire se
   Postgis <postgis>
   Geoserver <geoserver>
 
+.. toctree::
+  :maxdepth: 1
+  :caption: On s'exerce !
+  
+  Mini présentation de GeoPandas <geopandas>
+  Galerie d'exemples <gallery/index>
 
 Nous contacter
 ---------------------
