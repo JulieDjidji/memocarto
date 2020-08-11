@@ -43,5 +43,5 @@ ax = union_buffer_negatif['geometry'].plot()
 ###############################################################################
 # On décide d'afficher que les zones de plus de 8 hectares.
 
-#union_buffer_negatif['aire']=union_buffer_negatif['geometry'].area/10000
+union_buffer_negatif['aire']=union_buffer_negatif['geometry'].area/10000
 #ax = union_buffer_negatif[union_buffer_negatif.aire>8].plot()
