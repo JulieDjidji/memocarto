@@ -42,6 +42,12 @@ Ce site n’a pas vocation a être exhaustif. Nous renvoyons autant que faire se
   
   Mini présentation de GeoPandas <geopandas>
   Galerie d'exemples <gallery/index>
+  
+.. toctree::
+  :maxdepth: 1
+  :caption: Pour contribuer
+
+   Nous contacter <contributors>
 
 Nous contacter
 ---------------------
