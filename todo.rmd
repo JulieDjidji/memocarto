@@ -8,7 +8,7 @@ Faire un mail pour intégrer le groupe carto
 Ajouter schéma des points des plus denses au moins denses (dans un notebook sur la discrétisation)
 Tiles pyramidales
 Rajouter dans la partie sur la sémio, une partie sur l'autocorrélation spatiale et dire que sans auto la carte n'a pas de sens
-
+Dans le notebook rajouter sur les bornes NB à bien garder en mémoire "Définition" ville : 100 habitants/km2 ainsi que la loi rang taille
 Julie
 
 Ajouter une bibliographie
