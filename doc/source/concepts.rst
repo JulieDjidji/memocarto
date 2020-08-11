@@ -16,21 +16,17 @@ Openshaw a théorisé sous le concept de *Modifiable Areal Unit Problem* la dép
    
    Illustration du MAUP. Source : Wikipédia
 
-Dans les analyses statistiques, on peut se prémunir en partie des effets de zone en recourant à des découpages réguliers tels que des carroyages ou bien encore en réalisant des lissages spatiaux. En revanche, on ne peut quasiment rien faire quant aux effets d'échelle, ils sont inhérents à la prise en compte de l'espace dans les analyses statistiques.
+Dans les analyses statistiques, on peut se prémunir en partie des effets de zone en recourant à des découpages réguliers tels que des carroyages ou bien encore en réalisant des lissages spatiaux. En revanche, on ne peut quasiment rien faire quant aux effets d'échelle - le choix du rayon dans la définition de la concentration d'un ensemble est un effet d'échelle - ils sont inhérents à la prise en compte de l'espace dans les analyses statistiques. La variation de la densité selon l'échelle d'analyse est un des sujets les plus discutés par les géographes. 
 
 .. figure:: _static/carte_maup.png
-   :width: 300
-
-
-L'effet d'échelle 
-
-
-
-
-
-.. figure:: _static/Maup_rate_numbers.png
    :width: 600
-   
+
+
+
+
+
+
+
    En fonction du choix des frontières des zones le taux de malade par zone change drastiquement (Wikipedia)
    
 Le choix d'unité spatiale régulière telle que des carreaux ou la pratique du lissage limite l'arbitraire lié à la 
