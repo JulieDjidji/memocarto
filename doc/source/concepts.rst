@@ -3,7 +3,7 @@ La spatialisation des données statistiques
 
 Lorsque l'on réalise une carte thématique, on affecte implicitement à chaque unité statistique (ménages, individus, entreprise) une portion d'espace. Dans le cas des cartes de densité, on suppose que la population est répartie uniformément au sein des unités spatiales. Une carte de densité, comme toute carte thématique repose sur une modélisation sous-jacente du phénomène étudié. 
 
-Cette remarque reste vérifiée pour toutes les analyses géographiques. Même si les données ont une précision métrique, la production d'un savoir géographique nécessite de les relier entre elles à l'aide de régles spatiales. Cette mise en relation spatiale s'apparente à un point de vue que l'on se donne afin de rendre intelligible les distributions spatiales. Ce point de vue opére comme un filtre qui met en valeur certaines propriétés spatiales et en délaisse d'autres. De sorte que toute analyse géographique est partielle et dans une certaine mesure arbitraire. Il en résulte que les analyses géographiques sont donc toujours tributaires du point de vue choisi.
+Cette remarque reste vérifiée pour toutes les analyses géographiques. Même si les données ont une précision métrique, la production d'un savoir géographique nécessite de les relier entre elles à l'aide de régles spatiales. Cette mise en relation spatiale s'apparente à un point de vue que l'on se donne afin de rendre intelligible les distributions spatiales. Ce point de vue opére comme un filtre qui met en valeur certaines propriétés spatiales et en délaisse d'autres. Il en résulte que les analyses géographiques ont donc toujours une part d'arbitraire et sont fonctions du point de la spatialisation choisi.
 
 
 
