@@ -45,9 +45,9 @@ Ce site n’a pas vocation a être exhaustif. Nous renvoyons autant que faire se
   
 .. toctree::
   :maxdepth: 1
-  :caption: Pour contribuer
+  :caption: Contributeurs
 
-   Nous contacter <contributors>
+   Contributeurs <contributors>
 
 Nous contacter
 ---------------------
