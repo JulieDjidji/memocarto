@@ -33,6 +33,21 @@ response=requests.get(wfs_url).content
 # On peut par exemple afficher l'ensemble des opérations réalisables avec ce service. 
 
 root=etree.fromstring(response)
+
+ns={'xsi':"http://www.w3.org/2001/XMLSchema-instance",
+        'wfs':"http://www.opengis.net/wfs/2.0",
+        'wps':"http://www.opengis.net/wps/1.0.0",
+        'ows':"http://www.opengis.net/ows/1.1",
+        'gml':"http://www.opengis.net/gml/3.2",
+        'fes':"http://www.opengis.net/fes/2.0",
+        'xlink':"http://www.w3.org/1999/xlink",
+        'xs':"http://www.w3.org/2001/XMLSchema",
+        'inspire_dls':"http://inspire.ec.europa.eu/schemas/inspire_dls/1.0",
+        'inspire_common':"http://inspire.ec.europa.eu/schemas/common/1.0",
+        'rb':"http://bretagne.fr/rb",
+        'schemaLocation':"http://www.opengis.net/wfs/2.0 https://ows.region-bretagne.fr/geoserver/schemas/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd"
+    }
+
 for element in root.findall('.//ows:Operation', ns):
     print(element.attrib)
 
