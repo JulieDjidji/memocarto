@@ -41,20 +41,28 @@ Lorsque l'on réalise une carte de taux, on considére que les variables au num�
    
    Carte de points. Chaque point représente 50 ménages : en rouge, les ménages pauvres et en vert les ménages non pauvres. Source : Insee Filosofi 2015
 
-Attention, certaines zones très peu dense ont trop peu de points pour que l'on observe un amat vert ou rouge. En recourant à des cartes en aplat on perd cette information sur la densité sous-jacente ! **Il est donc fondamental de faire très attention au commentaire de ce type de carte et de ne pas surinterpréter ce qui se passe dans des zones quasi-vides.**
+Attention, certaines zones très peu denses ont trop peu de points pour que l'on observe un amat vert ou rouge. En recourant à des cartes en aplat on perd cette information sur la densité sous-jacente ! **Il est donc fondamental de faire très attention aux commentaires de ce type de carte et de ne pas surinterpréter ce qui se passe dans des zones quasi-vides.**
 
 Les cartes en rond
 --------------------
 
+Une carte en rond est une autre manière de représenter la répartition d'une population. La surface des ronds est proportionnelle à la population contenue dans les unités spatiales (cf figure ci-dessous).
 
 .. figure:: _static/carte_rond.png
    :width: 600
+  
+   Répartition de la population. Source : RP 2017
+   
+Produire une carte en rond revient à regrouper les populations aux centres des unités spatiales et à affecter à chaque personne la même quantité d'espace. Sur la carte ci-dessous (**représentation en rond**), chaque point représente 100 personnes. Les points ont été positionnés au centre de carreau de 150 m  de coté. Autrement dit, chaque personne recoit 150 * 150 / 100 = 225 m². Cette représentation n'est pas plus fausse que celle des cartes de densité. Les deux cartes densité et en rond sont simplement basées sur des modélisations différentes. 
+
+
+
 
 
 .. figure:: _static/rond.png
    :width: 600
 
-Carte de taux des ménages pauvres un point représente 1000 personnes
+   Carte de taux des ménages pauvres un point représente 1000 personnes
 
 
 
