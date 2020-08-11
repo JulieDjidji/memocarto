@@ -102,7 +102,7 @@ data.head(2)
 # Présenter les flux WMS ...
 
 #######################################################################################
-# Affichage de la carte diffusée relative à la couche de la localisation des cœurs d'habitat (ou réservoirs de biodiversité) du Campagnol amphibie en Bretagne et Loire-Atlantique continentales.
+# Affichage de la carte diffusée relative à la couche de la localisation des cœurs d'habitat (ou réservoirs de biodiversité) du campagnol amphibie en Bretagne et Loire-Atlantique continentales.
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 #
 # Méthode 1 : on peut récupérer directement l'image si on connaît la formulation de la requête avec la requête GetMap puis l'afficher
