@@ -53,7 +53,7 @@ Une carte en rond est une autre manière de représenter la répartition d'une p
   
    Répartition de la population. Source : RP 2017
    
-Produire une carte en rond revient à regrouper les populations aux centres des unités spatiales et à affecter à chaque personne la même quantité d'espace. Sur la carte ci-dessous (**représentation en rond**), chaque point représente 100 personnes. Les points ont été positionnés au centre de carreau de 150 m  de coté. Autrement dit, chaque personne recoit 150 * 150 / 100 = 225 m². Cette représentation n'est pas plus fausse que celle des cartes de densité. Les deux cartes densité et en rond sont simplement basées sur des modélisations différentes. 
+Produire une carte en rond revient à regrouper les populations aux centres des unités spatiales et à affecter à chaque personne la même quantité d'espace. Sur la carte ci-dessous (**représentation en rond**), chaque point représente 100 personnes. Les points ont été positionnés au centre de carreau de 150 m  de coté. Autrement dit, chaque personne recoit 150 * 150 / 100 = 225 m². Cette représentation n'est pas plus fausse que celle des cartes de densité. Les cartes de densité et en rond sont simplement basées sur des modélisations différentes de la population. 
 
 
 
