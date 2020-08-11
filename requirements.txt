@@ -3,16 +3,21 @@ sphinx_rtd_theme
 sphinx_gallery
 recommonmark
 IPython
-wget
 python-dotenv
 
-# required
+# Geo required
 fiona>=1.7
 pandas>=0.23.4
 pyproj>=2.2.0
 shapely>=1.5
 geopandas
 contextily
+
+# required
+owslib
+wget
+lxml
+requests
 
 # plotting
 descartes>=1.0
