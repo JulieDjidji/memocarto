@@ -1,6 +1,9 @@
 La spatialisation des données statistiques
 ===========================================
 
+Le Modifiable Areal Unit Problem
+---------------------------------
+
 Lorsque l'on réalise une carte thématique, on affecte implicitement à chaque unité statistique (ménages, individus, entreprise) une portion d'espace. Dans le cas des cartes de densité, on suppose que la population est répartie uniformément au sein des unités spatiales, chaque individus se voit attribuer la même quantité d'espace. Une carte de densité, comme toute carte thématique repose sur une modélisation sous-jacente du phénomène étudié. 
 
 Cette remarque reste vérifiée pour toutes les analyses géographiques. Même si les données ont une précision métrique, la production d'un savoir géographique nécessite de les relier entre elles à l'aide de régles spatiales. Cette mise en relation spatiale s'apparente à un point de vue que l'on se donne afin de rendre intelligible les distributions spatiales. Ce point de vue opére comme un filtre qui met en valeur certaines propriétés spatiales et en délaisse d'autres. Il en résulte que les analyses géographiques ont donc toujours une part d'arbitraire et sont fonctions de la spatialisation choisie.
@@ -23,34 +26,21 @@ Dans les analyses statistiques, on peut se prémunir en partie des effets de zon
 
    Effets d'échelle. Source : RP 2017
    
+Jusqu'a récemment, le Maup était considéré comme une limite à la connaissance géographique. Dans le meilleur des cas, les statisticiens et les géographes *résolvaient* le Maup en recherchant une échelle caractéristique au phénomène étudié ou en utilisant l'échelle d'action des acteurs publics. Cette démarche n'allait pas sans poser de problème :
+* Sur quel critére peut-on se baser pour définir une échelle caractéristique optimale ? 
+* L'échelle d'action de l'acteur public n'est pas forcément la plus pertinente pour explorer un phénomène spatial (cf en dessous le piége territorial). 
 
 
 
 
-
-
-
-   En fonction du choix des frontières des zones le taux de malade par zone change drastiquement (Wikipedia)
-   
-Le choix d'unité spatiale régulière telle que des carreaux ou la pratique du lissage limite l'arbitraire lié à la 
 
 Maup (espace le plus dense en France : région, département, commune, carreau et zoom sur les carreaux d’une commune pour montrer une très forte hétérogénéité de la densité pop au sein d’une commune
 Erreur écologique (équivalent du MAUP en sociologie)
 Piège territorial (Cf. John Agnew, sociologue Pinçon-Charlot et exemple https://www.comeetie.fr/galerie/francepixels/#map/basrevenus/PiYG/11/48.856/2.363)
 
-L’impact de la discrétisation sur la représentation des densités de population
-Eviter une discrétisation linéaire selon la variable ou passage en log
-Loi de Zipf ou loi rang/taille http://geoconfluences.ens-lyon.fr/glossaire/zipf-loi-ou-regle-de
 
-NB à bien garder en mémoire "Définition" ville : 100 habitants/km2 
 
-La donnée géographique - construire des données géo par exemple.
-Format de données géo : raster et vecteur (points, lignes et polygones) 
-Unités spatiales (polygones): 
-découpage administratif
-Intérêt du carroyage : s’affranchir des unités spatiales administratives qui peuvent fortement dépendantes de choix politiques (Gerrymandering)
-Quadtree : adaptation de la granularité de la grille en fonction des données cartographiées - éviter une réplication de l’information dans des carreaux voisins similaires et homogènes tout en gardant le maximum d’informations dans d’autres carreaux très hétérogènes
-Autre intérêt du Quadtree : confidentialité pour le carroyage - agrégation de carreaux où l’identification serait possible
+
 
 Projections géographiques et conversion (faire un exemple d’utilisation avec leaflet)
 CRS : Coordinate Referential System
