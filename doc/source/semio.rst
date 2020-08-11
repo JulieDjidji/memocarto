@@ -1,4 +1,4 @@
-Discussion des règles de sémiologie cartographique 
+Les fondements de la sémiologie cartographique 
 ===================================================
 
 Une carte thématique a vocation à représenter l'organisation spatiale d'une quantité déterminée. Deux types de cartes (en dehors des cartes de flux) sont principalement utilisés : les cartes en aplat de couleur et les ronds. Les premières servent à cartographier des ratios et les secondes des volumes (la surface des ronds est proportionnelle à la variable d'intérêt). Ces régles immuables que d'aucuns considérent comme des conventions trouvent leur justification dans la manière dont on envisage la spatialisation des données étudiées. 
