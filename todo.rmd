@@ -5,8 +5,9 @@ Faire la partie sur le piége territorial
 Projection 
 Simplification
 Faire un mail pour intégrer le groupe carto
-Ajouter schéma des points des plus denses au moins denses
+Ajouter schéma des points des plus denses au moins denses (dans un notebook sur la discrétisation)
 Tiles pyramidales
+Rajouter dans la partie sur la sémio, une partie sur l'autocorrélation spatiale et dire que sans auto la carte n'a pas de sens
 
 Julie
 
