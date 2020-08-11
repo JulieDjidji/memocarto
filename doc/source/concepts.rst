@@ -18,6 +18,8 @@ Openshaw a théorisé sous le concept de *Modifiable Areal Unit Problem* la dép
 
 Dans les analyses statistiques, on peut se prémunir en partie des effets de zone en recourant à des découpages réguliers tels que des carroyages ou bien encore en réalisant des lissages spatiaux. En revanche, on ne peut quasiment rien faire quant aux effets d'échelle, ils sont inhérents à la prise en compte de l'espace dans les analyses statistiques.
 
+.. figure:: _static/carte_maup.png
+   :width: 300
 
 
 L'effet d'échelle 
