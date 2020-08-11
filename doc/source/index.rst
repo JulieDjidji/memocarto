@@ -25,8 +25,15 @@ Ce site n’a pas vocation a être exhaustif. Nous renvoyons autant que faire se
   :caption: Mémento
   
   Les fondements de la sémiologie cartographique <semio> 
-  On commence par quelques concepts théoriques sur la spatialisation des données <concepts>   
-  On s'exerce ! <gallery/index>
+  On commence par quelques concepts théoriques sur la spatialisation des données <concepts>
+  
+  
+.. toctree::
+  :maxdepth: 1
+  :caption: On s'exerce !
+  
+  Mini présentation de GeoPandas <geopandas>
+  Galerie d'exemples <gallery/index>
   
 .. toctree::
   :maxdepth: 1
