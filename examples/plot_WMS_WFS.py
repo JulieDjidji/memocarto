@@ -2,7 +2,7 @@
 Exploitation des flux WFS et WMS
 ----------------------------------------------------------------
 Dans ce notebook, nous allons exploiter des flux WMS et WFS, comprendre leur contenu et afficher les cartes.
-Nous utilisons les services mis à disposition par le partenariat breton des données géolocalisées sur le site [cms.geobretagne](https://cms.geobretagne.fr/). Les services proposés sont listés à l'adresse https://cms.geobretagne.fr/services.
+Nous utilisons les services mis à disposition par le partenariat breton des données géolocalisées sur le site https://cms.geobretagne.fr. Les services proposés sont listés à l'adresse https://cms.geobretagne.fr/services.
 """
 # sphinx_gallery_thumbnail_number = 1
 import io
@@ -77,7 +77,7 @@ gpd.read_file(wfs_url).head(2)
 #######################################################################################
 # On affiche la carte diffusée par le flux WFS
 
-gpd.read_file(wfs_url).plot()
+ax=gpd.read_file(wfs_url).plot()
 
 #######################################################################################
 # Méthode 2 : on peut les récupérer à partir du package owslib
@@ -126,7 +126,7 @@ wfs_url="https://geobretagne.fr/geoserver/gmb/wms?request=GetMap&format=image/pn
 
 response=requests.get(wfs_url).content
 img=plt.imread(io.BytesIO(response))
-plt.imshow(img)
+ax=plt.imshow(img)
 
 #######################################################################################
 # Méthode 2 : on peut la récupérer à partir du package owslib
@@ -144,4 +144,4 @@ response = wms.getmap(layers=[name,],
                  transparent=True)
 
 img=plt.imread(io.BytesIO(response.read()))
-plt.imshow(img)
+ax=plt.imshow(img)
