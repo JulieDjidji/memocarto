@@ -29,13 +29,15 @@ Jusqu'a récemment, le Maup était considéré comme une limite à la connaissan
 * Sur quel critére peut-on se baser pour définir une échelle caractéristique optimale ? 
 * L'échelle d'action de l'acteur public n'est pas forcément la plus pertinente pour explorer un phénomène spatial (cf en dessous le piége territorial). 
 
-A présent, le MAUP est pensée comme une source d'information sur l'organisation spatiale des distributions étudiées. Plus précisément, la variation des densités à travers les échelles dévoile le caractère multiscalaire des distributions spatiales étudiées. C'est-à-dire que pour comprendre l'organisation d'une distribution, on doit la 
+A présent, le MAUP est pensée comme une source d'information sur l'organisation spatiale des distributions étudiées. Plus précisément, la variation des densités à travers les échelles dévoile le caractère multiscalaire des distributions spatiales étudiées. C'est-à-dire que pour comprendre l'organisation d'une distribution spatiale, on doit nécéssairement l'observer à différentes échelles. 
+
+L'erreur écologique
+--------------------
 
 
+Le piége territorial
+---------------------
 
-
-
-Maup (espace le plus dense en France : région, département, commune, carreau et zoom sur les carreaux d’une commune pour montrer une très forte hétérogénéité de la densité pop au sein d’une commune
 Erreur écologique (équivalent du MAUP en sociologie)
 Piège territorial (Cf. John Agnew, sociologue Pinçon-Charlot et exemple https://www.comeetie.fr/galerie/francepixels/#map/basrevenus/PiYG/11/48.856/2.363)
 
