@@ -23,9 +23,8 @@ Ce site n’a pas vocation a être exhaustif. Nous renvoyons autant que faire se
 .. toctree::
   :maxdepth: 1
   :caption: Mémento
-
+  Les fondements de la sémiologie cartographique <semio> 
   On commence par quelques concepts théoriques sur la spatialisation des données <concepts>   
-  Les fondements de la sémiologie cartographique <semio>
   On s'exerce ! <gallery/index>
   
 .. toctree::
