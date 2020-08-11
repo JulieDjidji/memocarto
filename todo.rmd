@@ -5,3 +5,12 @@ Faire la partie sur le piége territorial
 Projection 
 Simplification
 Faire un mail pour intégrer le groupe carto
+Ajouter schéma des points des plus denses au moins denses
+Tiles pyramidales
+
+Julie
+
+Ajouter une bibliographie
+Faire tableau des principales visualisations
+Commencer la page des acteurs
+Alimentation geoserver avec données carroyées
