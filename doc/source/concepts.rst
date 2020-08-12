@@ -33,16 +33,19 @@ A présent, le MAUP est pensé comme une source d'information sur l'organisation
 
 L'erreur écologique
 --------------------
-Dans son article liminaire sur le MAUP, openshaw relie celui-ci à l'erreur écologique. Cette erreur, bien connu des statisticiens, désigne le fait que l'on ne peut pas déduire à partir de statistiques agrégées (sur des unités spatiales) une connaissance à l'échelle des individus. L'analyse de Durkheim sur la prévalence du suicides selon la confession religieuse est souvent citée comme un exemple manifeste d'erreur écologique (Daniel Cuurgeau 2000). 
+Dans son article liminaire sur le MAUP, openshaw relie celui-ci à l'erreur écologique. Cette erreur, bien connu des statisticiens, désigne le fait que l'on ne peut pas déduire à partir de statistiques agrégées (sur des unités spatiales) une connaissance à l'échelle des individus. L'analyse de Durkheim sur la prévalence du suicides selon la confession religieuse à l'échelle des provinces de la Prusse est souvent citée comme un exemple manifeste d'erreur écologique (Daniel Cuurgeau 2000). 
 
 
 .. figure:: _static/caf_1149-1590_2000_num_60_1_T6_0051_0000_1.png
    :width: 300
 
-   Suicide selon la part de protestants (Prusse, 1883-1990). Source : Durkheim tirée de Courgeau 2000. 
+   Taux de suicide selon la part de protestants pour les provinces de Prusse (1883-1990). Source : Durkheim tirée de Courgeau 2000. 
 
-L'analyse agrégée des taux de suicide en fonction de la part des protestants permet à Durkheim d'extrapoler un taux de suicie pour les protestants.
+La linéarité des taux de suicide en fonction de la part des protestants permet à Durkheim d'extrapoler un taux de suicide pour les protestants. Courgeau 2000 observe cependant que ce taux est quatre fois supérieur à celui calculé directement au niveau des individus. Ceci s'explique intuitivement par le fait que le taux de suicide des protestants et des catholiques dans les provinces de Prusse ne sont pas constants. En particulier, l'organisation sociale varie selon la part plus ou moins importante de catholique et de protestant, de sorte que l'environnement des protestants (sont ils majoritaires ou minoritaires dans leur province) influence leur propention individuelle à se suicider.
 
+Le caractére extrème de cet exemple se rencontre néanmoins rarement dans les analyses statistiques et géographiques usuelles. L'erreur écologique 
+
+les rapports sociaux entre les deux communa
 
  
 
