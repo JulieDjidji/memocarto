@@ -43,21 +43,21 @@ Dans son article liminaire sur le MAUP, openshaw relie celui-ci à l'erreur éco
 
 La linéarité des taux de suicide en fonction de la part des protestants permet à Durkheim d'extrapoler un taux de suicide pour les protestants. Courgeau 2000 observe cependant que ce taux est quatre fois supérieur à celui calculé directement au niveau des individus. Ceci s'explique intuitivement par le fait que le taux de suicide des protestants et des catholiques dans les provinces de Prusse ne sont pas constants. Les conditions de vie varient selon la part plus ou moins importante de catholique et de protestant. Il en résulte que l'environnement des protestants (sont-ils majoritaires ou minoritaires dans leur province) influence leur propention individuelle à se suicider. AUtrement dit, il y a des interractions entre les groupes religieux.
 
-Le caractére extrème de cet exemple se rencontre néanmoins rarement dans les analyses statistiques et géographiques usuelles. En effet, les corrélations entre les variables sont rarement parfaitement linéaire. Il n'en reste pas moins que l'on peut rapidement en juxtaposant des cartes suggérer des corrélations fallacieuse. 
+Le caractére extrême de cet exemple se rencontre néanmoins rarement dans les analyses statistiques et géographiques usuelles. L'existence de relations linéaires parfaites entre les variables est peu fréquence. Il n'en reste pas moins que l'on peut rapidement en juxtaposant des cartes suggérer des corrélations fallacieuse. 
+
+.. figure:: _static/carte_pauv.png
+   :width: 300
+   
+   Organisation spatiale de la pauvreté autour de Paris. Source : Filosofi 2015
+   
 
 
- 
 
 
 Le piége territorial
 ---------------------
 
-« Il n’est pas question de nier l’importance des facteurs urbains dans le développement des problèmes
-sociaux. Mais en centrant les analyses de cette façon on a sans doute hypertrophié la
-responsabilité des urbanistes et des architectes dans les difficultés actuelles des " quartiers
-". Cette manière de s’exprimer, devenue usuelle, est d’ailleurs révélatrice du déplacement
-opéré. Ce sont les quartiers qui posent problème, et plus le chômage, la formation, la
-famille, l’intégration. Tout se passe comme si la dégradation des quartiers était posée
+« Il n’est pas question de nier l’importance des facteurs urbains dans le développement des problèmes sociaux. Mais en centrant les analyses de cette façon on a sans doute hypertrophié la responsabilité des urbanistes et des architectes dans les difficultés actuelles des " quartiers". Cette manière de s’exprimer, devenue usuelle, est d’ailleurs révélatrice du déplacement opéré. Ce sont les quartiers qui posent problème, et plus le chômage, la formation, la famille, l’intégration. Tout se passe comme si la dégradation des quartiers était posée
 comme cause avant d’être examinée comme conséquence » PINÇON et PINÇON-CHARLOT
 
 
