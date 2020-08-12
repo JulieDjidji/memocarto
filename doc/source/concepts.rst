@@ -33,11 +33,31 @@ A présent, le MAUP est pensé comme une source d'information sur l'organisation
 
 L'erreur écologique
 --------------------
-Dans son article liminaire sur le MAUP, openshaw relie celui-ci à l'erreur écologique. Cette erreur, bien connu des statisticiens, désigne le fait que l'on ne peut pas déduire à partir de statistiques agrégées (sur des unités spatiales) une connaissance à l'échelle des individus.  
+Dans son article liminaire sur le MAUP, openshaw relie celui-ci à l'erreur écologique. Cette erreur, bien connu des statisticiens, désigne le fait que l'on ne peut pas déduire à partir de statistiques agrégées (sur des unités spatiales) une connaissance à l'échelle des individus. L'analyse de Durkheim sur la prévalence du suicides selon la confession religieuse est souvent citée comme un exemple manifeste d'erreur écologique (Daniel Cuurgeau 2000). 
+
+
+.. figure:: _static/caf_1149-1590_2000_num_60_1_T6_0051_0000_1.png
+   :width: 300
+
+   Suicide selon la part de protestants (Prusse, 1883-1990). Source : Durkheim tirée de Courgeau 2000. 
+
+L'analyse agrégée des taux de suicide en fonction de la part des protestants permet à Durkheim d'extrapoler un taux de suicie pour les protestants.
+
+
+ 
 
 
 Le piége territorial
 ---------------------
+
+« Il n’est pas question de nier l’importance des facteurs urbains dans le développement des problèmes
+sociaux. Mais en centrant les analyses de cette façon on a sans doute hypertrophié la
+responsabilité des urbanistes et des architectes dans les difficultés actuelles des " quartiers
+". Cette manière de s’exprimer, devenue usuelle, est d’ailleurs révélatrice du déplacement
+opéré. Ce sont les quartiers qui posent problème, et plus le chômage, la formation, la
+famille, l’intégration. Tout se passe comme si la dégradation des quartiers était posée
+comme cause avant d’être examinée comme conséquence » PINÇON et PINÇON-CHARLOT
+
 
 Erreur écologique (équivalent du MAUP en sociologie)
 Piège territorial (Cf. John Agnew, sociologue Pinçon-Charlot et exemple https://www.comeetie.fr/galerie/francepixels/#map/basrevenus/PiYG/11/48.856/2.363)
