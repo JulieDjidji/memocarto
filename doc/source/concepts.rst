@@ -43,14 +43,18 @@ Dans son article liminaire sur le MAUP, openshaw relie celui-ci à l'erreur éco
 
 La linéarité des taux de suicide en fonction de la part des protestants permet à Durkheim d'extrapoler un taux de suicide pour les protestants. Courgeau 2000 observe cependant que ce taux est quatre fois supérieur à celui calculé directement au niveau des individus. Ceci s'explique intuitivement par le fait que le taux de suicide des protestants et des catholiques dans les provinces de Prusse ne sont pas constants. Les conditions de vie varient selon la part plus ou moins importante de catholique et de protestant. Il en résulte que l'environnement des protestants (sont-ils majoritaires ou minoritaires dans leur province) influence leur propention individuelle à se suicider. AUtrement dit, il y a des interractions entre les groupes religieux.
 
-Le caractére extrême de cet exemple se rencontre néanmoins rarement dans les analyses statistiques et géographiques usuelles. L'existence de relations linéaires parfaites entre les variables est peu fréquence. Il n'en reste pas moins que l'on peut rapidement en juxtaposant des cartes suggérer des corrélations fallacieuse. 
+Le caractére extrême de cet exemple se rencontre néanmoins rarement dans les analyses statistiques et géographiques usuelles. L'existence de relations linéaires parfaites entre les variables est peu fréquence. Il n'en reste pas moins que l'on peut rapidement en juxtaposant des cartes suggérer des corrélations fallacieuses. 
 
 .. figure:: _static/carte_pauv.png
    :width: 300
    
    Organisation spatiale de la pauvreté autour de Paris. Source : Filosofi 2015
    
+La carte de l'organisation spatiale de la pauvreté (dont le titre est choisi à dessin pour induire en erreur) suggére une corrélation entre plusieurs variables de nature différente :
 
+-  On pourrait faussement en déduire que les personnes agées sont relativement épargnées par la pauvreté. Ceci est absolument faux, le revenu des personnes agées est totalement comparables aux autres individidus;
+- Mettre au même plan les familles monoparentales et la pauvreté suggére que cette première est une défavorisation, alors même que dans certains cas, elle est susceptible d'être vécue et pensée comme une émancipation. 
+- Une partie des familles nombreuses dans les quartiers aisées sont elles même aisées. Il n'y a pas de relation mécanique entre ces deux variables. En outre, cette variable n'est pas neutre dans l'espace sociale et son usage est susceptible d'être détournée pour stigmatiser certaines populations.
 
 
 
