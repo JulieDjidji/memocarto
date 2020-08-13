@@ -54,7 +54,7 @@ La carte de l'organisation spatiale de la pauvreté (dont le titre est choisi à
 
 -  On pourrait faussement en déduire que les personnes agées sont relativement épargnées par la pauvreté. Ceci est absolument faux, le revenu des personnes agées est totalement comparable à celui des autres ménages;
 - Mettre au même plan les familles monoparentales et la pauvreté incite à penser que cette première est une défavorisation. Or dans les quartiers aisées, une partie des familles monoparentales sont elles-mêmes aisées. Un rapprochement trop rapide entre ces deux variables peut amener à vehiculer des préjugés hétérnormatifs.
-- Il en est de même avec les familles nombreuses : dans les quartiers aisées, les familles nombreuses sont aisées également. Un usage mal contrôlé de la  corrélation spatiale entre ces deux variables est susceptibles d'induire implicitement des préjugés raciaux.  
+- Il en est de même avec les familles nombreuses : dans les quartiers aisées, les familles nombreuses sont aisées également. Un usage mal contrôlé de la  corrélation spatiale entre ces deux variables est susceptible de reproduire implicitement des préjugés raciaux.  
 
 
 
