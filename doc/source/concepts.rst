@@ -50,17 +50,13 @@ Le caractére extrême de cet exemple se rencontre néanmoins rarement dans les 
    
    Organisation spatiale de la pauvreté autour de Paris. Source : Filosofi 2015
    
-Les quatres cartes précédentes opposent les quarties aisés de l'ouest Parisien à ceux de l'est et du nord est Parisien. Elles suggérent (même imparfaite) une corrélation entre 4 phénomènes sociaux distincts :
+Les quatres cartes précédentes opposent les quartiers aisés de l'ouest Parisien à ceux de l'est et du nord-est Parisien. Elles suggérent (même imparfaite) l'existence d'une corrélation entre 4 phénomènes sociaux distincts dont le mesusage est susceptible de produire des biais interprétatifs :
 
--  On pourrait faussement en déduire que les personnes agées sont relativement épargnées par la pauvreté. Ceci est absolument faux, le revenu des personnes âgées est totalement comparable à celui des autres ménages ;
+-  On pourrait faussement en déduire que les personnes âgées sont relativement épargnées par la pauvreté. Ceci est absolument faux, le revenu des personnes âgées est totalement comparable à celui des autres ménages ;
 - Mettre au même plan les familles monoparentales et la pauvreté incite à penser que cette première est une défavorisation. Or dans les quartiers aisées, une partie des familles monoparentales sont elles-mêmes aisées. Un rapprochement trop rapide entre ces deux variables peut amener à vehiculer des préjugés hétérnormatifs.
 - Il en est de même avec les familles nombreuses : dans les quartiers aisées, les familles nombreuses sont aisées également. Un usage mal contrôlé de la  corrélation spatiale entre ces deux variables est susceptible de reproduire implicitement des préjugés raciaux.  
 
-La dénomination des lieux géographiques est piégeux. En effet évoquer la banlieue, associer la monoparentalité ou la parler de la pauvreté ou de la précarité pour 
-
-La carte de l'organisation spatiale de la pauvreté 
-
-
+Le titre de la figure "Organisation spatiale de la pauvreté autour de Paris" est piégeux. Un titre beaucoup plus neutre devrait être choisi pour ne pas induire en erreur le lecteur. Il est également important de faire attention au vocabulaire spatial mobilisé pour décrire les cartes. Par exemple, le terme banlieue est connoté négativement en France et véhicule de nombreux lieux communs. Prévilégier des termes plus neutres permet de ne pas orienter le lecteur dans une lecture spatiale simpliste.
 
 Le piége territorial
 ---------------------
