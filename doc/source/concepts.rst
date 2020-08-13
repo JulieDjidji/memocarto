@@ -50,9 +50,9 @@ Le caractére extrême de cet exemple se rencontre néanmoins rarement dans les 
    
    Organisation spatiale de la pauvreté autour de Paris. Source : Filosofi 2015
    
-Les quatres cartes précédentes opposent les quarties aisés de l'ouest Parisien à ceux de l'est et du nord est Parisien. Elle suggére une corrélation entre plusieurs variables de nature différente :
+Les quatres cartes précédentes opposent les quarties aisés de l'ouest Parisien à ceux de l'est et du nord est Parisien. Elles suggérent (même imparfaite) une corrélation entre 4 phénomènes sociaux distincts :
 
--  On pourrait faussement en déduire que les personnes agées sont relativement épargnées par la pauvreté. Ceci est absolument faux, le revenu des personnes agées est totalement comparable à celui des autres ménages;
+-  On pourrait faussement en déduire que les personnes agées sont relativement épargnées par la pauvreté. Ceci est absolument faux, le revenu des personnes âgées est totalement comparable à celui des autres ménages ;
 - Mettre au même plan les familles monoparentales et la pauvreté incite à penser que cette première est une défavorisation. Or dans les quartiers aisées, une partie des familles monoparentales sont elles-mêmes aisées. Un rapprochement trop rapide entre ces deux variables peut amener à vehiculer des préjugés hétérnormatifs.
 - Il en est de même avec les familles nombreuses : dans les quartiers aisées, les familles nombreuses sont aisées également. Un usage mal contrôlé de la  corrélation spatiale entre ces deux variables est susceptible de reproduire implicitement des préjugés raciaux.  
 
