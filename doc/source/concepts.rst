@@ -52,9 +52,10 @@ Le caractére extrême de cet exemple se rencontre néanmoins rarement dans les 
    
 La carte de l'organisation spatiale de la pauvreté (dont le titre est choisi à dessin pour induire en erreur) suggére une corrélation entre plusieurs variables de nature différente :
 
--  On pourrait faussement en déduire que les personnes agées sont relativement épargnées par la pauvreté. Ceci est absolument faux, le revenu des personnes agées est totalement comparables aux autres individidus;
-- Mettre au même plan les familles monoparentales et la pauvreté suggére que cette première est une défavorisation, alors même que dans certains cas, elle est susceptible d'être vécue et pensée comme une émancipation. 
-- Une partie des familles nombreuses dans les quartiers aisées sont elles même aisées. Il n'y a pas de relation mécanique entre ces deux variables. En outre, cette variable n'est pas neutre dans l'espace sociale et son usage est susceptible d'être détournée pour stigmatiser certaines populations.
+-  On pourrait faussement en déduire que les personnes agées sont relativement épargnées par la pauvreté. Ceci est absolument faux, le revenu des personnes agées est totalement comparable à celui des autres ménages;
+- Mettre au même plan les familles monoparentales et la pauvreté incite à penser que cette première est une défavorisation. Or dans les quartiers aisées, une partie des familles monoparentales sont elles-mêmes aisées. Un rapprochement trop rapide entre ces deux variables peut amener à vehiculer des préjugés hétérnormatifs.
+- Il en est de même avec les familles nombreuses : dans les quartiers aisées, les familles nombreuses sont aisées également. Un usage mal contrôlé de la  corrélation spatiale entre ces deux variables est susceptibles d'induire implicitement des préjugés raciaux.  
+
 
 
 
