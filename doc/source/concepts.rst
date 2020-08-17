@@ -61,6 +61,8 @@ Le titre de la figure "Organisation spatiale de la pauvreté autour de Paris" es
 Le piége territorial
 ---------------------
 
+Quelle est la nature des informations contenues dans une carte ? Cette question n'est pas purement réthorique.  
+
 « Il n’est pas question de nier l’importance des facteurs urbains dans le développement des problèmes sociaux. Mais en centrant les analyses de cette façon on a sans doute hypertrophié la responsabilité des urbanistes et des architectes dans les difficultés actuelles des " quartiers". Cette manière de s’exprimer, devenue usuelle, est d’ailleurs révélatrice du déplacement opéré. Ce sont les quartiers qui posent problème, et plus le chômage, la formation, la famille, l’intégration. Tout se passe comme si la dégradation des quartiers était posée
 comme cause avant d’être examinée comme conséquence » PINÇON et PINÇON-CHARLOT
 
