@@ -61,18 +61,21 @@ Le titre de la figure "Organisation spatiale de la pauvreté autour de Paris" es
 Le piége territorial
 ---------------------
 
-Quelle est la nature des informations contenues dans une carte ? Cette question n'est pas purement réthorique.  
+Quelle est la nature des informations contenues dans une carte ? Cette question n'est pas purement réthorique comme le confirme le questionnement des géographes et les sociologues au sujet de l'usage de l'espace dans la production d'un savoir scientiques :   
 
 « Il n’est pas question de nier l’importance des facteurs urbains dans le développement des problèmes sociaux. Mais en centrant les analyses de cette façon on a sans doute hypertrophié la responsabilité des urbanistes et des architectes dans les difficultés actuelles des " quartiers". Cette manière de s’exprimer, devenue usuelle, est d’ailleurs révélatrice du déplacement opéré. Ce sont les quartiers qui posent problème, et plus le chômage, la formation, la famille, l’intégration. Tout se passe comme si la dégradation des quartiers était posée
 comme cause avant d’être examinée comme conséquence » PINÇON et PINÇON-CHARLOT
 
+Le piége territorial théorisé par John Agnew consiste à surinterpréter le rôle de l'espace dans la production des phénomènes sociaux. Les cartes de en mettent en exergue les territoires contenant une sureprésentation de certaines populations sont susceptibles de favoriser le piége territorial. Elles proposent une vision du monde qui s'intéresse plus aux territoires qu'aux populations sous-jacentes. A contrario, les cartes de densité quantifient la répartition des sous populations dans l'espace.
 
-Erreur écologique (équivalent du MAUP en sociologie)
-Piège territorial (Cf. John Agnew, sociologue Pinçon-Charlot et exemple https://www.comeetie.fr/galerie/francepixels/#map/basrevenus/PiYG/11/48.856/2.363)
+Insérer les cartes
+
+Les populations défavorisées ne sont pas uniquement dans les quartiers ou elles sont majoritaires mais également dans les quartiers aisés. Ceci ne veut pas dire que les cartes de taux soient fausses mais elles sont d'autant plus pertinentes qu'une sur représentation de populations défavorisées représente en soi une défavorisation. C'est-a-dire lorsque la ségrégation produit des effets sur les populations que les acteurs publics souhaitent corriger. Dans le cadre des politiques urbaines de réduction des inégalités, cet effet bien que discuté est vérifié empiriquement : la mixité est valorisée socialement pour réduire les effets des inégalités spatiales. Pour autant, on ne saurait réduire l'étude de la pauvreté aux territoires ségrégés. 
+
+En revanche, toutes les concentrations spatiales ne peuvent pas être considérées de la même manière. Par exemple, une sureprésentation de personnes agées ne seurait être une inégalité spatiale. Dans ce cas, le choix de la localisation d'un équipement à destination de ce public nécessite l'étude des deux types de cartes (concentration et densité).   
 
 
 
 
 
-Projections géographiques et conversion (faire un exemple d’utilisation avec leaflet)
-CRS : Coordinate Referential System
+
