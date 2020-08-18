@@ -76,7 +76,7 @@ Les populations défavorisées ne sont pas uniquement dans les quartiers ou elle
 
 En revanche, toutes les concentrations spatiales ne peuvent pas être considérées de la même manière. Par exemple, une sureprésentation de personnes agées ne saurait être une inégalité spatiale. Dans ce cas, le choix de la localisation d'un équipement à destination de ce public nécessite l'étude des deux types de cartes (concentration et densité).   
 
-**Pour conclure, il est important de se rappeller que les cartes décrivent moins les personnes que leur environnement.**
+**Pour conclure, il est important de se rappeller que les cartes décrivent moins les personnes que leur environnement. De sorte que lorsque l'on observe une carte, la question de la localisation des phénomènes sociaux est importante mais doit être complétér par une autre interrogation : quelle est l'impact pour une population de vivre sur tel territoire et pas un autre. Par exemple, quel est l'effet de la ségrégation ou de la mixité sur un ménage défavorisé ou favorisé ?  **
 
 
 
