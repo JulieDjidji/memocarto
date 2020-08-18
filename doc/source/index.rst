@@ -25,9 +25,24 @@ Avec sa *Carte figurative de l'instruction populaire de la France* en 1826, Char
 
 Ces deux points à l'interface de la géographie, de la sémiologie, de la statistique, voire de l'esthétique doivent toujours questionner les statisticiens qui s'aventurent à réaliser des cartes. Toute carte thématique est en effet un artefact géographique qui nécessite d'être bien réfléchie pour ne pas préter le flanc à de mauvaises interprétations. C'est l'objectif de la première partie de ce site que de fournir rapidement des élements de réponse sur ces points.
 
+.. toctree::
+  :maxdepth: 1
+  :caption: Mémento
+  
+  Les fondements de la sémiologie cartographique <semio> 
+  On commence par quelques concepts théoriques sur la spatialisation des données <concepts>
+
+
 La carte de Dupin doit son succès à l'usage de la lithographie, qui permet de publier des cartes à un cout moindre  par rapport à la gravure sur Bois (Palsky 1996). Dupin avait fait appel au service de Jobard, artiste-litographe fameux pour obtenir les résultats escomptés. A présent, la diffusion des cartes est massivement numérique. La programmation a ainsi remplacé la lithographie. La deuxième partie de ce site à vocation à vous présenter les élements de programmation et d'architecture informatique nécessaire à la publication de cartes en ligne. 
 
-
+.. toctree::
+  :maxdepth: 1
+  :caption:  Gérer son SIG
+  
+  Tour d'horizon des acteurs <acteurs>
+  Les accès aux données géo : quels APIs de géocodage ? <api>
+  Postgis <postgis>
+  Geoserver <geoserver>
 
 
 
@@ -53,24 +68,11 @@ La carte de Dupin doit son succès à l'usage de la lithographie, qui permet de 
 
 .. La simplicité avec laquelle on peut mettre à présent à disposition des données spatiales et les difficultés théoriques inhérents à la spatialisation des données statistiques sont susceptibles de favoriser la diffusion de représentations erronées voire biaisées involontairement. Notre ambition à travers ce site est de questionner la spatialisation des données et d’exposer les opérations géographiques permettant de mettre à disposition du grand public des données géographiques afin de favoriser la dissémination d’analyses pertinentes.
 
-Ce site n’a pas vocation a être exhaustif. Nous renvoyons autant que faire se peut à des documents déjà réalisés.
+Comme tout site digne de ce nom, nous proposons une partie tutorielle pour vous accompagner dans la manipulation des données cartographiques.
 
 
-.. toctree::
-  :maxdepth: 1
-  :caption: Mémento
   
-  Les fondements de la sémiologie cartographique <semio> 
-  On commence par quelques concepts théoriques sur la spatialisation des données <concepts>
-  
-.. toctree::
-  :maxdepth: 1
-  :caption:  Gérer son SIG
-  
-  Tour d'horizon des acteurs <acteurs>
-  Les accès aux données géo : quels APIs de géocodage ? <api>
-  Postgis <postgis>
-  Geoserver <geoserver>
+
 
 .. toctree::
   :maxdepth: 1
