@@ -9,15 +9,20 @@ Sensibilisation à la cartographie
 Description
 ---------------------
 
-Les applications de cartographie en ligne ont transformé notre quotidien : calcul d’itinéraire, recherche de lieux, d’équipements, de magasin, tout ceci est dorénavant possible sur la grande majorité des téléphones portables. Cette lame de fond se retrouve également dans nos activités professionnelles de DataScientist. Les logiciels de traitement de l’information modernes gèrent la géographie à travers une colonne qui décrit la géométrie associée aux unités statistiques. Il n’a jamais été aussi simple de représenter sous la forme de cartes les indicateurs socio-économiques.
+Il est courant pour les statisiciens et les datascientists de vouloir représenter  sous forme de cartes les valeurs de leurs indicateurs. Pourtant, l'acte de cartographier des abstractions que sont des populations ou des taux de prévalence est tout sauf naturel et s'apparente même à une révolution silencieuse. Les cartes topographiques nécessitent un haut degré d'abstraction. Mais contrairement, aux cartes thématiques, elles représentent des objets physiques qui ont une existence propre. Avec sa *Carte figurative de l'instruction populaire de la France* en 1826, Charles Dupin, baron de son état et polytechnicien, a ouvert la voie aux méthodes de représentation standarts que l'on utilise encore aujourd'hui     
 
-A reprendre ce paragraphe : La représentation d'une données géo consiste à spatialiser l'information puis seulement à produire une carte abstraction qui représente le territoire qui est une simplification. 
+Les cartes thématiques ont opéré une révolution silencieuse. Avec la carte du Baron Charles Dupin de 1826, pour la 
 
-La spatialisation des données statistiques consiste à affecter à chaque élément d’un ensemble d’intérêt une portion plus ou moins grande d’espace. Cette opération n’est pas naturelle et est une construction géographique, qui n’existe pas en dehors d’un certain consensus social. La taille et la forme des unités spatiales que l’on associe aux objets étudiés déterminent un point de vue qui conditionne les résultats des analyses. Loin d’être anecdotique, ce phénomène se traduit par le fait que les corrélations calculées sur des unités spatiales varient voire changent de signe selon l’échelle d’analyse (Modifiable Areal Unit Problem). 
 
-La simplicité avec laquelle on peut mettre à présent à disposition des données spatiales et les difficultés théoriques inhérents à la spatialisation des données statistiques sont susceptibles de favoriser la diffusion de représentations erronées voire biaisées involontairement. Notre ambition à travers ce site est de questionner la spatialisation des données et d’exposer les opérations géographiques permettant de mettre à disposition du grand public des données géographiques afin de favoriser la dissémination d’analyses pertinentes.
+.. Les applications de cartographie en ligne ont transformé notre quotidien : calcul d’itinéraire, recherche de lieux, d’équipements, de magasin, tout ceci est dorénavant possible sur la grande majorité des téléphones portables. Cette lame de fond se retrouve également dans nos activités professionnelles de DataScientist. Les logiciels de traitement de l’information modernes gèrent la géographie à travers une colonne qui décrit la géométrie associée aux unités statistiques. Il n’a jamais été aussi simple de représenter sous la forme de cartes les indicateurs socio-économiques.
 
-Ce site n’a pas vocation a être exhaustif. Nous renvoyons autant que faire se peut à des documents déjà réalisés.
+.. A reprendre ce paragraphe : La représentation d'une données géo consiste à spatialiser l'information puis seulement à produire une carte abstraction qui représente le territoire qui est une simplification. 
+
+.. La spatialisation des données statistiques consiste à affecter à chaque élément d’un ensemble d’intérêt une portion plus ou moins grande d’espace. Cette opération n’est pas naturelle et est une construction géographique, qui n’existe pas en dehors d’un certain consensus social. La taille et la forme des unités spatiales que l’on associe aux objets étudiés déterminent un point de vue qui conditionne les résultats des analyses. Loin d’être anecdotique, ce phénomène se traduit par le fait que les corrélations calculées sur des unités spatiales varient voire changent de signe selon l’échelle d’analyse (Modifiable Areal Unit Problem). 
+
+.. La simplicité avec laquelle on peut mettre à présent à disposition des données spatiales et les difficultés théoriques inhérents à la spatialisation des données statistiques sont susceptibles de favoriser la diffusion de représentations erronées voire biaisées involontairement. Notre ambition à travers ce site est de questionner la spatialisation des données et d’exposer les opérations géographiques permettant de mettre à disposition du grand public des données géographiques afin de favoriser la dissémination d’analyses pertinentes.
+
+.. Ce site n’a pas vocation a être exhaustif. Nous renvoyons autant que faire se peut à des documents déjà réalisés.
 
 
 .. toctree::
