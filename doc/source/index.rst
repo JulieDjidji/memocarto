@@ -9,9 +9,29 @@ Sensibilisation à la cartographie
 Description
 ---------------------
 
-Il est courant pour les statisiciens et les datascientists de vouloir représenter  sous forme de cartes les valeurs de leurs indicateurs. Pourtant, l'acte de cartographier des abstractions que sont des populations ou des taux de prévalence est tout sauf naturel et s'apparente même à une révolution silencieuse. Les cartes topographiques nécessitent un haut degré d'abstraction. Mais contrairement, aux cartes thématiques, elles représentent des objets physiques qui ont une existence propre. Avec sa *Carte figurative de l'instruction populaire de la France* en 1826, Charles Dupin, baron de son état et polytechnicien, a ouvert la voie aux méthodes de représentation standarts que l'on utilise encore aujourd'hui     
+Il est courant pour les statisticiens et les datascientists de vouloir représenter  sous forme de cartes les valeurs de leurs indicateurs. Pourtant, l'acte de cartographier des abstractions que sont des populations ou des taux de prévalence est tout sauf naturel et s'apparente même à une révolution silencieuse. Les cartes topographiques nécessitent un haut degré d'abstraction. Mais contrairement, aux cartes thématiques, elles représentent encore des objets physiques (fleuves, montagnes) qui ont une existence propre.
 
-Les cartes thématiques ont opéré une révolution silencieuse. Avec la carte du Baron Charles Dupin de 1826, pour la 
+   
+
+.. figure:: _static/Carte_figurative_de_l'instruction_populaire_de_la_France.jpg
+   :width: 300
+   
+   Carte figurative de l'instruction populaire de la France, 1826, Dupin (Plus le dégradé est foncé et plus faible est la part d'enfants scolarisés). Malte-Brun désignait cette carte sous le nom de *carte de la France obscure et de la France éclairée*. On constate à travers cet exemple, à quel point, les choix sémiologiques sont susceptibles de véhiculer des jugements normatifs. 
+
+Avec sa *Carte figurative de l'instruction populaire de la France* en 1826, Charles Dupin, baron de son état et polytechnicien, a ouvert la voie aux méthodes standarts de représentation  des donnée statistiques que l'on utilise encore aujourd'hui. L'apport majeur de celui-ci est d'avoir inventé un langage graphique pour restituer la variations d'un phénomène quantifiable (dans cet exemple, un dégradé sert à quantifier la part des enfants scolarisés). Ce langage joue implicitement plusieurs rôles :
+
+- Spatialiser les données statistiques : soit associer aux phénoménes quantifiables une part plus ou moins importante d'espace ;
+- Représenter sous une forme graphique des phénomènes quantifiables complexes.
+
+
+
+
+
+
+
+
+
+
 
 
 .. Les applications de cartographie en ligne ont transformé notre quotidien : calcul d’itinéraire, recherche de lieux, d’équipements, de magasin, tout ceci est dorénavant possible sur la grande majorité des téléphones portables. Cette lame de fond se retrouve également dans nos activités professionnelles de DataScientist. Les logiciels de traitement de l’information modernes gèrent la géographie à travers une colonne qui décrit la géométrie associée aux unités statistiques. Il n’a jamais été aussi simple de représenter sous la forme de cartes les indicateurs socio-économiques.
