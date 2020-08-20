@@ -38,7 +38,7 @@ La carte de Dupin doit son succès à l'usage de la lithographie, qui permet de 
 
 .. toctree::
   :maxdepth: 1
-  :caption:  Outils et environnement du cartographe
+  :caption:  Autour des SIG  
 
   
   Tour d'horizon des acteurs <acteurs>
