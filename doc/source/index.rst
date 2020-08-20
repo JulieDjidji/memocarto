@@ -30,8 +30,6 @@ Ces deux points à l'interface de la géographie, de la sémiologie, de la stati
   :caption: Mémento
 
 
-gggggggggggggggggggggggggggggggggggggggg gjgjgj
-
   La sémiologie cartographique plus qu'un ensemble de règles, une vision du monde <semio> 
   Heurs et malheurs de la spatialisation des données statistiques <concepts>
 
