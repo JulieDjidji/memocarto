@@ -47,21 +47,8 @@ La carte de Dupin doit son succès à l'usage de la lithographie, qui permet de 
   Postgis <postgis>
   Geoserver <geoserver>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Mise en Pratique
+---------------------
 
 Comme tout site digne de ce nom, nous proposons une partie tutorielle pour vous accompagner dans la manipulation des données cartographiques.
 
