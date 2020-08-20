@@ -33,15 +33,16 @@ Ces deux points à l'interface de la géographie, de la sémiologie, de la stati
   La sémiologie cartographique plus qu'un ensemble de règles, une vision du monde <semio> 
   Heurs et malheurs de la spatialisation des données statistiques <concepts>
 
-De la lithographie à la géomatique : les outils du cartographes
----------------------
+.. toctree::
+  :maxdepth: 1
+  :caption:  Gérer son SIG
 
 
 La carte de Dupin doit son succès à l'usage de la lithographie, qui permet de publier des cartes à un coût moindre  par rapport à la gravure sur Bois (Palsky 1996). Dupin avait fait appel au service de Jobard, artiste-litographe fameux pour obtenir les résultats escomptés. A présent, la diffusion des cartes est massivement numérique. La programmation a ainsi remplacé la lithographie. La deuxième partie de ce site à vocation à vous présenter les éléments de programmation et d'architecture informatique nécessaires à la publication de cartes en ligne. 
 
 .. toctree::
   :maxdepth: 1
-  :caption:  Gérer son SIG
+
   
   Tour d'horizon des acteurs <acteurs>
   Les accès aux données géo : quels APIs de géocodage ? <api>
