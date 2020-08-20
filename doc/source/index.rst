@@ -14,7 +14,7 @@ Il est courant pour les statisticiens et les datascientists de vouloir représen
    
 
 .. figure:: _static/Carte_figurative_de_l'instruction_populaire_de_la_France.jpg
-   :width: 300
+   :width: 600
    
    Carte figurative de l'instruction populaire de la France, 1826, Dupin (Plus le dégradé est foncé et plus faible est la part d'enfants scolarisés). Malte-Brun désignait cette carte sous le nom de *carte de la France obscure et de la France éclairée*. On constate à travers cet exemple, à quel point, les choix sémiologiques sont susceptibles de véhiculer des jugements normatifs. 
 
