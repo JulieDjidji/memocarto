@@ -22,7 +22,7 @@ Les données en sortie sont fournies grâce à des protocoles d'échange, les pl
   
 Outils de lecture
 ------
-Les données revoyées par GeoServer peuvent être lus dans un logiciel SIG (QGis, MapInfo) ou dans un navigateur à l'aide de bibliothèques cartographiques (Leaflet, OpenLayers). Pour les WFS le style d'affichage des données peut être défini directement dans le geoserver ou dans le client (logiciel ou navigateur) qui va les lire.
+Les données revoyées par GeoServer peuvent être lues dans un logiciel SIG (QGis, MapInfo) ou dans un navigateur à l'aide de bibliothèques cartographiques (Leaflet, OpenLayers). Pour les WFS le style d'affichage des données peut être défini directement dans le geoserver ou dans le client (logiciel ou navigateur) qui va les lire.
 
 La configuration
 ------
@@ -30,7 +30,7 @@ Le gros avantage de geoserver par rapport à certaines alternatives (MapServer, 
 
 .. image:: _static/geoserver_interface.png
 
-L'interface offre par ailleurs d'autres possibilités comme l'activation d'un cache pour ne pas recalculer les données à chaque fois, l'édition ou la modification de styles ou la modification des droits d'accès.
+L'interface offre par ailleurs d'autres possibilités comme l'activation d'un cache pour ne pas recalculer les données à chaque fois, l'édition ou la modification de styles, ou la modification des droits d'accès.
 
 Exemples de mise en oeuvre
 ------
