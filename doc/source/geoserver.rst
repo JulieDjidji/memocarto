@@ -30,7 +30,7 @@ Le gros avantage de geoserver par rapport à certaines alternatives (MapServer, 
 
 .. image:: _static/geoserver_interface.png
 
-L'interface offre par ailleurs d'autres possibilités comme l'activaton d'un cache pour ne pas recalculer les données à chaque fois, l'édition ou la modification de styles ou la modification des droits d'accès.
+L'interface offre par ailleurs d'autres possibilités comme l'activation d'un cache pour ne pas recalculer les données à chaque fois, l'édition ou la modification de styles ou la modification des droits d'accès.
 
 Exemples de mise en oeuvre
 ------
