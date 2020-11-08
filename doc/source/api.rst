@@ -68,11 +68,11 @@ A l'aide d'une application
 
 Plus d'informations sur le geocodage
 ------
-- vous aurez sans doute lu dans les différentes documentations des références à différentes fonctionnalités reliées au géocodage : `geocodage inversé <https://fr.wikipedia.org/wiki/G%C3%A9ocodage_invers%C3%A9>`, autocomplétion
+- vous aurez sans doute lu dans les différentes documentations des références à différentes fonctionnalités reliées au géocodage : `geocodage inversé`_, autocomplétion
 - https://makina-corpus.com/blog/metier/2019/les-logiciels-et-api-pour-geocoder
 
 
 .. [1] ETalab est un département de la direction interministérielle du numérique
 
-
+.. _geocodage inversé: https://fr.wikipedia.org/wiki/G%C3%A9ocodage_invers%C3%A9
 
