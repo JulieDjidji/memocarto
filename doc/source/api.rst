@@ -72,7 +72,7 @@ Plus d'informations sur le geocodage
 - https://makina-corpus.com/blog/metier/2019/les-logiciels-et-api-pour-geocoder
 
 
-.. [1] ETalab est un département de la direction interministérielle du numérique
+.. [1] Etalab est un département de la direction interministérielle du numérique. Il développe et maintient le portail des données ouvertes du gouvernement français data.gouv.fr
 
 .. _geocodage inversé: https://fr.wikipedia.org/wiki/G%C3%A9ocodage_invers%C3%A9
 
