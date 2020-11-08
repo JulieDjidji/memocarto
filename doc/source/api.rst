@@ -62,14 +62,14 @@ A l'aide de géocodeurs en ligne
 
 A l'aide d'une application
 ------
-- A l'Insee, c'est l'application Geoloc qui remplit ce rôle et géocode les adresses venant de nombreuses sources externes (CNAF, CNAV, Pôle Emploi...) ou internes (BPE, Filosofi...). Le projet Gaïa en cours porte en partie sur ce sujet également.
+- A l'Insee, c'est l'application Geoloc qui remplit ce rôle et géocode les adresses venant de nombreuses sources externes (CNAF, CNAV, CAF, Pôle Emploi...) ou internes (BPE, Sirene, Filosofi...). Le projet Gaïa en cours porte en partie sur ce sujet également.
 - l'IGN propose une application appelée "Mon géocodeur" (anciennement "visualiseur d'adresses")
 - D'autres acteurs privés proposent des applications de géocodage (MapInfo Géocodage, Geoconcept, ArcMap...) 
 
 Plus d'informations sur le geocodage
 ------
 - vous aurez sans doute lu dans les différentes documentations des références à différentes fonctionnalités liées au géocodage : le `geocodage inversé`_ et l'autocomplétion
-- vous trouverez d'avantage d'informations sur le site https://makina-corpus.com/blog/metier/2019/les-logiciels-et-api-pour-geocoder
+- vous pourrez trouver d'avantage d'informations sur le site https://makina-corpus.com/blog/metier/2019/les-logiciels-et-api-pour-geocoder
 
 
 .. [1] Etalab est un département de la direction interministérielle du numérique. Il développe et maintient le portail des données ouvertes du gouvernement français data.gouv.fr
