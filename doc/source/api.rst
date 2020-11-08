@@ -39,19 +39,19 @@ A l'aide de géocodeurs en ligne
 
       ce nouveau géocodeur de l'IGN s'appuie sur la BAN [Base d'Adresse Nationale] (documentation: https://geoservices.ign.fr/documentation/services_betas/geocodage.html)
      
-      exemple: https://geocodage.ign.fr/look4/address/search?q= 88+Avenue+Verdier+Montrouge
+      exemple: https://geocodage.ign.fr/look4/address/search?q=88+Avenue+Verdier+Montrouge
 
     - Google
 
       ce geocodeur necessite une clé de licence (documentation: https://developers.google.com/maps/documentation/geocoding/start?hl=fr)
 
-      exemple: https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=YOUR_API_KEY
+      exemple: https://maps.googleapis.com/maps/api/geocode/json?address=188+Avenue+Verdier,+Montrouge,+FR&key=YOUR_API_KEY
 
     - Open Street Map
       
       geocodeur gratuit (documentation: https://wiki.openstreetmap.org/wiki/FR:Nominatim)
 
-      exemple: https://nominatim.openstreetmap.org/search?q=17%20rue%20porte%20dunoise,orl%C3%A9ans&format=json
+      exemple: https://nominatim.openstreetmap.org/search?q=188%20Avenue%20Verdier%20,Montrouge&format=json
 
 - par lot
     - Etalab 
