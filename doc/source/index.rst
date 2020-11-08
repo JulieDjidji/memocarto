@@ -38,13 +38,17 @@ La carte de Dupin doit son succès à l'usage de la lithographie, qui permet de 
 
 .. toctree::
   :maxdepth: 1
-  :caption:  Autour des SIG  
+  :caption:  Autour de la manipulation d'informations géographiques  
 
   
   Tour d'horizon des acteurs <acteurs>
   Les accès aux données géo : quels APIs de géocodage ? <api>
+  QGis <qgis>
   Postgis <postgis>
   Geoserver <geoserver>
+  Leaflet <leaflet>
+  Comment tout cela s'articule-t-il? <articulation>
+  
 
 
 
@@ -60,6 +64,7 @@ Comme tout site digne de ce nom, nous proposons une partie tutorielle pour vous 
   
   Mini présentation de GeoPandas <geopandas>
   Galerie d'exemples <gallery/index>
+  Postgis sous Python <postgisPy>
   
 .. toctree::
   :maxdepth: 1
