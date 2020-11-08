@@ -6,7 +6,7 @@ Pour rappel, le géocodage consiste à attribuer des coordonnées x,y à une adr
 Pour cela, il existe de nombreux outils et différentes façons de procéder. En voici quelques exemples.
 
 
-A l'aide d'une carte
+A l'aide de cartes en ligne
 ------
 - de manière unitaire
     - https://www.geoportail.gouv.fr/carte
@@ -68,11 +68,13 @@ A l'aide d'une application
 
 Plus d'informations sur le geocodage
 ------
-- vous aurez sans doute lu dans les différentes documentations des références à différentes fonctionnalités reliées au géocodage : `geocodage inversé`_, autocomplétion
-- https://makina-corpus.com/blog/metier/2019/les-logiciels-et-api-pour-geocoder
+- vous aurez sans doute lu dans les différentes documentations des références à différentes fonctionnalités liées au géocodage : le `geocodage inversé`_ et l'autocomplétion
+- vous trouverez d'avantage d'informations sur le site https://makina-corpus.com/blog/metier/2019/les-logiciels-et-api-pour-geocoder
 
 
 .. [1] Etalab est un département de la direction interministérielle du numérique. Il développe et maintient le portail des données ouvertes du gouvernement français data.gouv.fr
 
 .. _geocodage inversé: https://fr.wikipedia.org/wiki/G%C3%A9ocodage_invers%C3%A9
+
+
 
