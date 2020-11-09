@@ -13,6 +13,7 @@ Les données sources peuvent être dans de nombreux formats dont
     - Oracle spatial
     - shapefile
     - geotiff
+    - Geoserver a aussi un service de cascade, c'est à dire qu'il peut récupérer la sortie d'un autre serveur de même type
    
 Les données en sortie
 ------
@@ -22,7 +23,7 @@ Les données en sortie sont fournies grâce à des protocoles d'échange, les pl
   
 Outils de lecture
 ------
-Les données revoyées par GeoServer peuvent être lues dans un logiciel SIG (QGis, MapInfo) ou dans un navigateur à l'aide de bibliothèques cartographiques (Leaflet, OpenLayers). Pour les WFS le style d'affichage des données peut être défini directement dans le geoserver ou dans le client (logiciel ou navigateur) qui va les lire.
+Les données revoyées par GeoServer peuvent être lues dans un logiciel SIG (QGis, MapInfo) ou dans un navigateur à l'aide de bibliothèques cartographiques (Leaflet, OpenLayers). Pour les WFS le style d'affichage des données peut être défini directement dans le geoserver ou dans le client (logiciel ou navigateur) qui va les lire. Pour les WMS, le style peut être créé ou modifié dans le geoserver uniquement.
 
 La configuration
 ------
@@ -39,5 +40,9 @@ Exemples de mise en oeuvre
 
 - mise en place d'une couche en WMS issue d'une base de données
     https://docs.geoserver.org/latest/en/user/gettingstarted/postgis-quickstart/index.html
+    
+Le site de référence
+------
+https://docs.geoserver.org/
 
 
