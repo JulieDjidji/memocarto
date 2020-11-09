@@ -1,6 +1,7 @@
 Parcequ'un schéma vaut mieux qu'un long discours 
 ------
 
+.. image:: _static/architecture.png
 
 
 Un implémentation partielle de ce schéma 
