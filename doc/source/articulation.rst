@@ -23,9 +23,8 @@ Cette application :
     - une couche vectorielle (appel en WFS)
 
 
+Vous avez accès aux 3 composantes du code (html, css, et javascript) que vous pouvez manipuler à loisir. Vous pouvez également dupliquer le code sur un projet à vous ou, par exemple, sous codepen.io ou jsfiddle.net en vous créant un compte. Vous pourrez ainsi enregistrer vos modifications.
 
-
-Vous pouvez faire des modifications directement dans le code ou dupliquer le code sur un projet à vous (codepen.io ou jsfiddle.net par exemple) pour pouvoir enregistrer vos modifications
 
 
 .. _application sous codepen: https://codepen.io/fabcg/pen/wvWGQdW
