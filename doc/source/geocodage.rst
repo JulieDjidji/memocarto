@@ -68,13 +68,15 @@ A l'aide d'une application
 
 Plus d'informations sur le geocodage
 ------
-- vous aurez sans doute lu dans les différentes documentations des références à différentes fonctionnalités liées au géocodage : le `geocodage inversé`_ et l'autocomplétion
+- vous aurez sans doute lu dans les différentes documentations des références à différentes fonctionnalités liées au géocodage : le `geocodage inversé`_ et l'`autocomplétion`_
 - vous pourrez trouver d'avantage d'informations sur le site https://makina-corpus.com/blog/metier/2019/les-logiciels-et-api-pour-geocoder
 
 
 .. [1] Etalab est un département de la direction interministérielle du numérique. Il développe et maintient le portail des données ouvertes du gouvernement français data.gouv.fr
 
 .. _geocodage inversé: https://fr.wikipedia.org/wiki/G%C3%A9ocodage_invers%C3%A9
+
+:: _autocomplétion: https://adrien.poupa.fr/autocompletion-des-adresses-avec-la-base-adresse-nationale/
 
 
 
