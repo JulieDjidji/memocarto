@@ -12,6 +12,7 @@ A l'aide de cartes en ligne
     - https://www.geoportail.gouv.fr/carte
     - https://www.google.fr/maps
     - https://www.bing.com/maps
+    - https://wego.here.com/
 
 - par lot
     - https://mesadresses.ign.fr/
