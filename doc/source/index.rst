@@ -42,7 +42,7 @@ La carte de Dupin doit son succès à l'usage de la lithographie, qui permet de 
 
   
   Tour d'horizon des acteurs <acteurs>
-  Les accès aux données géo : quels APIs de géocodage ? <api>
+  Les accès aux données géo : quels outils de géocodage ? <geocodage>
   QGis <qgis>
   Postgis <postgis>
   Geoserver <geoserver>
