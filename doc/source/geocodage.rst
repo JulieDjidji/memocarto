@@ -68,7 +68,7 @@ A l'aide d'une application
 
 Plus d'informations sur le geocodage
 ------
-- vous aurez sans doute lu dans les différentes documentations des références à différentes fonctionnalités liées au géocodage : le `geocodage inversé`_ et l'`autocomplétion`_
+- vous aurez sans doute lu dans les différentes documentations des références à différentes fonctionnalités liées au géocodage : le `geocodage inversé`_ et l'`autocomplétion`_ (avec un très bon exemple)
 - vous pourrez trouver d'avantage d'informations sur le site https://makina-corpus.com/blog/metier/2019/les-logiciels-et-api-pour-geocoder
 
 
@@ -76,7 +76,7 @@ Plus d'informations sur le geocodage
 
 .. _geocodage inversé: https://fr.wikipedia.org/wiki/G%C3%A9ocodage_invers%C3%A9
 
-:: _autocomplétion: https://adrien.poupa.fr/autocompletion-des-adresses-avec-la-base-adresse-nationale/
+.. _autocomplétion: https://adrien.poupa.fr/autocompletion-des-adresses-avec-la-base-adresse-nationale/
 
 
 
