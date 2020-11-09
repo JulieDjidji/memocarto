@@ -26,10 +26,11 @@ Des acteurs publics ou semi-publics internationaux :
 Des acteurs privés :
 
 - Open Street Map
-- `Google Map`_
+- Google avec `Google Map`_, mais aussi ses `API`_ 
 - `HERE`_ 
 - TomTom
 
 
 .. _HERE: https://wego.here.com/
 .. _Google Map: https://www.google.com/maps/
+.. _API: https://cloud.google.com/apis/docs/overview?hl=fr
