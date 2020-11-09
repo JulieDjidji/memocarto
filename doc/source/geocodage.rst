@@ -1,4 +1,4 @@
-Les accès aux données géo : quels APIs de géocodage ?
+Les accès aux données géo : quels outils de géocodage ?
 =================================================================================================
 
 Pour rappel, le géocodage consiste à attribuer des coordonnées x,y à une adresse.
