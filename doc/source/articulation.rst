@@ -1,3 +1,6 @@
+Comment s'articulent ces outils et acteurs autour de la géographie?
+===================================================================
+
 Parcequ'un schéma vaut mieux qu'un long discours 
 ------
 
