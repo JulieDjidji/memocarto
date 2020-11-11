@@ -20,7 +20,7 @@ Quelques exemples d'opération courantes
 
 - créer une enveloppe autour d'une géométrie (un rectangle au plus près de la géométrie)
 
-  SELECT ST_ENVELOPPE(geom) FROM [tablename] WHERE ... ;;
+  SELECT ST_ENVELOPPE(geom) FROM [tablename] WHERE ... ;
 
 - créer un polygone (ici en coordonnées GPS) à partir de coordonnées
 
