@@ -7,7 +7,7 @@ Leaflet est une bibilothèque javascript qui permet d'afficher des cartes dans u
 
 Leaflet permet ainsi de se connecter à des flux issus de Geoserver (ou d'autres serveurs cartogtraphiques) ou à des flux provenant direcetement de sources tierces (OpenStreetMap, Google, IGN...). Ces informations sont alors affichées dans le navigateur de l'utilisateur.
 
-Vous pourrez voir une utilisation de leaflet dans la rubrique "Comment tout cela s'articule-t-il?" <articulation>
+Vous pourrez voir une utilisation de leaflet dans la rubrique :doc:`implementation`.
 
 Plusieurs liens pour aider à afficher ses premières cartes
 ------  
