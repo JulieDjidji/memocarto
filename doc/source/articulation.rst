@@ -9,7 +9,7 @@ Parcequ'un schéma vaut mieux qu'un long discours
 
 
 
-Quelques commentaires pour les allergiques au schémas d'architecture :
+Un petit discours quand même
 ------
 - Les **bases de données** ou **entrepôts de fichier** peuvent être lus par un serveur cartographique ou par une application de bureau ou un logiciel SIG.
 
