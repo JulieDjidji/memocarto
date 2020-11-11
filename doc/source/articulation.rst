@@ -2,10 +2,11 @@ Comment s'articulent ces outils et acteurs autour de la géographie?
 ===================================================================
 
 
-- Parcequ'un schéma vaut mieux qu'un long discours 
+Parcequ'un schéma vaut mieux qu'un long discours 
 ------
 
 .. image:: _static/architecture.png
+
 
 
 Quelques commentaires pour les allergiques au schémas d'architecture :
@@ -16,4 +17,4 @@ Quelques commentaires pour les allergiques au schémas d'architecture :
 
 - Le **navigateur** (utilisant Leaflet ou OpenLayers) peut récupérer les données depuis le serveur cartographique ou depuis des serveurs tiers (API de Geocodage, fonds de carte libres [OSM], API cartographiques[IGN, Google])
 
-- l'**application de bureau** (QGis, Geoconcept, Mon géocodeur...) peut récupérer les mêmes données que le navigateur, mais elle peut aussi se connecter directement à une base de données ou un entrepôt de fichier.
+- l'**application de bureau** (QGis, Geoconcept, Mon géocodeur...) peut accéder aux mêmes données que le navigateur, mais elle peut aussi se connecter directement à une base de données ou un entrepôt de fichier.
