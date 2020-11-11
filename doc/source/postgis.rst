@@ -10,7 +10,7 @@ L'accès aux données peut se faire à l'aide d'un client SQL (PGAdmin, DBeaver.
 
 Quelques exemples d'opération courantes
 ------
-- conaitre le système de projection de chaque enregistrement de la colonne geom (le nom par défaut de la colonne contenant la géométrie)
+- connaître le système de projection de chaque enregistrement de la colonne geom (le nom par défaut de la colonne contenant la géométrie)
 
   SELECT ST_SRID(geom) from [tablename];
 
@@ -40,7 +40,7 @@ Quelques exemples d'opération courantes
   
   SELECT ST_TRANSFORM(geom, 2154) FROM [tablename]  WHERE ... ;
 
-- conaître la superficie d'une géométrie (polygone par exemple)
+- connaître la superficie d'une géométrie (polygone par exemple)
 
   SELECT ST_Area(geom) FROM [tablename] WHERE ... ;
   
@@ -50,13 +50,13 @@ Quelques exemples d'opération courantes
 
   SELECT ST_Perimeter(geom) FROM [tablename] WHERE ... ;
 
-- savoir si 2 géométries ont une intersection ::
+- savoir si 2 géométries ont une intersection 
 
   SELECT ST_Intersects(a.geom,b.geom)
   FROM [tablename1] a, [tablename2] b
   WHERE ... ;
 
-- savoir si 2 géométries se touchent ::
+- savoir si 2 géométries se touchent
 
   SELECT ST_Touches(a.geom,b.geom)
   FROM [tablename1] a, [tablename2] b
