@@ -17,4 +17,4 @@ Un petit discours quand même
 
 - Le **navigateur** (utilisant Leaflet ou OpenLayers) peut récupérer les données depuis le serveur cartographique ou depuis des serveurs tiers (API de Geocodage, fonds de carte libres [OSM], API cartographiques[IGN, Google])
 
-- l'**application de bureau** (QGis, Geoconcept, Mon géocodeur...) peut accéder aux mêmes données que le navigateur, mais elle peut aussi se connecter directement à une base de données ou un entrepôt de fichier.
+- L'**application de bureau** (QGis, Geoconcept, Mon géocodeur...) peut accéder aux mêmes données que le navigateur, mais elle peut aussi se connecter directement à une base de données ou un entrepôt de fichier.
