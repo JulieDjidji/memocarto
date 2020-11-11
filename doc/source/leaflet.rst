@@ -9,7 +9,7 @@ Leaflet permet ainsi de se connecter à des flux issus de Geoserver (ou d'autres
 
 Vous pourrez voir une utilisation de leaflet dans la rubrique "Comment tout cela s'articule-t-il?" <articulation>
 
-Plusieurs liens pour aider à faire afficher ses premières cartes
+Plusieurs liens pour aider à afficher ses premières cartes
 ------  
 - le lien vers le guide de démarrage de leaflet 
    https://live.osgeo.org/fr/quickstart/leaflet_quickstart.html
