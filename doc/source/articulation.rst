@@ -1,30 +1,19 @@
 Comment s'articulent ces outils et acteurs autour de la géographie?
 ===================================================================
 
-Parcequ'un schéma vaut mieux qu'un long discours 
+
+- Parcequ'un schéma vaut mieux qu'un long discours 
 ------
 
 .. image:: _static/architecture.png
 
 
-Un implémentation partielle de ce schéma 
+Quelques commentaires pour les allergiques au schémas d'architecture :
 ------
-exemple de mini-application web :
-`application sous codepen`_
+- Les **bases de données** ou **entrepôts de fichier** peuvent être lus par un serveur cartographique ou par une application de bureau ou un logiciel SIG.
 
-Cette application :
-  - affiche des informations cartographiques dans un navigateur
-  - utilise leaflet
-  - fait appel à un geocodeur (celui de l'IGN basé sur la BAN) 
-  - se connecte à OpenStreetMap
-  - fait appel à un Geoserver (qui lui-même fait appel à une base de données ou à un entrepôt de fichier) pour afficher :
-  
-    - une couche image (appel en WMS)
-    - une couche vectorielle (appel en WFS)
+- Le **serveur cartographique** (geoserver) accède à des bases de données ou des entrepôts de fichier. Il peut alors fournir des données à un navigateur ou à une application de bureau.
 
+- Le **navigateur** (utilisant Leaflet ou OpenLayers) peut récupérer les données depuis le serveur cartographique ou depuis des serveurs tiers (API de Geocodage, fonds de carte libres [OSM], API cartographiques[IGN, Google])
 
-Vous avez accès aux 3 composantes du code (html, css, et javascript) que vous pouvez manipuler à loisir. Vous pouvez également dupliquer le code sur un projet à vous ou, par exemple, sous codepen.io ou jsfiddle.net en vous créant un compte. Vous pourrez ainsi enregistrer vos modifications.
-
-
-
-.. _application sous codepen: https://codepen.io/fabcg/pen/wvWGQdW
+- l'**application de bureau** (QGis, Geoconcept, Mon géocodeur...) peut récupérer les mêmes données que le navigateur, mais elle peut aussi se connecter directement à une base de données ou un entrepôt de fichier.
