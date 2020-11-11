@@ -22,15 +22,15 @@ Quelques exemples d'opération courantes
 
   SELECT ST_ENVELOPPE(geom) FROM [tablename] WHERE ... ;;
 
-- créer un polygone à partir de coordonnées
+- créer un polygone (ici en coordonnées GPS) à partir de coordonnées
 
-  SELECT ST_Polygon('LINESTRING(75 29, 77 29, 77 29, 75 29)'::geometry, 4326);
+  SELECT ST_Polygon('LINESTRING(x1 y1, x2 y2, x3 y3, x1 y1)'::geometry, 4326);
 
 - afficher le contenu d'une géométrie au format texte
 
   SELECT ST_AsText(geom) FROM [tablename] WHERE ... ;
 
-- afficher les données de la table dont les géométries ne sont pas valides avec la raison pour laquelle elles ne le sont pas
+- afficher les données de la table dont les géométries ne sont pas valides avec la raison pour laquelle elles ne le sont pas ::
 
   SELECT *, ST_IsValidReason(geom)
   FROM [tablename]
@@ -50,13 +50,13 @@ Quelques exemples d'opération courantes
 
   SELECT ST_Perimeter(geom) FROM [tablename] WHERE ... ;
 
-- savoir si 2 géométries ont une intersection
+- savoir si 2 géométries ont une intersection ::
 
   SELECT ST_Intersects(a.geom,b.geom)
   FROM [tablename1] a, [tablename2] b
   WHERE ... ;
 
-- savoir si 2 géométries se touchent
+- savoir si 2 géométries se touchent ::
 
   SELECT ST_Touches(a.geom,b.geom)
   FROM [tablename1] a, [tablename2] b
