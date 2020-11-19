@@ -17,3 +17,11 @@ help:
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+TARGETS:= $(patsubst %.rst,%.html,$(wildcard *.rst))
+
+clean:
+	rm -rf $(TARGETS)
+	
+%.html: %.rst
+	rst2html $< $@
