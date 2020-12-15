@@ -25,6 +25,23 @@ Ces deux points à l'interface de la géographie, de la sémiologie, de la stati
 
 .. toctree::
   :maxdepth: 1
+  :caption: Stockage
+  
+.. toctree::
+  :maxdepth: 1
+  :caption: Traitement
+
+.. toctree::
+  :maxdepth: 1
+  :caption: Diffusion
+
+ 
+
+
+
+
+.. toctree::
+  :maxdepth: 1
   :caption: Mémento
 
 
