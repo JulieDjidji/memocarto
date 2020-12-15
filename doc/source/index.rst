@@ -6,6 +6,10 @@
 Les territoires de la cartographie
 =================================
 
+Les progrès de l’informatique ont décuplé la capacité des acteurs publics et privés à diffuser des cartes statistiques. Il n’a jamais été aussi simple de produire et de communiquer une information statistique à l’aide d’une carte. Ce constat est néanmoins à tempérer, car la cartographie statistique reste toujours une pratique d’initiés. Pour le profane, la cartographie ressemble à une nébuleuse inextricable composée de concepts jargonant. Ce site vise à vous familiariser avec les notions de la cartographie et à vous présenter les principales solutions techniques utilisées actuellement. Il ne se veut pas une présentation exhaustive mais plutôt une entrée matière afin de démythifier la cartographie.
+
+
+
 
 Il est courant pour les statisticiens et les datascientists de vouloir représenter  sous forme de cartes les valeurs de leurs indicateurs. Pourtant, l'acte de cartographier des abstractions que sont des populations ou des taux de prévalence est tout sauf naturel et s'apparente même à une révolution silencieuse. Les cartes topographiques nécessitent un haut degré d'abstraction. Mais contrairement, aux cartes thématiques, elles représentent encore des objets physiques (fleuves, montagnes) qui ont une existence propre.
 
@@ -23,13 +27,41 @@ Avec sa *Carte figurative de l'instruction populaire de la France* en 1826, Char
 
 Ces deux points à l'interface de la géographie, de la sémiologie, de la statistique, voire de l'esthétique doivent toujours questionner les statisticiens qui s'aventurent à réaliser des cartes. Toute carte thématique est en effet un artefact géographique qui nécessite d'être bien réfléchie pour ne pas prêter le flanc à de mauvaises interprétations. C'est l'objectif de la première partie de ce site que de fournir rapidement des éléments de réponse sur ces points.
 
+
+
 .. toctree::
   :maxdepth: 1
-  :caption: Mémento
+  :caption: Stockage des données spatiales
+  
+  Les fichiers cartographiques  <fichiers_geo>
+  Les bases de données spatiales Postgis <postgis>
+  Tour d'horizon des acteurs <acteurs>
+
+ 
+  
+.. toctree::
+  :maxdepth: 1
+  :caption: Traitement
+   
+   Qgis, la boite à outils du cartographe <qgis>
+   Requêtes spatiales sous SQL <qgis>
+   Les accès aux données géo : quels outils de géocodage ? <geocodage>
 
 
-  Les fondements de la sémiologie cartographique <semio> 
+.. toctree::
+  :maxdepth: 1
+  :caption: Diffusion
+
+
+  La sémiologie : une grammaire spatiale  <semio> 
   Heurs et malheurs de la spatialisation des données statistiques <concepts>
+  
+  Les cartes statiques <qgis>
+  Geoserver <geoserver>
+  Leaflet <leaflet>
+  Comment tout cela s'articule-t-il? <articulation>
+  Un exemple d'implémentation <implementation>
+
 
 
 
@@ -41,8 +73,6 @@ La carte de Dupin doit son succès à l'usage de la lithographie, qui permet de 
   :caption:  Autour de la manipulation d'informations géographiques  
 
   
-  Tour d'horizon des acteurs <acteurs>
-  Les accès aux données géo : quels outils de géocodage ? <geocodage>
   QGis <qgis>
   Postgis <postgis>
   Geoserver <geoserver>
