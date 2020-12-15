@@ -25,38 +25,6 @@ Ces deux points à l'interface de la géographie, de la sémiologie, de la stati
 
 .. toctree::
   :maxdepth: 1
-  :caption: Stockage
-  
-  Les fichiers cartographiques  <fichiers_geo>
-  Les bases de données spatiales Postgis <postgis>
- 
-  
-.. toctree::
-  :maxdepth: 1
-  :caption: Traitement
-   
-   QGis <qgis>
-   SQL
-
-.. toctree::
-  :maxdepth: 1
-  :caption: Diffusion
-
-
-  La sémiologie : une grammaire spatiale  <semio> 
-  Heurs et malheurs de la spatialisation des données statistiques <concepts>
-  
-  Les cartes statiques 
-  Geoserver <geoserver>
-  Leaflet <leaflet>
-  Comment tout cela s'articule-t-il? <articulation>
-  Un exemple d'implémentation <implementation>
-
-
-
-
-.. toctree::
-  :maxdepth: 1
   :caption: Mémento
 
 
