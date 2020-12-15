@@ -34,8 +34,8 @@ Ces deux points à l'interface de la géographie, de la sémiologie, de la stati
 .. toctree::
   :maxdepth: 1
   :caption: Traitement
-
-QGis <qgis>
+   
+   QGis <qgis>
 
 
 .. toctree::
@@ -45,7 +45,7 @@ QGis <qgis>
 
   Les fondements de la sémiologie cartographique <semio> 
   Heurs et malheurs de la spatialisation des données statistiques <concepts>
-   Postgis <postgis>
+  Postgis <postgis>
   Geoserver <geoserver>
   Leaflet <leaflet>
   Comment tout cela s'articule-t-il? <articulation>
