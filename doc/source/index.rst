@@ -77,18 +77,6 @@ Ces deux points à l'interface de la géographie, de la sémiologie, de la stati
 La carte de Dupin doit son succès à l'usage de la lithographie, qui permet de publier des cartes à un coût moindre  par rapport à la gravure sur Bois (Palsky 1996). Dupin avait fait appel au service de Jobard, artiste-litographe fameux pour obtenir les résultats escomptés. A présent, la diffusion des cartes est massivement numérique. La programmation a ainsi remplacé la lithographie. La deuxième partie de ce site à vocation à vous présenter les éléments de programmation et d'architecture informatique nécessaires à la publication de cartes en ligne. 
 
 
-.. toctree::
-  :maxdepth: 1
-  :caption:  Autour de la manipulation d'informations géographiques  
-
-  
-  QGis <qgis>
-  
-  Geoserver <geoserver>
-  Leaflet <leaflet>
-  Comment tout cela s'articule-t-il? <articulation>
-  Un exemple d'implémentation <implementation>
-  
 
 
 
