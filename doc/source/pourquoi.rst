@@ -1,14 +1,32 @@
-La spatialisation des données statistiques
+Pourquoi faire des cartes
 ===========================================
 
-Le Modifiable Areal Unit Problem
+L'espace 
 ---------------------------------
+Réaliser et mettre en valeur une carte statistique ne sert pas (ou ne devrait plutôt jamais servir) à rajouter de la couleur dans une publication ou à dynamiser une page web. Une carte statistique n’est pas non plus une illustration d’un tableau. Une carte est une matérialisation du rôle de l’espace dans la genèse des comportements humains. L’espace intervient à la fois comme support matériel facilitant ou limitant les interactions entre les hommes mais aussi comme représentation des rapports sociaux. Par exemple, le couple centre-ville/périphérie est un découpage territorial mais aussi une grille de lecture avec ses préjugés et ses sous-entendus. De sorte qu’une carte statistique lorsqu’elle est bien réalisée est structurée et reflète des lois géographiques.
 
-Même si les données ont une précision métrique, la production d'un savoir géographique nécessite de les relier entre elles à l'aide de règles spatiales, autrement dit de spatialiser les données. La spatialisation consiste à associer à chaque objet une portion, une quantité d'espace bien défini. Cette mise en relation spatiale s'apparente à un *point de vue* que l'on se donne afin de rendre intelligible les distributions spatiales. Ce point de vue opère comme un filtre qui met en valeur certaines propriétés spatiales et en délaisse d'autres. Il en résulte que les analyses géographiques ont donc toujours une part d'arbitraire et sont fonction de la spatialisation choisie.
+- Friction de la distance : des éléments proches ont davantage de chance d’être en relation
+(concentrations et dispersions considérées en tant que processus) ou d'être similaires (concentrations
+et dispersions considérées en tant qu'états) que des éléments éloignés car la friction de la distance
+atténue l'influence mutuelle des phénomènes au fur et à mesure.
 
-.. La difficulté à définir de façon univoque la concentration d'un ensemble de points illustre les effets de la spatialisation sur les analyses. Intuivement, un ensemble de points est aggloméré lorsque les voisinages autour de ses points se chevauchent. Cette idée a été formalisée dans la fonction de Ripley à l'aide de disque centré sur les points. En fonction de la taille des disques, le même ensemble de points peut apparaître plus ou moins concentré.
+- Rôle de l'appartenance à un même milieu : des éléments d’un même milieu ont davantage
+de chances d'être en relation (ou de se ressembler) que des éléments de milieux différents. Un même
+milieu peut être autant une même maille administrative (commune, région...), une même nation, les
+mêmes conditions climatiques, une même langue, un même groupe social...
 
-Openshaw a théorisé sous le concept de *Modifiable Areal Unit Problem* la dépendance des analyses à la spatialisation. Le MAUP se décompose en deux effets interdépendants : l’effet de zone et l’effet d’échelle. L'effet de zone exprime la dépendance des résultats statistiques à la forme des mailles territoriales. Dans l'image ci-dessous, en fonction de l'endroit où passe la frontière les taux de malade sont particulièrement variables. Le redécoupage des zones électorales après une élection afin de maximiser la réélection des acteurs publics est un exemple courant d'effet de zone réalisé volontairement. En anglais, le Gerrymandering désigne cette pratique en référence à l'homme politique américain Elbridge Gerry qui l'a poussée à son paroxysme.
+- Influence de la taille des entités considérées : des entités de grande taille, ayant une large
+emprise spatiale ou contenant une quantité importante d'individus, d'activités, d'information..., ont
+davantage d'influence sur les éléments de leur environnement que des entités de petite taille.
+
+- Dépendance d'échelles : pour un type donné d'implantations humaines, l'existence d'un
+processus de concentration considérant un certain voisinage implique un processus de dispersion
+considérant un voisinage plus large (ou plus retreint).
+
+- Dépendance dans le temps : chaque phénomène influence sa propre variation dans le temps
+(cf. Figure 1). Cette loi introduit l'explication « historique » des concentrations et dispersions
+considérées en tant qu'états (Tobler 1979) ainsi que la dépendance à la trajectoire (path dependency)
+dans la simulation des processus de concentration et de dispersion.
 
 .. figure:: _static/Maup_rate_numbers.png
    :width: 300
