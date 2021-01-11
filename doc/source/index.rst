@@ -53,6 +53,14 @@ Avec sa *Carte figurative de l'instruction populaire de la France* en 1826, Char
 Ces deux points à l'interface de la géographie, de la sémiologie, de la statistique, voire de l'esthétique doivent toujours questionner les statisticiens qui s'aventurent à réaliser des cartes. Toute carte thématique est en effet un artefact géographique qui nécessite d'être bien réfléchie pour ne pas prêter le flanc à de mauvaises interprétations. C'est l'objectif de la première partie de ce site que de fournir rapidement des éléments de réponse sur ces points.
 
 
+.. toctree::
+  :maxdepth: 1
+  :caption: Introduction
+  
+  Pourqoui faire des cartes <pourquoi>
+  Tour d'horizon des acteurs <acteurs>
+
+
 
 .. toctree::
   :maxdepth: 1
@@ -60,8 +68,7 @@ Ces deux points à l'interface de la géographie, de la sémiologie, de la stati
   
   Les fichiers cartographiques  <fichiers_geo>
   Les bases de données spatiales Postgis <postgis>
-  Tour d'horizon des acteurs <acteurs>
-
+  
  
   
 .. toctree::
@@ -99,7 +106,7 @@ La carte de Dupin doit son succès à l'usage de la lithographie, qui permet de 
 
   
   QGis <qgis>
-  Postgis <postgis>
+  
   Geoserver <geoserver>
   Leaflet <leaflet>
   Comment tout cela s'articule-t-il? <articulation>
