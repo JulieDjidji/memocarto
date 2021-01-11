@@ -18,7 +18,8 @@ Comme tout site digne de ce nom, nous proposons une partie tutorielle pour vous 
 Réaliser et mettre en valeur une carte statistique ne sert pas (ou ne devrait plutôt jamais servir) à rajouter de la couleur dans une publication ou à dynamiser une page web. Une carte statistique n’est pas non plus une illustration d’un tableau. Une carte est une matérialisation du rôle de l’espace dans la genèse des comportements humains. L’espace intervient à la fois comme support matériel facilitant ou limitant les interactions entre les hommes mais aussi comme représentation des rapports sociaux. Par exemple, le couple centre-ville/périphérie est un découpage territorial mais aussi une grille de lecture avec ses préjugés et ses sous-entendus. De sorte qu’une carte statistique lorsqu’elle est bien réalisée est structurée et reflète des lois géographiques.
 
 
-Les lois 
+Les lois géographiques
+------------------------
 
 
 - Friction de la distance : des éléments proches ont davantage de chance d’être en relation
