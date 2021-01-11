@@ -1,7 +1,7 @@
 Pourquoi faire des cartes
 ===========================================
 
-L'espace 
+L'espace support de la vie sociale
 ---------------------------------
 
 .. figure:: _static/Carte_figurative_de_l'instruction_populaire_de_la_France.jpg
