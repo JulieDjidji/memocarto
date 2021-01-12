@@ -9,7 +9,7 @@ L'espace support de la vie sociale
    
    Carte figurative de l'instruction populaire de la France, 1826, Dupin : taux d'élèves masculins scolarisés par département (Plus le dégradé est foncé et plus faible est la part d'enfants scolarisés)
    
-Avec sa *Carte figurative de l'instruction populaire de la France* en 1826, Charles Dupin a ouvert la voie aux méthodes de représentation spatiales des informations statistiques. Le principal apport de sa carte est de restituer la dimension spatiale d'un phénomène spatial.
+Avec sa *Carte figurative de l'instruction populaire de la France* en 1826, Charles Dupin a ouvert la voie aux méthodes de représentation spatiales des informations statistiques. Le principal apport de sa carte est de restituer la dimension spatiale d'un phénomène social. L'instruction populaire dépasse les limites départementales et sépare la France en deux : dans le nord-est la France "éclairée" s'oppose à la France "obscure" du sud-est. Ce message qui a nourri les représentations du 19e siècle     
 
 L'apport majeur de celui-ci est d'avoir inventé un langage graphique pour restituer la variation d'un phénomène quantifiable (dans cet exemple, un dégradé sert à quantifier la part des enfants scolarisés). Ce langage joue implicitement plusieurs rôles :
 
