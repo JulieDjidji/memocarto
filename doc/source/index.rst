@@ -6,14 +6,7 @@
 Les territoires de la cartographie
 =================================
 
-Les progrès de l’informatique ont décuplé la capacité des acteurs publics et privés à diffuser des cartes statistiques. Il n’a jamais été aussi simple de produire et de communiquer une information statistique à l’aide d’une carte. Ce constat est néanmoins à tempérer, car la cartographie statistique reste toujours une pratique d’initiés. Pour le profane, la cartographie ressemble à une nébuleuse inextricable composée de concepts jargonant. Ce site vise à vous familiariser avec les notions de la cartographie et à vous présenter les principales solutions techniques utilisées actuellement. Il ne se veut pas une présentation exhaustive mais plutôt une entrée matière afin de démythifier la cartographie.
-
-
-
-
-
-
-
+Les progrès de l’informatique ont décuplé la capacité des acteurs publics et privés à diffuser des cartes statistiques. Il n’a jamais été aussi simple de produire et de communiquer une information statistique à l’aide d’une carte. Ce constat est néanmoins à tempérer, car la cartographie statistique reste toujours une pratique d’initiés. Pour le profane, la cartographie ressemble à une nébuleuse inextricable composée de concepts jargonant. Ce site vise à vous familiariser avec les notions de la cartographie et à vous présenter les principales solutions techniques utilisées actuellement. Il ne se veut pas une présentation exhaustive (nous ne traitons pas en particulier les images : photographies aériennes) mais plutôt une entrée en matière afin de démythifier la cartographie.
 
 .. toctree::
   :maxdepth: 1
@@ -22,12 +15,14 @@ Les progrès de l’informatique ont décuplé la capacité des acteurs publics 
   Pourquoi faire des cartes ? <pourquoi>
   Tour d'horizon des acteurs <acteurs>
 
+Nous commencons 
 
 
 .. toctree::
   :maxdepth: 1
   :caption: Stockage des données spatiales
   
+  Les projections ! <projections>
   Les fichiers cartographiques  <fichiers_geo>
   Les bases de données spatiales Postgis <postgis>
   
@@ -35,11 +30,15 @@ Dans cette partie, nous nous intéréssons aux différentes possibilités exista
  
 .. toctree::
   :maxdepth: 1
-  :caption: Traitement
+  :caption: Maipulation des données spatiales
    
    Qgis, la boite à outils du cartographe <qgis>
    Requêtes spatiales sous SQL <qgis>
-   Les accès aux données géo : quels outils de géocodage ? <geocodage>
+   La localisation des données géos : quels outils de géocodage ? <geocodage>
+
+Deux grands types de traitements existent. Le premier type a vocation à produire à partir d'une ou de plusieurs informations géographiques une nouvelle information. Par exemple, pour construire des tâches urbaines, on calcule autour des bâtiments une zone "tampon". Cette nouvelle couche peut être utilisée ensuite dans d'autres traitements. Les opérations les plus courantes sont : l'intersection et l'union géographiques, l'aggrégation spatiale (on rassemble les communes d'un même département pour créer un fond départemental), les buffers (zones tampons), mais aussi calcul de surfaces, de distances et de longueurs. Le deuxième type cherche à joindre les objets selon leurs relations spatiales. Par exemple, si je souhaite connaitre les lieux qui tombent dans un territoire je vais réaliser un merge spatial qui consiste à trouver le territoire d'appartenance d'une liste de points. 
+
+Tous les outils de traitement géographique, y compris le SQL, ont les mêmes fonctions qui portent des noms quasi-identiques. De sorte qu'il est très facile de passer d'un outil à l'autre.  
 
 
 .. toctree::
