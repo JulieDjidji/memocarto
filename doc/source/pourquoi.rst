@@ -7,9 +7,11 @@ L'espace support de la vie sociale
 .. figure:: _static/Carte_figurative_de_l'instruction_populaire_de_la_France.jpg
    :width: 600
    
-   Carte figurative de l'instruction populaire de la France, 1826, Dupin (Plus le dégradé est foncé et plus faible est la part d'enfants scolarisés). Malte-Brun désignait cette carte sous le nom de *carte de la France obscure et de la France éclairée*. On constate à travers cet exemple, à quel point, les choix sémiologiques sont susceptibles de véhiculer des jugements normatifs. 
+   Carte figurative de l'instruction populaire de la France, 1826, Dupin : taux d'élèves masculins scolarisés par département (Plus le dégradé est foncé et plus faible est la part d'enfants scolarisés)
+   
+Avec sa *Carte figurative de l'instruction populaire de la France* en 1826, Charles Dupin a ouvert la voie aux méthodes de représentation spatiales des informations statistiques. Le principal apport de sa carte est de restituer la dimension spatiale d'un phénomène spatial.
 
-Avec sa *Carte figurative de l'instruction populaire de la France* en 1826, Charles Dupin, baron de son état, a ouvert la voie aux méthodes standard de représentation  des données statistiques que l'on utilise encore aujourd'hui. L'apport majeur de celui-ci est d'avoir inventé un langage graphique pour restituer la variation d'un phénomène quantifiable (dans cet exemple, un dégradé sert à quantifier la part des enfants scolarisés). Ce langage joue implicitement plusieurs rôles :
+L'apport majeur de celui-ci est d'avoir inventé un langage graphique pour restituer la variation d'un phénomène quantifiable (dans cet exemple, un dégradé sert à quantifier la part des enfants scolarisés). Ce langage joue implicitement plusieurs rôles :
 
 
 
