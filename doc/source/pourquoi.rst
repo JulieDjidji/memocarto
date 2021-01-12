@@ -1,15 +1,20 @@
 Pourquoi faire des cartes
 ===========================================
 
-L'espace support de la vie sociale
----------------------------------
 
 .. figure:: _static/Carte_figurative_de_l'instruction_populaire_de_la_France.jpg
    :width: 600
    
    Carte figurative de l'instruction populaire de la France, 1826, Dupin : taux d'élèves masculins scolarisés par département (Plus le dégradé est foncé et plus faible est la part d'enfants scolarisés)
    
-Avec sa *Carte figurative de l'instruction populaire de la France* en 1826, Charles Dupin a ouvert la voie aux méthodes de représentation spatiales des informations statistiques. Le principal apport de sa carte est de restituer la dimension spatiale d'un phénomène social. L'instruction populaire dépasse les limites départementales et sépare la France en deux : dans le nord-est la France "éclairée" s'oppose à la France "obscure" du sud-est. Ce message qui a nourri les représentations du 19e siècle     
+En théorie, toute quantité numérique peut être représentées sous forme d'une carte.      
+La carte thématique illustre la dimension spatiale d'un phénomène socio-économique. 
+
+Appropriation et vision du monde. 
+La *Carte figurative de l'instruction populaire de la France* réalisée il y a 200 ans nous apparait familière. La représentation sous la forme d'un dégradé de couleurs d'une variable quantitative, la part d'éléves scolarisés, inventée par Dupin est une des méthodes cartographiques les plus utilisées actuellement. A        
+   
+Avec sa  en 1826, Charles Dupin a ouvert la voie aux méthodes de représentations spatiales des informations statistiques. L'instruction populaire dépasse les limites départementales et sépare la France en deux : dans le nord-est la France "éclairée" s'oppose à la France "obscure" du sud-est. La carte sp
+Ce message qui a nourri les représentations du 19e siècle. Autrement dit avec sa carte éclaire éclaire la dimension spatiale d'un phénomène social.     
 
 L'apport majeur de celui-ci est d'avoir inventé un langage graphique pour restituer la variation d'un phénomène quantifiable (dans cet exemple, un dégradé sert à quantifier la part des enfants scolarisés). Ce langage joue implicitement plusieurs rôles :
 
