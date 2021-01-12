@@ -1,42 +1,16 @@
 Pourquoi faire des cartes
-===========================================
+===============================
 
 
 .. figure:: _static/Carte_figurative_de_l'instruction_populaire_de_la_France.jpg
    :width: 600
    
-   Carte figurative de l'instruction populaire de la France, 1826, Dupin : taux d'élèves masculins scolarisés par département (Plus le dégradé est foncé et plus faible est la part d'enfants scolarisés)
+   Carte figurative de l'instruction populaire de la France, 1826, Dupin : taux d'élèves masculins scolarisés par département (plus le dégradé est foncé et plus faible est la part d'enfants scolarisés)
    
-En théorie, toute quantité numérique peut être représentées sous forme d'une carte.      
-La carte thématique illustre la dimension spatiale d'un phénomène socio-économique. 
+La carte figurative de l'instruction populaire sépare la France en deux : dans le nord-est la France "éclairée" s'oppose à la France "obscure" du sud-est selon les commentaires de Dupin lors de la présentation de sa carte au Conservatoire des Arts et Métiers. Le message est clair et a nourri tout le long du 19e les représentations politiques et sociales, ce qui fait de la carte un outil au statut particulier dont la lecture a un impact supérieur à celle d'un simple tableau.      
 
-Appropriation et vision du monde. 
-La *Carte figurative de l'instruction populaire de la France* réalisée il y a 200 ans nous apparait familière. La représentation sous la forme d'un dégradé de couleurs d'une variable quantitative, la part d'éléves scolarisés, inventée par Dupin est une des méthodes cartographiques les plus utilisées actuellement. A        
-   
-Avec sa  en 1826, Charles Dupin a ouvert la voie aux méthodes de représentations spatiales des informations statistiques. L'instruction populaire dépasse les limites départementales et sépare la France en deux : dans le nord-est la France "éclairée" s'oppose à la France "obscure" du sud-est. La carte sp
-Ce message qui a nourri les représentations du 19e siècle. Autrement dit avec sa carte éclaire éclaire la dimension spatiale d'un phénomène social.     
+En théorie, toute quantité numérique peut être représentées sous forme d'une carte. En pratique, une carte n'a d'intérêt que si elle illustre la dimension spatiale d'un phénomène socio-économique et qu'elle aide à sa compréhension. Autrement dit, une carte pour être porteuse d'un message pertinant doit être structurée (par exemple opposition nord-sud comme sur la carte de Dupin). La structuration de l'espace résulte des comportements sociaux de l'être humain et peut être formalisée sous la forme de **lois** géographiques. Ces lois n'ont pas un caractéres infaillible et servent principalement à soutenir nos réflexions sur le rôle de l'espace dans la production des comportements sociaux. Cécile Tannier propose ainsi sa version des lois géographiques que nous reproduisons ci-dessous :
 
-L'apport majeur de celui-ci est d'avoir inventé un langage graphique pour restituer la variation d'un phénomène quantifiable (dans cet exemple, un dégradé sert à quantifier la part des enfants scolarisés). Ce langage joue implicitement plusieurs rôles :
-
-
-
-La carte de Dupin doit son succès à l'usage de la lithographie, qui permet de publier des cartes à un coût moindre  par rapport à la gravure sur Bois (Palsky 1996). Dupin avait fait appel au service de Jobard, artiste-litographe fameux pour obtenir les résultats escomptés. A présent, la diffusion des cartes est massivement numérique. La programmation a ainsi remplacé la lithographie. La deuxième partie de ce site à vocation à vous présenter les éléments de programmation et d'architecture informatique nécessaires à la publication de cartes en ligne. 
-
-
-
-
-
-Comme tout site digne de ce nom, nous proposons une partie tutorielle pour vous accompagner dans la manipulation des données cartographiques.
-
-
-
-Réaliser et mettre en valeur une carte statistique ne sert pas (ou ne devrait plutôt jamais servir) à rajouter de la couleur dans une publication ou à dynamiser une page web. Une carte statistique n’est pas non plus une illustration d’un tableau. Une carte est une matérialisation du rôle de l’espace dans la genèse des comportements humains. L’espace intervient à la fois comme support matériel facilitant ou limitant les interactions entre les hommes mais aussi comme représentation des rapports sociaux. Par exemple, le couple centre-ville/périphérie est un découpage territorial mais aussi une grille de lecture avec ses préjugés et ses sous-entendus. De sorte qu’une carte statistique lorsqu’elle est bien réalisée est structurée et reflète des lois géographiques.
-
-
-Les lois géographiques
-------------------------
-
-Cécile Tannier
 
 - Friction de la distance : des éléments proches ont davantage de chance d’être en relation (concentrations et dispersions considérées en tant que processus) ou d'être similaires (concentrations et dispersions considérées en tant qu'états) que des éléments éloignés car la friction de la distance atténue l'influence mutuelle des phénomènes au fur et à mesure.
 
@@ -46,6 +20,6 @@ Cécile Tannier
 
 - Dépendance d'échelles : pour un type donné d'implantations humaines, l'existence d'un processus de concentration considérant un certain voisinage implique un processus de dispersion considérant un voisinage plus large (ou plus retreint).
 
-- Dépendance dans le temps : chaque phénomène influence sa propre variation dans le temps (cf. Figure 1). Cette loi introduit l'explication « historique » des concentrations et dispersions considérées en tant qu'états (Tobler 1979) ainsi que la dépendance à la trajectoire (path dependency) dans la simulation des processus de concentration et de dispersion.
+- Dépendance dans le temps : chaque phénomène influence sa propre variation dans le temps. Cette loi introduit l'explication « historique » des concentrations et dispersions considérées en tant qu'états (Tobler 1979) ainsi que la dépendance à la trajectoire (path dependency) dans la simulation des processus de concentration et de dispersion.
 
 
