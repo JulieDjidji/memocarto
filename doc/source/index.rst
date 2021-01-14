@@ -48,21 +48,14 @@ Tous les outils de traitement géographique, y compris le SQL, ont des fonctions
 
   La sémiologie : une grammaire spatiale  <semio> 
   Heurs et malheurs de la spatialisation des données statistiques <concepts>
-
-Les cartes de diffusion repose sur une grammaire : la sémiologie. La sémiologie est un ensemble de régles qui favorise l'appropriation par les lecteurs du message contenu dans les cartes.
-
   Les cartes statiques <qgis>
   Geoserver <geoserver>
   Leaflet <leaflet>
   Comment tout cela s'articule-t-il? <articulation>
   Un exemple d'implémentation <implementation>
-
-
-
-
-
-
-
+  
+Les cartes de diffusion repose sur une grammaire : la sémiologie. La sémiologie est un ensemble de régles qui favorise l'appropriation par les lecteurs du message contenu dans les cartes. Ces régles sont basées sur un consensus et ont pour fondement notre capacité à se représenter l'espace. Une analyse de ces régles et de leurs conséquences est données dans les deux premiers items de cette parte. Les items suivants explicitent les cartes statiques et les cartes dynamiques. Une carte dynamique repose sur un ou plusieurs serveurs qui délivrent l'information en fonction de la zone observée par les utilisateurs. Geoserver peut être adossé à Postgis pour diffuser des couches géographiques sous forme de flux. La solution Postgis-Geoserver est très utile et performante mais nécessite de disposer d'un server. Il est également possible d'utiliser un service dédié tel que Mapbox pour diffuser des données géographiques. Dans ce cas, on confie à un tiers les données qui se charge de mettre à disposition des flux.  
+ 
   
 
 
