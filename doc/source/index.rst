@@ -38,7 +38,7 @@ Dans cette partie, nous nous intéréssons aux différentes possibilités exista
 
 Deux grands types de traitements existent. Le premier type a vocation à produire à partir d'une ou de plusieurs informations géographiques une nouvelle information. Par exemple, pour construire des tâches urbaines, on calcule autour des bâtiments une zone "tampon". Cette nouvelle couche peut être utilisée ensuite dans d'autres traitements. Les opérations les plus courantes sont : l'intersection et l'union géographiques, l'aggrégation spatiale (on rassemble les communes d'un même département pour créer un fond départemental), les buffers (zones tampons), mais aussi calcul de surfaces, de distances et de longueurs. Le deuxième type cherche à joindre les objets selon leurs relations spatiales. Par exemple, si je souhaite connaitre les lieux qui tombent dans un territoire je vais réaliser un merge spatial qui consiste à trouver le territoire d'appartenance d'une liste de points. 
 
-Tous les outils de traitement géographique, y compris le SQL, ont les mêmes fonctions qui portent des noms quasi-identiques. De sorte qu'il est très facile de passer d'un outil à l'autre.  
+Tous les outils de traitement géographique, y compris le SQL, ont des fonctions similaires avec  des noms quasi-identiques. De sorte qu'il est très facile de passer d'un outil à l'autre.  
 
 
 .. toctree::
@@ -48,7 +48,9 @@ Tous les outils de traitement géographique, y compris le SQL, ont les mêmes fo
 
   La sémiologie : une grammaire spatiale  <semio> 
   Heurs et malheurs de la spatialisation des données statistiques <concepts>
-  
+
+Les cartes de diffusion repose sur une grammaire : la sémiologie. La sémiologie est un ensemble de régles qui favorise l'appropriation par les lecteurs du message contenu dans les cartes.
+
   Les cartes statiques <qgis>
   Geoserver <geoserver>
   Leaflet <leaflet>
