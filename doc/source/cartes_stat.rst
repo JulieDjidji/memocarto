@@ -1,4 +1,4 @@
 Cartes statiques
 ====================
 
-Une carte 
+Une carte est un ensemble d'élément
