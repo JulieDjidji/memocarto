@@ -33,7 +33,7 @@ Dans cette partie, nous nous intéréssons aux différentes possibilités exista
   :caption: Maipulation des données spatiales
    
    Qgis, la boite à outils du cartographe <qgis>
-   Requêtes spatiales sous SQL <cartes_stat>
+   Requêtes spatiales sous SQL <postgis>
    La localisation des données géos : quels outils de géocodage ? <geocodage>
 
 Deux grands types de traitements existent. Le premier type a vocation à produire à partir d'une ou de plusieurs informations géographiques une nouvelle information. Par exemple, pour construire des tâches urbaines, on calcule autour des bâtiments une zone "tampon". Cette nouvelle couche peut être utilisée ensuite dans d'autres traitements. Les opérations les plus courantes sont : l'intersection et l'union géographiques, l'aggrégation spatiale (on rassemble les communes d'un même département pour créer un fond départemental), les buffers (zones tampons), mais aussi calcul de surfaces, de distances et de longueurs. Le deuxième type cherche à joindre les objets selon leurs relations spatiales. Par exemple, si je souhaite connaitre les lieux qui tombent dans un territoire je vais réaliser un merge spatial qui consiste à trouver le territoire d'appartenance d'une liste de points. 
@@ -48,7 +48,7 @@ Tous les outils de traitement géographique, y compris le SQL, ont des fonctions
 
   La sémiologie : une grammaire spatiale  <semio> 
   Heurs et malheurs de la spatialisation des données statistiques <concepts>
-  Les cartes statiques <qgis>
+  Les cartes statiques <carte_stat>
   Geoserver <geoserver>
   Leaflet <leaflet>
   Comment tout cela s'articule-t-il? <articulation>
