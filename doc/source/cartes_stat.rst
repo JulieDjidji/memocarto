@@ -1,4 +1,4 @@
-Cartes statiques
+Cartes statiques et discrétisation
 ====================
 
 .. figure:: _static/carte_finale.png
@@ -30,10 +30,17 @@ La discrétisation quantile  (figure 2) est ultra rapide même employée sur de 
 
 La discrétisation de Jenks (figure 3) est très lente (pour les gros fonds de carte) et consiste à chercher les bornes qui garantissent l'homogénéité au sein des classe et l'hétérogénité maximale entre les classes. Certains logiciels proposent de prendre un échantillon de la variable analysée pour gagner en temps de calcul. En théorie, c'est la discrétisation la plus à même de restituer la répartition d'une variable à cartographier. En pratique le résultat est parfois décevant. Dans notre cas, le département de Paris écrase totalement la discrétisation. 
 
-En soi, aucune discrétisation n'est meilleure qu'une autre. Toutes les cartes portent un message qui est dans une certaine mesure pertinent. D'un côté la carte en Jenks refléte la macrocéphalie urbaine de Paris et la carte en quantiles l'inégale peuplement des espaces ruraux. Néanmoins en disant cela, on ne vous aide pas, car on a rarement la possibilité de faire deux fois la même carte avec des discrétisations différentes. Pour la carte de la figure 1, nous avons adopté une autre stratégie en nous inspirant du fait que les distributions de population suivent généralement de _Zipf:http://geoconfluences.ens-lyon.fr/glossaire/zipf-loi-ou-regle-de , ce qui légitime le recours à une progression géométrique pour décrire une distribution de population. Une autre manière d'orienter le choix des classes et de questionner leur usage. En discrétisant, on introduit un changement de nature entre des situations décrites par des variables continues. De sorte que les bornes des classes peuvent être comprises comme des seuils d'action publique. Dans le cas de notre population, une variation de plus ou moins 5%, voire même de 20% des densités ne transforment pas totalement le mode de vie des habitants. Un territoire rural reste toujours rural et de même pour une ville. Si l'on suppose que la nature des modes de vie est une fonction logarithmique de la densité, le recours à des bornes géométrique se trouve conforté. Ces bornes ont tendances à séparer les départements très peu denses des départements très urbanisés et autorise des états intermédiaires. L'idée que les modes de vie dépendent de la densité de façon non linéaire est un sujet de recherche en _géographie: https://hqlo.biomedcentral.com/articles/10.1186/s12955-019-1172-3 . Sans que cela représente une preuve en soi, on peut appréhender notre appréciation des densités à l'aide des figures suivantes. Il est difficile de juger visuellement des différences de densités !
+En soi, aucune discrétisation n'est meilleure qu'une autre. Toutes les cartes portent un message qui est dans une certaine mesure pertinent. D'un côté la carte en Jenks refléte la macrocéphalie urbaine de Paris et la carte en quantiles l'inégale peuplement des espaces ruraux. Néanmoins en disant cela, on ne vous aide pas, car on a rarement la possibilité de faire deux fois la même carte avec des discrétisations différentes. Une solution pas totalement satisfaisante de choix des bornes de classes est de tester plusieurs discrétisations, de conserver celle que l'on considére comme la plus pertinente et de l'ajuster à la main. Le risque est de choisir la classe en fonction de critères esthétiques ou d'aprioris pas totalement assumés. 
+
+Pour la carte de la figure 1, nous avons adopté une autre stratégie en nous inspirant du fait que les distributions de population suivent généralement de _Zipf:http://geoconfluences.ens-lyon.fr/glossaire/zipf-loi-ou-regle-de , ce qui légitime le recours à une progression géométrique pour décrire une distribution de population. Une autre manière d'orienter le choix des classes et de questionner leur usage. En discrétisant, on introduit un changement de nature entre des situations décrites par des variables continues. De sorte que les bornes des classes peuvent être comprises comme des seuils d'action publique. Dans le cas de notre population, une variation de plus ou moins 5%, voire même de 20% des densités ne transforment pas totalement le mode de vie des habitants. Un territoire rural reste toujours rural et de même pour une ville. Si l'on suppose que la nature des modes de vie est une fonction logarithmique de la densité, le recours à des bornes géométrique se trouve conforté. Ces bornes ont tendances à séparer les départements très peu denses des départements très urbanisés et autorise des états intermédiaires. 
+
+L'idée que les modes de vie dépendent de la densité de façon non linéaire est un sujet de recherche en _géographie: https://hqlo.biomedcentral.com/articles/10.1186/s12955-019-1172-3 . Sans que cela représente une preuve en soi, on peut appréhender notre appréciation des densités à l'aide des figures suivantes. Il est difficile de juger visuellement des différences de densités !
 
 
-
+.. figure:: _static/exemple_density.png
+   :width: 600
+   
+   1-Représentation de différentes densités de points
 
 
 
