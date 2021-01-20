@@ -7,3 +7,5 @@ D'autres formats tendent progressivement à s'imposer. La communauté Qgis propo
 
 
 L'avantage du geojson est qu'il peut être lu par n'importe quelle outil. Les plus anciens se rapelleront le format MIF-MID de mapinfo qui était également un format texte et qui présentait comme le format geojson l'avantage de pouvoir être écris à la main. Dans tous les cas, les SIG modernes sont généralement capable de lire tous les formats disponibles et vous pouvez facilement ouvir un fichier et le sauvegarder dans un autre format facilement.
+
+Dans les logiciels statistiques R et Python (Geopandas), la géométrie est intégré à la dataframe sous la forme d'une colonne supplémentaire. De sorte que quelque soit le format, une fois dans votre logiciel de prédilection, tous les données spatiales sont traitées de la même manière.
