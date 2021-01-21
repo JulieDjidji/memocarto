@@ -38,6 +38,7 @@ Dans cette partie, nous nous intéréssons aux différentes possibilités exista
   :caption: Maipulation des données spatiales
    
    Qgis, la boite à outils du cartographe <qgis>
+   Opérations spatiales <operations>
    Requêtes spatiales sous SQL <postgis>
    La localisation des données géos : quels outils de géocodage ? <geocodage>
 
