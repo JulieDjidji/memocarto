@@ -21,7 +21,7 @@ Les progrès de l’informatique ont décuplé la capacité des acteurs publics 
   
   Pourquoi faire des cartes ? <pourquoi>
   Tour d'horizon des acteurs <acteurs>
-  Les objets géographiques <acteurs>
+  Les objets géographiques <objgeo>
 
 .. toctree::
   :maxdepth: 1
