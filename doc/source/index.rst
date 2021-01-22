@@ -10,7 +10,7 @@ Les territoires de la cartographie
 .. figure:: _static/COL-SAM-6478_cmyk.jpg
    :width: 300
    
-    Chéri Samba, La Vraie Carte du monde, 2011 (source : Fondation Cartier)
+   Chéri Samba, La Vraie Carte du monde, 2011 (source : Fondation Cartier)
 
 
 Les progrès de l’informatique ont décuplé la capacité des acteurs publics et privés à diffuser des cartes statistiques. Il n’a jamais été aussi simple de produire et de communiquer une information statistique à l’aide d’une carte. Ce constat est néanmoins à tempérer, car la cartographie statistique reste toujours une pratique d’initiés. Pour le profane, la cartographie ressemble à une nébuleuse inextricable composée de concepts jargonant. Ce site vise à vous familiariser avec les notions de la cartographie et à vous présenter les principales solutions techniques utilisées actuellement. Il ne se veut pas une présentation exhaustive (nous ne traitons pas en particulier les images : photographies aériennes) mais plutôt une entrée en matière afin de démythifier la cartographie.
