@@ -6,7 +6,7 @@ La liste des différents formats des fichiers géographiques est pléthorique. L
 D'autres formats tendent progressivement à s'imposer. La communauté Qgis propose le format Geopackage. Les données sont contenues dans un unique fichier d'extension *.qgz. Ce format risque de surclasser le format shapefile dans le futur. Le format geojson est très adapté aux données web mais il est particulièrement volumineux. En effet, ce format qui est une extension de json n'est pas compressé et correspond à un dictionnaire. Voici un exemple de fichier geojson :
 
 
-L'avantage du geojson est qu'il peut être lu par n'importe quel outil. Les plus anciens se rapelleront le format MIF-MID de mapinfo qui était également un format texte et qui présentait comme le format geojson l'avantage de pouvoir être écrit à la main. Dans tous les cas, les SIG modernes sont généralement capables de lire tous les formats disponibles et vous pouvez facilement ouvir un fichier et le sauvegarder dans un autre format facilement.
+L'avantage du geojson est qu'il peut être lu par n'importe quel outil. Les plus anciens se rappelleront le format MIF-MID de Mapinfo qui était également un format texte et qui présentait comme le format geojson l'avantage de pouvoir être écrit à la main. Dans tous les cas, les SIG modernes sont généralement capables de lire tous les formats disponibles et vous pouvez facilement ouvir un fichier et le sauvegarder dans un autre format facilement.
 
 Dans les logiciels statistiques R et Python (Geopandas), la géométrie est intégrée à la dataframe sous la forme d'une colonne supplémentaire. De sorte que quel que soit le format, une fois dans votre logiciel de prédilection, toutes les données spatiales sont traitées de la même manière.
 
