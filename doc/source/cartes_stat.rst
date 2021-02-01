@@ -13,7 +13,7 @@ Une carte thématique est un ensemble d'éléments assemblés les uns aux dessus
 Un peu de discrétisation
 -------------------------
 
-La discrétisation est une étape indispensable pour transformer une variable continue en une carte thématique de type aplat de couleur. Cette opération est tout sauf neutre et engage le cartographe. Sur les deux cartes suivantes sont représentées les deux méthode de discrétisation le splus utilisées :  quantiles et Jenks.
+La discrétisation est une étape indispensable pour transformer une variable continue en une carte thématique de type aplat de couleur. Cette opération est tout sauf neutre et engage le cartographe. Sur les deux cartes suivantes sont représentées les deux méthodes de discrétisation les plus utilisées : quantiles et Jenks. 
 
 
 .. figure:: _static/carte_finale_quantiles.png
