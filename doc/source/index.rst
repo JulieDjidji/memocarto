@@ -54,7 +54,7 @@ Tous les outils de traitement géographique, y compris le SQL, ont des fonctions
 
   La sémiologie : une grammaire spatiale  <semio> 
   Heurs et malheurs de la spatialisation des données statistiques <concepts>
-  Une première carte statique (et discrétisation des aplats de couleurs) <carte_stat>
+  Une première carte statique (et discrétisation des aplats de couleurs) <cartes_stat>
   Geoserver <geoserver>
   Leaflet <leaflet>
   Comment tout cela s'articule-t-il? <articulation>
