@@ -1,7 +1,7 @@
 """
 Exploitation des flux WFS et WMS
 ----------------------------------------------------------------
-Dans ce notebook, nous allons exploiter des flux WMS et WFS, comprendre leur contenu et afficher les cartes.
+Dans ce notebook, nous allons exploiter des flux WMS et WFS, comprendre leur contenu et afficher les cartes. Ces deux protocoles sont présentés dans la section Geoserver <geoserver.html>`__ .
 Nous utilisons les services mis à disposition par le partenariat breton des données géolocalisées sur le site https://cms.geobretagne.fr. Les services proposés sont listés à l'adresse https://cms.geobretagne.fr/services.
 """
 # sphinx_gallery_thumbnail_number = 1
@@ -18,7 +18,6 @@ from lxml import etree
 # Récupération du flux  WFS
 # ================================
 #
-# Présenter les flux WFS ...
 
 #######################################################################################
 # Exploration du contenu de la requête GetCapabilities
@@ -114,7 +113,6 @@ data.head(2)
 # Récupération et exploitation du flux  WMS
 # ================================
 #
-# Présenter les flux WMS ...
 
 #######################################################################################
 # Affichage de la carte diffusée relative à la couche de la localisation des cœurs d'habitat (ou réservoirs de biodiversité) du campagnol amphibie en Bretagne et Loire-Atlantique continentales.
