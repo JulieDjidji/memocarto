@@ -1,7 +1,7 @@
 """
 Exploitation des flux WFS et WMS
 ----------------------------------------------------------------
-Dans ce notebook, nous allons exploiter des flux WMS et WFS, comprendre leur contenu et afficher les cartes. Ces deux protocoles sont présentés dans la section :ref:`geoserver.html` `Geoserver <https://juliedjidji.github.io/memocarto/geoserver.html>`_.
+Dans ce notebook, nous allons exploiter des flux WMS et WFS, comprendre leur contenu et afficher les cartes. Ces deux protocoles sont présentés dans la section :ref:`geoserver` `Geoserver <https://juliedjidji.github.io/memocarto/geoserver.html>`_.
 Nous utilisons les services mis à disposition par le partenariat breton des données géolocalisées sur le site https://cms.geobretagne.fr. Les services proposés sont listés à l'adresse https://cms.geobretagne.fr/services.
 """
 # sphinx_gallery_thumbnail_number = 1
