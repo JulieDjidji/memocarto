@@ -1,0 +1,278 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Postgis &mdash; Documentation Mémocarto </title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery-rendered-html.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="Contributeurs" href="contributors.html" />
+    <link rel="prev" title="Exploitation des flux WFS et WMS" href="gallery/plot_WMS_WFS.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Mémocarto
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="pourquoi.html">Pourquoi faire des cartes ?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="acteurs.html">Tour d'horizon des acteurs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="objgeo.html">Les objets géographiques</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Stockage des données spatiales</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="projections.html">Les projections !</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fichiers_geo.html">Les fichiers cartographiques</a></li>
+<li class="toctree-l1"><a class="reference internal" href="postgis.html">Les bases de données spatiales Postgis</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Manipulation des données spatiales</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="qgis.html"> Qgis, la boite à outils du cartographe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="operations.html"> Opérations spatiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="postgis.html"> Requêtes spatiales sous SQL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="geocodage.html"> La localisation des données géos : quels outils de géocodage ?</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Diffusion</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="semio.html">La sémiologie : une grammaire spatiale</a></li>
+<li class="toctree-l1"><a class="reference internal" href="concepts.html">Heurs et malheurs de la spatialisation des données statistiques</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cartes_stat.html">Une première carte statique (et discrétisation des aplats de couleurs)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="geoserver.html">Geoserver</a></li>
+<li class="toctree-l1"><a class="reference internal" href="leaflet.html">Leaflet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="articulation.html">Comment tout cela s'articule-t-il?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="implementation.html">Un exemple d'implémentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cartes_dynamiques.html">D'autres exemples de cartes dynamiques</a></li>
+</ul>
+<p class="caption"><span class="caption-text">On s'exerce !</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="geopandas.html">Mini présentation de GeoPandas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gallery/index.html">Galerie d'exemples</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Postgis sous Python</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Contributeurs</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="contributors.html"> Contributeurs</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Mémocarto</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Postgis</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/postgisPy.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="postgis">
+<h1>Postgis<a class="headerlink" href="#postgis" title="Lien permanent vers ce titre">¶</a></h1>
+<p>On commence par se connecter à la base de données Postgis (ici defaultdb).</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">user</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">&#39;db_user&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">password</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">&#39;db_password&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">host</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s1">&#39;db_host&#39;</span><span class="p">)</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">engine</span> <span class="o">=</span> <span class="n">create_engine</span><span class="p">(</span><span class="s1">&#39;postgresql+psycopg2://&#39;</span><span class="o">+</span><span class="n">user</span><span class="o">+</span><span class="s1">&#39;:&#39;</span><span class="o">+</span><span class="n">password</span><span class="o">+</span><span class="s1">&#39;@&#39;</span><span class="o">+</span><span class="n">host</span><span class="o">+</span><span class="s1">&#39;/defaultdb&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>On importe les données relatives aux communes de France puis celles des arrondissements pour les villes de Paris, Lyon et Marseille. Puis, on charge ces données dans Postgis.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">communes</span> <span class="o">=</span> <span class="n">gpd</span><span class="o">.</span><span class="n">read_file</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">&quot;URL_GEOJSON_COMMUNES&quot;</span><span class="p">))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">communes</span><span class="o">.</span><span class="n">to_postgis</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;commune&quot;</span><span class="p">,</span> <span class="n">con</span><span class="o">=</span><span class="n">engine</span><span class="p">)</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">armf</span> <span class="o">=</span> <span class="n">gpd</span><span class="o">.</span><span class="n">read_file</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">&quot;URL_GEOJSON_ARMF&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">armf</span><span class="o">.</span><span class="n">to_postgis</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;armf2&quot;</span><span class="p">,</span> <span class="n">con</span><span class="o">=</span><span class="n">engine</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>On peut récupérer les données relatives aux communes. Attention, la variable de géométrie recherchée par défaut est “geom”. Si elle porte un nom différent, il est nécessaire d’indiquer son nom dans le paramètre geom_col.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">sql</span> <span class="o">=</span> <span class="s1">&#39;SELECT * FROM communes;&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span> <span class="o">=</span> <span class="n">gpd</span><span class="o">.</span><span class="n">read_postgis</span><span class="p">(</span><span class="n">sql</span><span class="o">=</span><span class="n">sql</span><span class="p">,</span> <span class="n">con</span><span class="o">=</span><span class="n">engine</span><span class="p">,</span> <span class="n">geom_col</span><span class="o">=</span><span class="s1">&#39;geometry&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>On peut aussi choisir de récupérer seulement les données relatives aux communes de la région Ile-de-France.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">sql</span> <span class="o">=</span> <span class="s2">&quot;SELECT * FROM communes WHERE reg =&#39;11&#39;;&quot;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">data</span> <span class="o">=</span> <span class="n">gpd</span><span class="o">.</span><span class="n">read_postgis</span><span class="p">(</span><span class="n">sql</span><span class="o">=</span><span class="n">sql</span><span class="p">,</span> <span class="n">con</span><span class="o">=</span><span class="n">engine</span><span class="p">,</span> <span class="n">geom_col</span><span class="o">=</span><span class="s1">&#39;geometry&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ax</span><span class="o">=</span><span class="n">data</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Enfin, on peut réaliser des opérations croisées sur deux tables. Par exemple, on peut ne garder que les communes présentes dans la table relative aux arrondissements. On s’attend alors à retrouver les trois villes avec des arrondissements, c’est-à-dire Paris, Lyon et Marseille.</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="contributors.html" class="btn btn-neutral float-right" title="Contributeurs" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="gallery/plot_WMS_WFS.html" class="btn btn-neutral float-left" title="Exploitation des flux WFS et WMS" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, multiples auteurs.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

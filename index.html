@@ -1,0 +1,315 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Les territoires de la cartographie &mdash; Documentation Mémocarto </title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery-rendered-html.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="Pourquoi faire des cartes" href="pourquoi.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#" class="icon icon-home"> Mémocarto
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="pourquoi.html">Pourquoi faire des cartes ?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="acteurs.html">Tour d'horizon des acteurs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="objgeo.html">Les objets géographiques</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Stockage des données spatiales</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="projections.html">Les projections !</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fichiers_geo.html">Les fichiers cartographiques</a></li>
+<li class="toctree-l1"><a class="reference internal" href="postgis.html">Les bases de données spatiales Postgis</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Manipulation des données spatiales</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="qgis.html"> Qgis, la boite à outils du cartographe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="operations.html"> Opérations spatiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="postgis.html"> Requêtes spatiales sous SQL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="geocodage.html"> La localisation des données géos : quels outils de géocodage ?</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Diffusion</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="semio.html">La sémiologie : une grammaire spatiale</a></li>
+<li class="toctree-l1"><a class="reference internal" href="concepts.html">Heurs et malheurs de la spatialisation des données statistiques</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cartes_stat.html">Une première carte statique (et discrétisation des aplats de couleurs)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="geoserver.html">Geoserver</a></li>
+<li class="toctree-l1"><a class="reference internal" href="leaflet.html">Leaflet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="articulation.html">Comment tout cela s'articule-t-il?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="implementation.html">Un exemple d'implémentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cartes_dynamiques.html">D'autres exemples de cartes dynamiques</a></li>
+</ul>
+<p class="caption"><span class="caption-text">On s'exerce !</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="geopandas.html">Mini présentation de GeoPandas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gallery/index.html">Galerie d'exemples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="postgisPy.html">Postgis sous Python</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Contributeurs</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="contributors.html"> Contributeurs</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Mémocarto</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Les territoires de la cartographie</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="les-territoires-de-la-cartographie">
+<h1>Les territoires de la cartographie<a class="headerlink" href="#les-territoires-de-la-cartographie" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="figure align-default" id="id1">
+<a class="reference internal image-reference" href="_images/COL-SAM-6478_cmyk.jpg"><img alt="_images/COL-SAM-6478_cmyk.jpg" src="_images/COL-SAM-6478_cmyk.jpg" style="width: 300px;" /></a>
+<p class="caption"><span class="caption-text">Chéri Samba, La Vraie Carte du monde, 2011 (source : Fondation Cartier)</span><a class="headerlink" href="#id1" title="Lien permanent vers cette image">¶</a></p>
+</div>
+<p>Les progrès de l’informatique ont décuplé la capacité des acteurs publics et privés à diffuser des cartes statistiques. Il n’a jamais été aussi simple de produire et de communiquer une information statistique à l’aide d’une carte. Ce constat est néanmoins à tempérer, car la cartographie statistique reste toujours une pratique d’initiés. Pour le profane, la cartographie ressemble à une nébuleuse inextricable composée de concepts jargonnants. Ce site vise à vous familiariser avec les notions de la cartographie et à vous présenter les principales solutions techniques utilisées actuellement. Il ne se veut pas une présentation exhaustive (nous ne traitons pas en particulier les images : photographies aériennes) mais plutôt une entrée en matière afin de démystifier la cartographie.</p>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="pourquoi.html">Pourquoi faire des cartes ?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="acteurs.html">Tour d'horizon des acteurs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="objgeo.html">Les objets géographiques</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Stockage des données spatiales</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="projections.html">Les projections !</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fichiers_geo.html">Les fichiers cartographiques</a></li>
+<li class="toctree-l1"><a class="reference internal" href="postgis.html">Les bases de données spatiales Postgis</a></li>
+</ul>
+</div>
+<p>Dans cette partie, nous nous intéréssons aux différentes possibilités existantes pour stocker l’information géographique. Initialement, le principal outil de stockage était le fichier cartographique. Progressivement, des bases de données spatiales, POSTGIS extension de POSTGRESQL et SpatiaLite extension de SQLite, ont été élaborées pour traiter de grands volumes de données. En pratique avec les outils modernes, les bases de données et les fichiers géographiques sont gérés de la même manière. L’emprise spatiale des objets géographiques est décrite dans une colonne supplémentaire. Par exemple, une commune connexe est décrite par un polygon composé d’une succession de coordonnées correspondant aux sommets : POLYGON((X_1, Y_1), (X_2, Y_2), …). Une commune disposant d’une exclave est décrite par la réunion de deux polygons. On parle dans ce cas de MULTIPOLYGON.</p>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Manipulation des données spatiales</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="qgis.html"> Qgis, la boite à outils du cartographe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="operations.html"> Opérations spatiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="postgis.html"> Requêtes spatiales sous SQL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="geocodage.html"> La localisation des données géos : quels outils de géocodage ?</a></li>
+</ul>
+</div>
+<p>Deux grands types de traitements existent. Le premier type a vocation à produire à partir d’une ou de plusieurs informations géographiques une nouvelle information. Par exemple, pour construire des tâches urbaines, on calcule autour des bâtiments une zone « tampon ». Cette nouvelle couche peut être utilisée ensuite dans d’autres traitements. Les opérations les plus courantes sont : l’intersection et l’union géographiques, l’agrégation spatiale (on rassemble les communes d’un même département pour créer un fond de carte départemental), les buffers (zones tampons), mais aussi calcul de surfaces, de distances et de longueurs. Le deuxième type cherche à joindre les objets selon leurs relations spatiales. Par exemple, si je souhaite connaître les lieux qui tombent dans un territoire je vais réaliser un merge spatial qui consiste à trouver le territoire d’appartenance d’une liste de points.</p>
+<p>Tous les outils de traitement géographique, y compris le SQL, ont des fonctions similaires avec  des noms quasi identiques. De sorte qu’il est très facile de passer d’un outil à l’autre.</p>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Diffusion</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="semio.html">La sémiologie : une grammaire spatiale</a></li>
+<li class="toctree-l1"><a class="reference internal" href="concepts.html">Heurs et malheurs de la spatialisation des données statistiques</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cartes_stat.html">Une première carte statique (et discrétisation des aplats de couleurs)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="geoserver.html">Geoserver</a></li>
+<li class="toctree-l1"><a class="reference internal" href="leaflet.html">Leaflet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="articulation.html">Comment tout cela s'articule-t-il?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="implementation.html">Un exemple d'implémentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cartes_dynamiques.html">D'autres exemples de cartes dynamiques</a></li>
+</ul>
+</div>
+<p>Les cartes de diffusion reposent sur une grammaire : la sémiologie. La sémiologie est un ensemble de règles qui favorise l’appropriation par les lecteurs du message contenu dans les cartes. Ces règles sont basées sur un consensus et ont pour fondement notre capacité à se représenter l’espace. Une analyse de ces règles et de leurs conséquences est données dans les deux premiers items de cette partie. Les items suivants explicitent les cartes statiques et les cartes dynamiques. Une carte dynamique repose sur un ou plusieurs serveurs qui délivrent l’information en fonction de la zone observée par les utilisateurs. Geoserver peut être adossé à Postgis pour diffuser des couches géographiques sous forme de flux. La solution Postgis-Geoserver est très utile et performante mais nécessite de disposer d’un server. Il est également possible d’utiliser un service dédié tel que Mapbox pour diffuser des données géographiques. Dans ce cas, on confie à un tiers les données qui se charge de mettre à disposition des flux.</p>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">On s'exerce !</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="geopandas.html">Mini présentation de GeoPandas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gallery/index.html">Galerie d'exemples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="postgisPy.html">Postgis sous Python</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Contributeurs</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="contributors.html"> Contributeurs</a></li>
+</ul>
+</div>
+<div class="section" id="nous-contacter">
+<h2>Nous contacter<a class="headerlink" href="#nous-contacter" title="Lien permanent vers ce titre">¶</a></h2>
+<ul class="simple">
+<li><p>Reporter des bugs, suggérer des ajouts ou du code sur <a class="reference external" href="https://github.com/JulieDjidji">GitHub</a>.</p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="pourquoi.html" class="btn btn-neutral float-right" title="Pourquoi faire des cartes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, multiples auteurs.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

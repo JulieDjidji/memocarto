@@ -1,0 +1,258 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Fichiers Géographiques &mdash; Documentation Mémocarto </title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery-rendered-html.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="PostGIS" href="postgis.html" />
+    <link rel="prev" title="Projections" href="projections.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Mémocarto
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="pourquoi.html">Pourquoi faire des cartes ?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="acteurs.html">Tour d'horizon des acteurs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="objgeo.html">Les objets géographiques</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Stockage des données spatiales</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="projections.html">Les projections !</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Les fichiers cartographiques</a></li>
+<li class="toctree-l1"><a class="reference internal" href="postgis.html">Les bases de données spatiales Postgis</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Manipulation des données spatiales</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="qgis.html"> Qgis, la boite à outils du cartographe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="operations.html"> Opérations spatiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="postgis.html"> Requêtes spatiales sous SQL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="geocodage.html"> La localisation des données géos : quels outils de géocodage ?</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Diffusion</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="semio.html">La sémiologie : une grammaire spatiale</a></li>
+<li class="toctree-l1"><a class="reference internal" href="concepts.html">Heurs et malheurs de la spatialisation des données statistiques</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cartes_stat.html">Une première carte statique (et discrétisation des aplats de couleurs)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="geoserver.html">Geoserver</a></li>
+<li class="toctree-l1"><a class="reference internal" href="leaflet.html">Leaflet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="articulation.html">Comment tout cela s'articule-t-il?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="implementation.html">Un exemple d'implémentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cartes_dynamiques.html">D'autres exemples de cartes dynamiques</a></li>
+</ul>
+<p class="caption"><span class="caption-text">On s'exerce !</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="geopandas.html">Mini présentation de GeoPandas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gallery/index.html">Galerie d'exemples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="postgisPy.html">Postgis sous Python</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Contributeurs</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="contributors.html"> Contributeurs</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Mémocarto</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Fichiers Géographiques</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/fichiers_geo.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="fichiers-geographiques">
+<h1>Fichiers Géographiques<a class="headerlink" href="#fichiers-geographiques" title="Lien permanent vers ce titre">¶</a></h1>
+<p>La liste des différents formats des fichiers géographiques est pléthorique. Le plus connu et le plus utilisé est le format Shapefile, il est le format d’ESRI (logiciel ARCGIS). Un fond de carte est composé par 5 fichiers : le .shp qui est la porte d’entrée sur les données, un fichier .dbf qui contient les données attributaires (les données associées aux objets contenus dans le shapefile) et d’autres fichiers qui gérent la projection est la géométrie. Il est nécessaire que tous les fichiers soient au même emplacement pour qu’un Shapefile puisse être ouvert par un SIG.</p>
+<p>D’autres formats tendent progressivement à s’imposer. La communauté Qgis propose le format Geopackage. Les données sont contenues dans un unique fichier d’extension <a href="#id1"><span class="problematic" id="id2">*</span></a>.qgz. Ce format risque de surclasser le format shapefile dans le futur. Le format geojson est très adapté aux données web mais il est particulièrement volumineux. En effet, ce format qui est une extension de json n’est pas compressé et correspond à un dictionnaire. Voici un exemple de fichier geojson :</p>
+<p>L’avantage du geojson est qu’il peut être lu par n’importe quel outil. Les plus anciens se rappelleront le format MIF-MID de Mapinfo qui était également un format texte et qui présentait comme le format geojson l’avantage de pouvoir être écrit à la main. Dans tous les cas, les SIG modernes sont généralement capables de lire tous les formats disponibles et vous pouvez facilement ouvir un fichier et le sauvegarder dans un autre format facilement.</p>
+<p>Dans les logiciels statistiques R et Python (Geopandas), la géométrie est intégrée à la dataframe sous la forme d’une colonne supplémentaire. De sorte que quel que soit le format, une fois dans votre logiciel de prédilection, toutes les données spatiales sont traitées de la même manière.</p>
+<div class="figure align-default" id="id3">
+<a class="reference internal image-reference" href="_images/exemple_carr.jpg"><img alt="_images/exemple_carr.jpg" src="_images/exemple_carr.jpg" style="width: 300px;" /></a>
+<p class="caption"><span class="caption-text">Premières lignes d’une table carroyée. Les géométries sont dans la colonne geometry !</span><a class="headerlink" href="#id3" title="Lien permanent vers cette image">¶</a></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="postgis.html" class="btn btn-neutral float-right" title="PostGIS" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="projections.html" class="btn btn-neutral float-left" title="Projections" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, multiples auteurs.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

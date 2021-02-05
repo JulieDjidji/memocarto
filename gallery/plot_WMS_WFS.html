@@ -1,0 +1,541 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Exploitation des flux WFS et WMS &mdash; Documentation Mémocarto </title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/gallery-rendered-html.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" />
+    <link rel="next" title="Postgis" href="../postgisPy.html" />
+    <link rel="prev" title="Premières manipulations de données spatiales" href="plot_readWrite.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Mémocarto
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../pourquoi.html">Pourquoi faire des cartes ?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../acteurs.html">Tour d'horizon des acteurs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../objgeo.html">Les objets géographiques</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Stockage des données spatiales</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../projections.html">Les projections !</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fichiers_geo.html">Les fichiers cartographiques</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../postgis.html">Les bases de données spatiales Postgis</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Manipulation des données spatiales</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../qgis.html"> Qgis, la boite à outils du cartographe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../operations.html"> Opérations spatiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../postgis.html"> Requêtes spatiales sous SQL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../geocodage.html"> La localisation des données géos : quels outils de géocodage ?</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Diffusion</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../semio.html">La sémiologie : une grammaire spatiale</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../concepts.html">Heurs et malheurs de la spatialisation des données statistiques</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cartes_stat.html">Une première carte statique (et discrétisation des aplats de couleurs)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../geoserver.html">Geoserver</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../leaflet.html">Leaflet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../articulation.html">Comment tout cela s'articule-t-il?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../implementation.html">Un exemple d'implémentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cartes_dynamiques.html">D'autres exemples de cartes dynamiques</a></li>
+</ul>
+<p class="caption"><span class="caption-text">On s'exerce !</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../geopandas.html">Mini présentation de GeoPandas</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Galerie d'exemples</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="discretisation.html">Retour sur la discrétisation des variables quantitatives</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plot_delimitationOfBuildingAreas.html">Délimitation de tâches bâties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plot_readWrite.html">Premières manipulations de données spatiales</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Exploitation des flux WFS et WMS</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#recuperation-du-flux-wfs">Récupération du flux  WFS</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#exploration-du-contenu-de-la-requete-getcapabilities">Exploration du contenu de la requête GetCapabilities</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#recuperation-des-donnees-de-la-couche-relative-aux-aires-urbaines">Récupération des données de la couche relative aux aires urbaines</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#recuperation-et-exploitation-du-flux-wms">Récupération et exploitation du flux  WMS</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#affichage-de-la-carte-diffusee-relative-a-la-couche-de-la-localisation-des-coeurs-d-habitat-ou-reservoirs-de-biodiversite-du-campagnol-amphibie-en-bretagne-et-loire-atlantique-continentales">Affichage de la carte diffusée relative à la couche de la localisation des cœurs d’habitat (ou réservoirs de biodiversité) du campagnol amphibie en Bretagne et Loire-Atlantique continentales.</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../postgisPy.html">Postgis sous Python</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Contributeurs</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../contributors.html"> Contributeurs</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Mémocarto</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html">Examples Gallery</a> &raquo;</li>
+        
+      <li>Exploitation des flux WFS et WMS</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/gallery/plot_WMS_WFS.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="sphx-glr-download-link-note admonition note">
+<p class="admonition-title">Note</p>
+<p>Click <a class="reference internal" href="#sphx-glr-download-gallery-plot-wms-wfs-py"><span class="std std-ref">here</span></a>
+to download the full example code</p>
+</div>
+<div class="sphx-glr-example-title section" id="exploitation-des-flux-wfs-et-wms">
+<span id="sphx-glr-gallery-plot-wms-wfs-py"></span><h1>Exploitation des flux WFS et WMS<a class="headerlink" href="#exploitation-des-flux-wfs-et-wms" title="Lien permanent vers ce titre">¶</a></h1>
+<p>Dans ce notebook, nous allons exploiter des flux WMS et WFS, comprendre leur contenu et afficher les cartes. Ces deux protocoles sont présentés dans la section <a class="reference internal" href="../geoserver.html#geoserver"><span class="std std-ref">Geoserver</span></a>.
+Nous utilisons les services mis à disposition par le partenariat breton des données géolocalisées sur le site <a class="reference external" href="https://cms.geobretagne.fr">https://cms.geobretagne.fr</a>. Les services proposés sont listés à l’adresse <a class="reference external" href="https://cms.geobretagne.fr/services">https://cms.geobretagne.fr/services</a>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># sphinx_gallery_thumbnail_number = 1</span>
+<span class="kn">import</span> <span class="nn">io</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">import</span> <span class="nn">geopandas</span> <span class="k">as</span> <span class="nn">gpd</span>
+<span class="kn">from</span> <span class="nn">owslib.wms</span> <span class="kn">import</span> <span class="n">WebMapService</span>
+<span class="kn">from</span> <span class="nn">owslib.wfs</span> <span class="kn">import</span> <span class="n">WebFeatureService</span>
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">from</span> <span class="nn">lxml</span> <span class="kn">import</span> <span class="n">etree</span>
+</pre></div>
+</div>
+<div class="section" id="recuperation-du-flux-wfs">
+<h2>Récupération du flux  WFS<a class="headerlink" href="#recuperation-du-flux-wfs" title="Lien permanent vers ce titre">¶</a></h2>
+<div class="section" id="exploration-du-contenu-de-la-requete-getcapabilities">
+<h3>Exploration du contenu de la requête GetCapabilities<a class="headerlink" href="#exploration-du-contenu-de-la-requete-getcapabilities" title="Lien permanent vers ce titre">¶</a></h3>
+<p>On effectue la requête GetCapabilities qui permet d’accéder aux paramètres du service et aux couches disponibles avec les informations nécessaires pour paramétrer les requêtes.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">wfs_url</span><span class="o">=</span><span class="s2">&quot;https://ows.region-bretagne.fr/geoserver/rb/wfs?service=wfs&amp;request=getCapabilities&quot;</span>
+<span class="n">response</span><span class="o">=</span><span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">wfs_url</span><span class="p">)</span><span class="o">.</span><span class="n">content</span>
+</pre></div>
+</div>
+<p>On peut par exemple afficher l’ensemble des opérations réalisables avec ce service.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">root</span><span class="o">=</span><span class="n">etree</span><span class="o">.</span><span class="n">fromstring</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
+
+<span class="n">ns</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;xsi&#39;</span><span class="p">:</span><span class="s2">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span><span class="p">,</span>
+        <span class="s1">&#39;wfs&#39;</span><span class="p">:</span><span class="s2">&quot;http://www.opengis.net/wfs/2.0&quot;</span><span class="p">,</span>
+        <span class="s1">&#39;wps&#39;</span><span class="p">:</span><span class="s2">&quot;http://www.opengis.net/wps/1.0.0&quot;</span><span class="p">,</span>
+        <span class="s1">&#39;ows&#39;</span><span class="p">:</span><span class="s2">&quot;http://www.opengis.net/ows/1.1&quot;</span><span class="p">,</span>
+        <span class="s1">&#39;gml&#39;</span><span class="p">:</span><span class="s2">&quot;http://www.opengis.net/gml/3.2&quot;</span><span class="p">,</span>
+        <span class="s1">&#39;fes&#39;</span><span class="p">:</span><span class="s2">&quot;http://www.opengis.net/fes/2.0&quot;</span><span class="p">,</span>
+        <span class="s1">&#39;xlink&#39;</span><span class="p">:</span><span class="s2">&quot;http://www.w3.org/1999/xlink&quot;</span><span class="p">,</span>
+        <span class="s1">&#39;xs&#39;</span><span class="p">:</span><span class="s2">&quot;http://www.w3.org/2001/XMLSchema&quot;</span><span class="p">,</span>
+        <span class="s1">&#39;inspire_dls&#39;</span><span class="p">:</span><span class="s2">&quot;http://inspire.ec.europa.eu/schemas/inspire_dls/1.0&quot;</span><span class="p">,</span>
+        <span class="s1">&#39;inspire_common&#39;</span><span class="p">:</span><span class="s2">&quot;http://inspire.ec.europa.eu/schemas/common/1.0&quot;</span><span class="p">,</span>
+        <span class="s1">&#39;rb&#39;</span><span class="p">:</span><span class="s2">&quot;http://bretagne.fr/rb&quot;</span><span class="p">,</span>
+        <span class="s1">&#39;schemaLocation&#39;</span><span class="p">:</span><span class="s2">&quot;http://www.opengis.net/wfs/2.0 https://ows.region-bretagne.fr/geoserver/schemas/wfs/2.0/wfs.xsd http://inspire.ec.europa.eu/schemas/inspire_dls/1.0 http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd&quot;</span>
+    <span class="p">}</span>
+
+<span class="k">for</span> <span class="n">element</span> <span class="ow">in</span> <span class="n">root</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s1">&#39;.//ows:Operation&#39;</span><span class="p">,</span> <span class="n">ns</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">element</span><span class="o">.</span><span class="n">attrib</span><span class="p">)</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>{&#39;name&#39;: &#39;GetCapabilities&#39;}
+{&#39;name&#39;: &#39;DescribeFeatureType&#39;}
+{&#39;name&#39;: &#39;GetFeature&#39;}
+{&#39;name&#39;: &#39;GetPropertyValue&#39;}
+{&#39;name&#39;: &#39;ListStoredQueries&#39;}
+{&#39;name&#39;: &#39;DescribeStoredQueries&#39;}
+{&#39;name&#39;: &#39;CreateStoredQuery&#39;}
+{&#39;name&#39;: &#39;DropStoredQuery&#39;}
+</pre></div>
+</div>
+<p>On peut aussi afficher le nom des couches disponibles</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">root</span><span class="o">=</span><span class="n">etree</span><span class="o">.</span><span class="n">fromstring</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
+<span class="n">features</span><span class="o">=</span><span class="p">[]</span>
+<span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">root</span><span class="o">.</span><span class="n">iter</span><span class="p">(</span><span class="s1">&#39;{http://www.opengis.net/wfs/2.0}Name&#39;</span><span class="p">):</span>
+    <span class="n">features</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">features</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">4</span><span class="p">])</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>[&#39;rb:batiment_region_accessibilite&#39;, &#39;rb:site_region_accessibilite&#39;, &#39;rb:aire_urbaine&#39;, &#39;rb:aire_retournement_vn&#39;]
+</pre></div>
+</div>
+</div>
+<div class="section" id="recuperation-des-donnees-de-la-couche-relative-aux-aires-urbaines">
+<h3>Récupération des données de la couche relative aux aires urbaines<a class="headerlink" href="#recuperation-des-donnees-de-la-couche-relative-aux-aires-urbaines" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Méthode 1 : on peut les récupérer directement si on connaît la formulation de la requête</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">wfs_url</span><span class="o">=</span><span class="s2">&quot;https://ows.region-bretagne.fr/geoserver/rb/wfs?service=wfs&amp;version=2.0.0&amp;request=GetFeature&amp;typeName=rb:aire_urbaine&amp;outputFormat=json&quot;</span>
+</pre></div>
+</div>
+<p>On affiche les premières observations de la base de données</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gpd</span><span class="o">.</span><span class="n">read_file</span><span class="p">(</span><span class="n">wfs_url</span><span class="p">)</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="output_subarea output_html rendered_html output_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>aiu_code</th>
+      <th>aiu_nom</th>
+      <th>aiu_tau</th>
+      <th>aiu_cat</th>
+      <th>aiu_typologie</th>
+      <th>geometry</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>000</td>
+      <td>Communes isolées hors influence des pôles</td>
+      <td>00</td>
+      <td>400</td>
+      <td>Communes isolées hors influence des pôles</td>
+      <td>MULTIPOLYGON Z (((229137.256 6848858.127 0.000...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>011</td>
+      <td>Rennes</td>
+      <td>09</td>
+      <td>112</td>
+      <td>Aire urbaine</td>
+      <td>MULTIPOLYGON Z (((336889.814 6826047.064 0.000...</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<br />
+<br /><p>On affiche la carte diffusée par le flux WFS</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ax</span><span class="o">=</span><span class="n">gpd</span><span class="o">.</span><span class="n">read_file</span><span class="p">(</span><span class="n">wfs_url</span><span class="p">)</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+</pre></div>
+</div>
+<img alt="plot WMS WFS" class="sphx-glr-single-img" src="../_images/sphx_glr_plot_WMS_WFS_001.png" />
+<p>Méthode 2 : on peut les récupérer à partir du package owslib</p>
+<p>On indique l’URL du service</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;https://ows.region-bretagne.fr/geoserver/rb/wfs&quot;</span>
+</pre></div>
+</div>
+<p>On initialise</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">wfs</span> <span class="o">=</span> <span class="n">WebFeatureService</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="n">url</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>On peut afficher le nom des couches disponibles</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">wfs</span><span class="o">.</span><span class="n">contents</span><span class="p">)[</span><span class="mi">0</span><span class="p">:</span><span class="mi">4</span><span class="p">])</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>[&#39;rb:batiment_region_accessibilite&#39;, &#39;rb:site_region_accessibilite&#39;, &#39;rb:aire_urbaine&#39;, &#39;rb:aire_retournement_vn&#39;]
+</pre></div>
+</div>
+<p>On précise la couche souhaitée</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">layer</span><span class="o">=</span><span class="s1">&#39;rb:aire_urbaine&#39;</span>
+</pre></div>
+</div>
+<p>On effectue la requête pour récupérer les données</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">params</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">service</span><span class="o">=</span><span class="s1">&#39;WFS&#39;</span><span class="p">,</span> <span class="n">version</span><span class="o">=</span><span class="s2">&quot;1.0.0&quot;</span><span class="p">,</span> <span class="n">request</span><span class="o">=</span><span class="s1">&#39;GetFeature&#39;</span><span class="p">,</span>
+      <span class="n">typeName</span><span class="o">=</span><span class="n">layer</span><span class="p">,</span> <span class="n">outputFormat</span><span class="o">=</span><span class="s1">&#39;json&#39;</span><span class="p">)</span>
+<span class="n">q</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">Request</span><span class="p">(</span><span class="s1">&#39;GET&#39;</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">)</span><span class="o">.</span><span class="n">prepare</span><span class="p">()</span><span class="o">.</span><span class="n">url</span>
+</pre></div>
+</div>
+<p>On met en forme les données et affiche les deux premières observations</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">gpd</span><span class="o">.</span><span class="n">read_file</span><span class="p">(</span><span class="n">q</span><span class="p">)</span>
+<span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="output_subarea output_html rendered_html output_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>aiu_code</th>
+      <th>aiu_nom</th>
+      <th>aiu_tau</th>
+      <th>aiu_cat</th>
+      <th>aiu_typologie</th>
+      <th>geometry</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>000</td>
+      <td>Communes isolées hors influence des pôles</td>
+      <td>00</td>
+      <td>400</td>
+      <td>Communes isolées hors influence des pôles</td>
+      <td>MULTIPOLYGON Z (((229137.256 6848858.127 0.000...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>011</td>
+      <td>Rennes</td>
+      <td>09</td>
+      <td>112</td>
+      <td>Aire urbaine</td>
+      <td>MULTIPOLYGON Z (((336889.814 6826047.064 0.000...</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<br />
+<br /></div>
+</div>
+<div class="section" id="recuperation-et-exploitation-du-flux-wms">
+<h2>Récupération et exploitation du flux  WMS<a class="headerlink" href="#recuperation-et-exploitation-du-flux-wms" title="Lien permanent vers ce titre">¶</a></h2>
+<div class="section" id="affichage-de-la-carte-diffusee-relative-a-la-couche-de-la-localisation-des-coeurs-d-habitat-ou-reservoirs-de-biodiversite-du-campagnol-amphibie-en-bretagne-et-loire-atlantique-continentales">
+<h3>Affichage de la carte diffusée relative à la couche de la localisation des cœurs d’habitat (ou réservoirs de biodiversité) du campagnol amphibie en Bretagne et Loire-Atlantique continentales.<a class="headerlink" href="#affichage-de-la-carte-diffusee-relative-a-la-couche-de-la-localisation-des-coeurs-d-habitat-ou-reservoirs-de-biodiversite-du-campagnol-amphibie-en-bretagne-et-loire-atlantique-continentales" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Méthode 1 : on peut récupérer directement l’image si on connaît la formulation de la requête avec la requête GetMap puis l’afficher</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">wfs_url</span><span class="o">=</span><span class="s2">&quot;https://geobretagne.fr/geoserver/gmb/wms?request=GetMap&amp;format=image/png&amp;width=600&amp;height=600&amp;layers=campagnol_amphibie&amp;bbox=124702.3554,6651480.7257,403802.3554,6881080.7257&amp;CRS=EPSG:2154&quot;</span>
+
+<span class="n">response</span><span class="o">=</span><span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">wfs_url</span><span class="p">)</span><span class="o">.</span><span class="n">content</span>
+<span class="n">img</span><span class="o">=</span><span class="n">plt</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="n">io</span><span class="o">.</span><span class="n">BytesIO</span><span class="p">(</span><span class="n">response</span><span class="p">))</span>
+<span class="n">ax</span><span class="o">=</span><span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">img</span><span class="p">)</span>
+</pre></div>
+</div>
+<img alt="plot WMS WFS" class="sphx-glr-single-img" src="../_images/sphx_glr_plot_WMS_WFS_002.png" />
+<p>Méthode 2 : on peut la récupérer à partir du package owslib</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">wms</span> <span class="o">=</span> <span class="n">WebMapService</span><span class="p">(</span><span class="s1">&#39;https://geobretagne.fr/geoserver/gmb/wms&#39;</span><span class="p">)</span>
+
+<span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;campagnol_amphibie&#39;</span>
+<span class="n">layer</span> <span class="o">=</span> <span class="n">wms</span><span class="o">.</span><span class="n">contents</span><span class="p">[</span><span class="n">name</span><span class="p">]</span>
+<span class="n">response</span> <span class="o">=</span> <span class="n">wms</span><span class="o">.</span><span class="n">getmap</span><span class="p">(</span><span class="n">layers</span><span class="o">=</span><span class="p">[</span><span class="n">name</span><span class="p">,],</span>
+                 <span class="n">bbox</span><span class="o">=</span><span class="n">layer</span><span class="o">.</span><span class="n">boundingBox</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">4</span><span class="p">],</span> <span class="c1"># Left, bottom, right, top</span>
+                 <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;image/png&#39;</span><span class="p">,</span>
+                 <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">600</span><span class="p">,</span><span class="mi">600</span><span class="p">),</span>
+                 <span class="n">srs</span><span class="o">=</span><span class="n">layer</span><span class="o">.</span><span class="n">boundingBox</span><span class="p">[</span><span class="mi">4</span><span class="p">],</span>
+                 <span class="n">time</span><span class="o">=</span><span class="n">layer</span><span class="o">.</span><span class="n">timepositions</span><span class="p">,</span>
+                 <span class="n">transparent</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="n">img</span><span class="o">=</span><span class="n">plt</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="n">io</span><span class="o">.</span><span class="n">BytesIO</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">read</span><span class="p">()))</span>
+<span class="n">ax</span><span class="o">=</span><span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">img</span><span class="p">)</span>
+</pre></div>
+</div>
+<img alt="plot WMS WFS" class="sphx-glr-single-img" src="../_images/sphx_glr_plot_WMS_WFS_003.png" />
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 1 minutes  4.718 seconds)</p>
+<div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-gallery-plot-wms-wfs-py">
+<div class="sphx-glr-download sphx-glr-download-python docutils container">
+<p><a class="reference download internal" download="" href="../_downloads/177be4a0cf0b1fcc7fa04d7357130f89/plot_WMS_WFS.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">plot_WMS_WFS.py</span></code></a></p>
+</div>
+<div class="sphx-glr-download sphx-glr-download-jupyter docutils container">
+<p><a class="reference download internal" download="" href="../_downloads/16bba15943d96701a3bf0ee3b4280eed/plot_WMS_WFS.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">plot_WMS_WFS.ipynb</span></code></a></p>
+</div>
+</div>
+<p class="sphx-glr-signature"><a class="reference external" href="https://sphinx-gallery.github.io">Gallery generated by Sphinx-Gallery</a></p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../postgisPy.html" class="btn btn-neutral float-right" title="Postgis" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="plot_readWrite.html" class="btn btn-neutral float-left" title="Premières manipulations de données spatiales" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, multiples auteurs.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

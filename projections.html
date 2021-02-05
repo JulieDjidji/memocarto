@@ -1,0 +1,263 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Projections &mdash; Documentation Mémocarto </title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery-rendered-html.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="Fichiers Géographiques" href="fichiers_geo.html" />
+    <link rel="prev" title="Les objets géographiques" href="objgeo.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Mémocarto
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="pourquoi.html">Pourquoi faire des cartes ?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="acteurs.html">Tour d'horizon des acteurs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="objgeo.html">Les objets géographiques</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Stockage des données spatiales</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Les projections !</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fichiers_geo.html">Les fichiers cartographiques</a></li>
+<li class="toctree-l1"><a class="reference internal" href="postgis.html">Les bases de données spatiales Postgis</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Manipulation des données spatiales</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="qgis.html"> Qgis, la boite à outils du cartographe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="operations.html"> Opérations spatiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="postgis.html"> Requêtes spatiales sous SQL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="geocodage.html"> La localisation des données géos : quels outils de géocodage ?</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Diffusion</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="semio.html">La sémiologie : une grammaire spatiale</a></li>
+<li class="toctree-l1"><a class="reference internal" href="concepts.html">Heurs et malheurs de la spatialisation des données statistiques</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cartes_stat.html">Une première carte statique (et discrétisation des aplats de couleurs)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="geoserver.html">Geoserver</a></li>
+<li class="toctree-l1"><a class="reference internal" href="leaflet.html">Leaflet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="articulation.html">Comment tout cela s'articule-t-il?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="implementation.html">Un exemple d'implémentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cartes_dynamiques.html">D'autres exemples de cartes dynamiques</a></li>
+</ul>
+<p class="caption"><span class="caption-text">On s'exerce !</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="geopandas.html">Mini présentation de GeoPandas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gallery/index.html">Galerie d'exemples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="postgisPy.html">Postgis sous Python</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Contributeurs</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="contributors.html"> Contributeurs</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Mémocarto</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Projections</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/projections.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="projections">
+<h1>Projections<a class="headerlink" href="#projections" title="Lien permanent vers ce titre">¶</a></h1>
+<p>Contrairement à ce qu’affirme la Flat Earth Society, la terre n’est pas plate mais sphérique. Ceci a pour principale conséquence que l’on doit en permanence faire face à des problèmes de projections. Une projection est une méthode permettant de transformer une surface sphérique en une surface plane: “Wikipedia &lt;<a class="reference external" href="https://fr.wikipedia.org/wiki/Projection_cartographique">https://fr.wikipedia.org/wiki/Projection_cartographique</a>&gt;”_. La principale difficultée avec les projections provient du fait que leur nombre est incommensurable. Chaque projection répond à un besoin particulier et est définie par un ensemble de norme. Par exemple, en France, les administrations sont censés utiliser la projection Lambert 93 centrée sur la France métropole. Cette projection a pour vocation de déformer le moins possible la France Métropolitaine. Ainsi, la distance calculée à l’aide d’une simple formule de Pythagore (distance vol d’oiseau) entre Lille et Marseille sur les coordonnées est de 833.812 km. La distance géodésique (pour faire simple la vraie distance) est de 834.005 km. L’approximation de Phythagore est très bonne en France métropolitaine. Ces d’ailleurs cette approche que l’on adopte généralement en statistique spatiale. En revanche une distance vol d’oiseau entre Lille et l’Australie génére une erreur de 1500 km !</p>
+<p>On passe d’une projection à une autre, en effectuant une opération de reprojection. Cette opération peut être très longue en fonction de la taille de la couche cartographique. Il est donc important de bien réfléchir à adopter une projection unique dès le début d’un projet cartographique.</p>
+<div class="figure align-default" id="id1">
+<a class="reference internal image-reference" href="_images/projection_carte.png"><img alt="_images/projection_carte.png" src="_images/projection_carte.png" style="width: 300px;" /></a>
+<p class="caption"><span class="caption-text">Exemple de projections</span><a class="headerlink" href="#id1" title="Lien permanent vers cette image">¶</a></p>
+</div>
+<p>Sur la figure 1, nous comparons l’effet de deux projections sur la France métropolitaine : Lambert 93, LAEA la projection adoptée par l’Europe et WGS84 . On constate une légère déformation entre les deux premières cartes. Cette déformation explique l’énigme des carreaux de travers des données carroyées qui ont perturbé plus d’un d’entre nous. Les carreaux ont été calculés en LAEA puis ensuite reprojeté en lambert 93. Un carreau est défini par 4 points. Le premier point est le coin en haut en bas de coordonnées X, Y. Les autres sont déterminés en rajoutant à la coordonnées X : 0 ou 200 m. L’horizontale cartographique est implicitement définiée par l’axe qui passe par les points (X,Y) et (X + 200, Y). En reprojetant la carte en lambert 93, l’horizontale précédente est déviée et tous les carreaux sont de travers :</p>
+<div class="figure align-default" id="id2">
+<a class="reference internal image-reference" href="_images/carreaux_projection.png"><img alt="_images/carreaux_projection.png" src="_images/carreaux_projection.png" style="width: 300px;" /></a>
+<p class="caption"><span class="caption-text">Rotations des carreaux selon les projections</span><a class="headerlink" href="#id2" title="Lien permanent vers cette image">¶</a></p>
+</div>
+<p>L’astuce consistant à créer les carreaux en partant d’un point en bas à droite puis à rajouter la taille du carreau pour obtenir les autres carreaux est très utile et rapide.  Elle induit pourtant que les carreaux n’ont pas tous la même surface ni la même longueur physique (fig <strong>*). En revanche, elle est très adaptée pour agréger des données carroyées à partir de données ponctuelles. En effet, il n’est pas nécessaire de passer par une étape de merge spatiale dans ce cas. En effet, on déduit directement l’appartenance d’un point à  un carreau dont l’identifiant est le point en bas à gauche X_Y en appliquant grâçe à la fonction partie entière. En pratique on obtient X du point par floor(X/size) * size et idem pour Y ou size est la taille des carreaux. Un programme python présente ces astuces dans la section *</strong>.</p>
+<p>La projection WGS84 est très utilisée pour la cartographie dynamique et les données issues des GPS. A proprement parler, ce n’est pas une projection mais une modélisation du globe terrestre. Les coordonnées sont des angles qui permettent de situer tout point sur la surface de la terre à partir d’une référence. Par exemple, le centre de Lille a pour coordonnée : et celui de Marseille. Avec le WGS84, il est absurde de calculer des distances avec la formule de Pythagore et donc de faire de l’analyse spatiale. Une erreur courante est de confondre les deux angles ce qui explique que de nombreuses analyses finissent au sud de la Somalie dans l’Océan Indien.</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="fichiers_geo.html" class="btn btn-neutral float-right" title="Fichiers Géographiques" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="objgeo.html" class="btn btn-neutral float-left" title="Les objets géographiques" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, multiples auteurs.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

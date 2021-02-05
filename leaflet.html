@@ -1,0 +1,276 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Leaflet &mdash; Documentation Mémocarto </title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery-rendered-html.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="Comment s’articulent ces outils et acteurs autour de la géographie?" href="articulation.html" />
+    <link rel="prev" title="Geoserver" href="geoserver.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Mémocarto
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="pourquoi.html">Pourquoi faire des cartes ?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="acteurs.html">Tour d'horizon des acteurs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="objgeo.html">Les objets géographiques</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Stockage des données spatiales</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="projections.html">Les projections !</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fichiers_geo.html">Les fichiers cartographiques</a></li>
+<li class="toctree-l1"><a class="reference internal" href="postgis.html">Les bases de données spatiales Postgis</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Manipulation des données spatiales</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="qgis.html"> Qgis, la boite à outils du cartographe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="operations.html"> Opérations spatiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="postgis.html"> Requêtes spatiales sous SQL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="geocodage.html"> La localisation des données géos : quels outils de géocodage ?</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Diffusion</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="semio.html">La sémiologie : une grammaire spatiale</a></li>
+<li class="toctree-l1"><a class="reference internal" href="concepts.html">Heurs et malheurs de la spatialisation des données statistiques</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cartes_stat.html">Une première carte statique (et discrétisation des aplats de couleurs)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="geoserver.html">Geoserver</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Leaflet</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#presentation-generale">Présentation générale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#plusieurs-liens-pour-aider-a-afficher-ses-premieres-cartes">Plusieurs liens pour aider à afficher ses premières cartes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="articulation.html">Comment tout cela s'articule-t-il?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="implementation.html">Un exemple d'implémentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cartes_dynamiques.html">D'autres exemples de cartes dynamiques</a></li>
+</ul>
+<p class="caption"><span class="caption-text">On s'exerce !</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="geopandas.html">Mini présentation de GeoPandas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gallery/index.html">Galerie d'exemples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="postgisPy.html">Postgis sous Python</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Contributeurs</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="contributors.html"> Contributeurs</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Mémocarto</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Leaflet</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/leaflet.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="leaflet">
+<h1>Leaflet<a class="headerlink" href="#leaflet" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="section" id="presentation-generale">
+<h2>Présentation générale<a class="headerlink" href="#presentation-generale" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Leaflet est une bibilothèque javascript qui permet d’afficher des cartes dans un navigateur ou une application mobile. Leaflet est conçu pour offrir de la performance mais de la simplicité. Cette simplicité lui permet d’être attractive et d’avoir une plus grande communauté que sa bibliothèque concurrente, Openlayers, plus puissante mais plus complexe et difficile à prendre en main. Pour information, c’est Openlayers qui est utilisée à l’Insee dans les applications qui contiennnent de la cartographie (Rorcal, Geoloc, Opale).</p>
+<p>Leaflet permet ainsi de se connecter à des flux issus de Geoserver (ou d’autres serveurs cartogtraphiques) ou à des flux provenant direcetement de sources tierces (OpenStreetMap, Google, IGN…). Ces informations sont alors affichées dans le navigateur de l’utilisateur.</p>
+<p>Vous pourrez voir une utilisation de leaflet dans la rubrique <a class="reference external" href="implementation.html">Un exemple d’implémentation</a> .</p>
+</div>
+<div class="section" id="plusieurs-liens-pour-aider-a-afficher-ses-premieres-cartes">
+<h2>Plusieurs liens pour aider à afficher ses premières cartes<a class="headerlink" href="#plusieurs-liens-pour-aider-a-afficher-ses-premieres-cartes" title="Lien permanent vers ce titre">¶</a></h2>
+<ul class="simple">
+<li><dl class="simple">
+<dt>le lien vers le guide de démarrage de leaflet</dt><dd><p><a class="reference external" href="https://live.osgeo.org/fr/quickstart/leaflet_quickstart.html">https://live.osgeo.org/fr/quickstart/leaflet_quickstart.html</a></p>
+</dd>
+</dl>
+</li>
+<li><p>un lien vers des vidéos de présentation de leaflet pour vos premières carte</p>
+<ul>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=-E69eEvP4PI">https://www.youtube.com/watch?v=-E69eEvP4PI</a></p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=1jtdcAU7vEI">https://www.youtube.com/watch?v=1jtdcAU7vEI</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="articulation.html" class="btn btn-neutral float-right" title="Comment s’articulent ces outils et acteurs autour de la géographie?" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="geoserver.html" class="btn btn-neutral float-left" title="Geoserver" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, multiples auteurs.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

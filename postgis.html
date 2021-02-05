@@ -1,0 +1,323 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>PostGIS &mdash; Documentation Mémocarto </title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery-rendered-html.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="QGis" href="qgis.html" />
+    <link rel="prev" title="Fichiers Géographiques" href="fichiers_geo.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Mémocarto
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="pourquoi.html">Pourquoi faire des cartes ?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="acteurs.html">Tour d'horizon des acteurs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="objgeo.html">Les objets géographiques</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Stockage des données spatiales</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="projections.html">Les projections !</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fichiers_geo.html">Les fichiers cartographiques</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Les bases de données spatiales Postgis</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#presentation">Présentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#quelques-exemples-d-operation-courantes">Quelques exemples d’opération courantes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#un-tutoriel-pour-debuter-avec-postgis">Un tutoriel pour débuter avec PostGIS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#le-site-de-reference">Le site de référence</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Manipulation des données spatiales</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="qgis.html"> Qgis, la boite à outils du cartographe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="operations.html"> Opérations spatiales</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#"> Requêtes spatiales sous SQL</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#presentation">Présentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#quelques-exemples-d-operation-courantes">Quelques exemples d’opération courantes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#un-tutoriel-pour-debuter-avec-postgis">Un tutoriel pour débuter avec PostGIS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#le-site-de-reference">Le site de référence</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="geocodage.html"> La localisation des données géos : quels outils de géocodage ?</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Diffusion</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="semio.html">La sémiologie : une grammaire spatiale</a></li>
+<li class="toctree-l1"><a class="reference internal" href="concepts.html">Heurs et malheurs de la spatialisation des données statistiques</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cartes_stat.html">Une première carte statique (et discrétisation des aplats de couleurs)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="geoserver.html">Geoserver</a></li>
+<li class="toctree-l1"><a class="reference internal" href="leaflet.html">Leaflet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="articulation.html">Comment tout cela s'articule-t-il?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="implementation.html">Un exemple d'implémentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cartes_dynamiques.html">D'autres exemples de cartes dynamiques</a></li>
+</ul>
+<p class="caption"><span class="caption-text">On s'exerce !</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="geopandas.html">Mini présentation de GeoPandas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gallery/index.html">Galerie d'exemples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="postgisPy.html">Postgis sous Python</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Contributeurs</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="contributors.html"> Contributeurs</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Mémocarto</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>PostGIS</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/postgis.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="postgis">
+<h1>PostGIS<a class="headerlink" href="#postgis" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="section" id="presentation">
+<h2>Présentation<a class="headerlink" href="#presentation" title="Lien permanent vers ce titre">¶</a></h2>
+<p>PostGIS est l’extension spatiale de PostgreSQL (comme Oracle spatial est celle d’Oracle). Elle permet de manipuler des objets géographiques grâce à des géométries (points, lignes, polygones…), la géométrie étant alors un type à part entière et non une simple succession de coordonnées. Ce type est alors manipulable au même titre que les autres, avec un grand nombre d’opératios possibles.</p>
+<p>L’accès aux données peut se faire à l’aide d’un client SQL (PGAdmin, DBeaver…), à travers un logiciel tiers (QGis…), en ligne de commande (en utilisant les utilitaires de la bibliothèque GDAL), ou à l’aide d’un serveur cartographique (geoserver…).</p>
+</div>
+<div class="section" id="quelques-exemples-d-operation-courantes">
+<h2>Quelques exemples d’opération courantes<a class="headerlink" href="#quelques-exemples-d-operation-courantes" title="Lien permanent vers ce titre">¶</a></h2>
+<ul>
+<li><p>connaître le système de projection de chaque enregistrement de la colonne geom (le nom par défaut de la colonne contenant la géométrie)</p>
+<p>SELECT ST_SRID(geom) from [tablename];</p>
+</li>
+<li><p>connaître le type d’une géométrie</p>
+<p>SELECT GeometryType(geom) FROM [tablename] WHERE … ;</p>
+</li>
+<li><p>créer une enveloppe autour d’une géométrie (un rectangle au plus près de la géométrie)</p>
+<p>SELECT ST_ENVELOPPE(geom) FROM [tablename] WHERE … ;</p>
+</li>
+<li><p>créer un polygone (ici en coordonnées GPS) à partir de coordonnées</p>
+<p>SELECT ST_Polygon(“LINESTRING(x1 y1, x2 y2, x3 y3, x1 y1)”::geometry, 4326);</p>
+</li>
+<li><p>afficher le contenu d’une géométrie au format texte</p>
+<p>SELECT ST_AsText(geom) FROM [tablename] WHERE … ;</p>
+</li>
+<li><p>afficher les données de la table dont les géométries ne sont pas valides avec la raison pour laquelle elles ne le sont pas</p>
+<p>SELECT <a href="#id1"><span class="problematic" id="id2">*</span></a>, ST_IsValidReason(geom)
+FROM [tablename]
+WHERE not ST_IsValid(geom);</p>
+</li>
+<li><p>convertir le système de projection (ici en Lambert93)</p>
+<p>SELECT ST_TRANSFORM(geom, 2154) FROM [tablename]  WHERE … ;</p>
+</li>
+<li><p>connaître la superficie d’une géométrie (polygone par exemple)</p>
+<p>SELECT ST_Area(geom) FROM [tablename] WHERE … ;</p>
+<p>Attention, la superficie sera retournée dans la même unité que même système de projection que la géométrie. Evitez donc le 4326.</p>
+</li>
+<li><p>connaître le périmètre d’une géométrie;</p>
+<p>SELECT ST_Perimeter(geom) FROM [tablename] WHERE … ;</p>
+</li>
+<li><p>savoir si 2 géométries ont une intersection</p>
+<p>SELECT ST_Intersects(a.geom,b.geom)
+FROM [tablename1] a, [tablename2] b
+WHERE … ;</p>
+</li>
+<li><p>savoir si 2 géométries se touchent</p>
+<p>SELECT ST_Touches(a.geom,b.geom)
+FROM [tablename1] a, [tablename2] b
+WHERE … ;</p>
+</li>
+<li><p>indexer la colonne géométrique (rend les requêtes topologiques incroyablement rapides)</p>
+<p>CREATE INDEX [indexname] ON [tablename] USING GIST (geom);</p>
+</li>
+</ul>
+</div>
+<div class="section" id="un-tutoriel-pour-debuter-avec-postgis">
+<h2>Un tutoriel pour débuter avec PostGIS<a class="headerlink" href="#un-tutoriel-pour-debuter-avec-postgis" title="Lien permanent vers ce titre">¶</a></h2>
+<p><a class="reference external" href="https://www.sigterritoires.fr/index.php/debuter-avec-postgresql-postgis-introduction-a-pgadmin4/">https://www.sigterritoires.fr/index.php/debuter-avec-postgresql-postgis-introduction-a-pgadmin4/</a></p>
+</div>
+<div class="section" id="le-site-de-reference">
+<h2>Le site de référence<a class="headerlink" href="#le-site-de-reference" title="Lien permanent vers ce titre">¶</a></h2>
+<p><a class="reference external" href="http://postgis.net">http://postgis.net</a> avec la documentation de la dernière version <a class="reference external" href="http://postgis.net/docs/manual-dev/postgis-fr.html">http://postgis.net/docs/manual-dev/postgis-fr.html</a></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="qgis.html" class="btn btn-neutral float-right" title="QGis" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="fichiers_geo.html" class="btn btn-neutral float-left" title="Fichiers Géographiques" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, multiples auteurs.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

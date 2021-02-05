@@ -1,0 +1,356 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Mini présentation de GeoPandas &mdash; Documentation Mémocarto </title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery-binder.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery-dataframe.css" type="text/css" />
+  <link rel="stylesheet" href="_static/gallery-rendered-html.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="Examples Gallery" href="gallery/index.html" />
+    <link rel="prev" title="D’autres façons de diffuser l’nformation cartographique" href="cartes_dynamiques.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Mémocarto
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Introduction</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="pourquoi.html">Pourquoi faire des cartes ?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="acteurs.html">Tour d'horizon des acteurs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="objgeo.html">Les objets géographiques</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Stockage des données spatiales</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="projections.html">Les projections !</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fichiers_geo.html">Les fichiers cartographiques</a></li>
+<li class="toctree-l1"><a class="reference internal" href="postgis.html">Les bases de données spatiales Postgis</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Manipulation des données spatiales</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="qgis.html"> Qgis, la boite à outils du cartographe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="operations.html"> Opérations spatiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="postgis.html"> Requêtes spatiales sous SQL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="geocodage.html"> La localisation des données géos : quels outils de géocodage ?</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Diffusion</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="semio.html">La sémiologie : une grammaire spatiale</a></li>
+<li class="toctree-l1"><a class="reference internal" href="concepts.html">Heurs et malheurs de la spatialisation des données statistiques</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cartes_stat.html">Une première carte statique (et discrétisation des aplats de couleurs)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="geoserver.html">Geoserver</a></li>
+<li class="toctree-l1"><a class="reference internal" href="leaflet.html">Leaflet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="articulation.html">Comment tout cela s'articule-t-il?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="implementation.html">Un exemple d'implémentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cartes_dynamiques.html">D'autres exemples de cartes dynamiques</a></li>
+</ul>
+<p class="caption"><span class="caption-text">On s'exerce !</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Mini présentation de GeoPandas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gallery/index.html">Galerie d'exemples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="postgisPy.html">Postgis sous Python</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Contributeurs</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="contributors.html"> Contributeurs</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Mémocarto</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Mini présentation de GeoPandas</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/geopandas.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="mini-presentation-de-geopandas">
+<h1>Mini présentation de GeoPandas<a class="headerlink" href="#mini-presentation-de-geopandas" title="Lien permanent vers ce titre">¶</a></h1>
+<p>Une large partie des exemples proposés sont réalisés sous Python avec le package <a class="reference external" href="https://geopandas.org">GeoPandas</a>. Mais qu’est ce qui différencie un <strong>DataFrame</strong> de <strong>Pandas</strong> d’un <strong>GeoDataFrame</strong> de <strong>GeoPandas</strong> ?</p>
+<a class="reference internal image-reference" href="_images/PandasVsGeoPandas.png"><img alt="_images/PandasVsGeoPandas.png" src="_images/PandasVsGeoPandas.png" style="width: 600px;" /></a>
+<p>Avant de commencer les exemples, faisons le point sur les principales méthodes de GeoPandas :</p>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 18%" />
+<col style="width: 55%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Méthode</p></th>
+<th class="head"><p>Explication</p></th>
+<th class="head"><p>Exemple de code</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference external" href="https://geopandas.org/reference/geopandas.read_file.html">read_file</a></p></td>
+<td><p>Crée un GeoDataFrame à partir d’un <em>shapefile</em>, d’un <em>GeoJSON</em>, …</p></td>
+<td><p>gpd.read_file(“data.shp”)</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://geopandas.org/reference.html#geopandas.GeoDataFrame.to_file">to_file</a></p></td>
+<td><p>Exporte en GeoDataFrame dans un format shapefile, GeoJSON (driver=”GeoJSON”) ou GeoPackage (driver= »GPKG »)</p></td>
+<td><p>gdf.to_file(« data.geojson », driver=”GeoJSON”)</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://geopandas.org/indexing.html">cx</a></p></td>
+<td><p>Sélectionne les polygones au sein d’un cadre donné</p></td>
+<td><p>df.cx[xmin:xmax, ymin:ymax]]</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://geopandas.org/mergingdata.html">merge</a></p></td>
+<td><p>Fusionne un GeoDataFrame avec un DataFrame</p></td>
+<td><p>df.merge(gdf, on=”code”)</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://geopandas.org/reference/geopandas.sjoin.html">sjoin</a></p></td>
+<td><p>Fusionne deux GeoDataFrame en s’appuyant sur leur relation spatiale. On fixe le paramètre <em>how</em>  pour décider du type de jointure et le paramètre <em>op</em> pour choisir si la jointure a lieu</p></td>
+<td><p>geopandas.sjoin(gdf1, gdf2, how= »inner », op=”intersects”)</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://geopandas.org/mergingdata.html#appending">append</a></p></td>
+<td><p>Concatène deux GeoDataFrame mais attention les colonnes de géométrie doivent avoir le même CRS</p></td>
+<td><p>gdf1.append(gdf2) |</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://geopandas.org/aggregation_with_dissolve.html">dissolve</a></p></td>
+<td><p>Fusionne les géométries et agrège (somme, moyenne, minimum, maxmum …) des données spatiales par groupe</p></td>
+<td><p>gdf.dissolve(by=”variableAgrégation”, aggfunc=”sum”)</p></td>
+</tr>
+</tbody>
+</table>
+<p>Le package contextily permet notamment d’ajouter un fond OpenStreetMap. Il faut d’abord importer le package <em>contextily</em> comme <em>ctx</em> puis ajouter ce fond de carte OpenStreetMap à la carte représentée.</p>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 18%" />
+<col style="width: 55%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Méthode</p></th>
+<th class="head"><p>Explication</p></th>
+<th class="head"><p>Exemple de code</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference external" href="https://geopandas.org/gallery/plotting_basemap_background.html">add_basemap</a></p></td>
+<td><p>Ajoute un fond de carte OPenStreetMap à notre <em>plot</em></p></td>
+<td><p>ctx.add_basemap(ax)</p></td>
+</tr>
+</tbody>
+</table>
+<p>La <a class="reference external" href="https://geopandas.org/geometric_manipulations.html">geometry</a> possède différents attributs et méthodes très utiles :</p>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 18%" />
+<col style="width: 55%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Méthode</p></th>
+<th class="head"><p>Explication</p></th>
+<th class="head"><p>Exemple de code</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>area</p></td>
+<td><p>Calcule l’aire des objets géographiques (en m²)</p></td>
+<td><p>gdf.geometry.area</p></td>
+</tr>
+<tr class="row-odd"><td><p>centroid</p></td>
+<td><p>Calcule le centroïde</p></td>
+<td><p>gdf.geometry.centroid</p></td>
+</tr>
+<tr class="row-even"><td><p>convex_hull</p></td>
+<td><p>Calcule le plus petit polygone convexe de chaque objet à moins que le nombre de points décrivant l’objet est inférieur à 3</p></td>
+<td><p>gdf.geometry.convex_hull</p></td>
+</tr>
+<tr class="row-odd"><td><p>total_bounds</p></td>
+<td><p>Retourne un tuple contenant min_x, min_y, max_x et max_y associés aux frontières maximales de l’objet</p></td>
+<td><p>df.geometry.total_bounds</p></td>
+</tr>
+<tr class="row-even"><td><p>unary_union</p></td>
+<td><p>Fusionne les géométries avec une intersection non nulle</p></td>
+<td><p>gdf.geometry.unary_union</p></td>
+</tr>
+<tr class="row-odd"><td><p>buffer</p></td>
+<td><p>Calcule une zone tampon autour d’une unité spatiale en indiquant le rayon de ce cercle comme paramètre</p></td>
+<td><p>gdf.geometry.buffer(10)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="gallery/index.html" class="btn btn-neutral float-right" title="Examples Gallery" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="cartes_dynamiques.html" class="btn btn-neutral float-left" title="D’autres façons de diffuser l’nformation cartographique" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, multiples auteurs.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
